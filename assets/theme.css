@@ -1,0 +1,109 @@
+/* Semantic website colors derive from Brand.swift's navy, teal, sage and sand.
+   Original CI tokens and artwork stay unchanged; white/black mix tints and shades. */
+:root {
+  color-scheme: light;
+  --heading: var(--navy);
+  --link-color: var(--actionFill);
+  --page-background: var(--surface);
+  --paper-surface: var(--sand);
+  --on-dark: #fff;
+  --header-surface: color-mix(in srgb, var(--surface) 98%, transparent);
+  --header-shadow: 0 3px 14px rgb(24 50 74 / .055);
+  --scrolled-shadow: 0 4px 18px rgb(24 50 74 / .08);
+  --menu-shadow: 0 22px 60px rgb(24 50 74 / .16), 0 5px 16px rgb(24 50 74 / .06);
+}
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --background: color-mix(in srgb, var(--navy) 55%, black);
+  --surface: color-mix(in srgb, var(--navy) 75%, black);
+  --text: color-mix(in srgb, white 90%, var(--navy));
+  --secondary: color-mix(in srgb, white 68%, var(--navy));
+  --border: color-mix(in srgb, var(--navy) 76%, white);
+  --heading: color-mix(in srgb, white 96%, var(--navy));
+  --link-color: color-mix(in srgb, var(--sage) 60%, var(--teal));
+  --page-background: var(--background);
+  --paper-surface: color-mix(in srgb, var(--navy) 90%, var(--sand));
+  --shadow: 0 18px 54px rgb(0 0 0 / .24);
+  --header-shadow: 0 3px 14px rgb(0 0 0 / .2);
+  --scrolled-shadow: 0 4px 18px rgb(0 0 0 / .28);
+  --menu-shadow: 0 22px 60px rgb(0 0 0 / .35), 0 5px 16px rgb(0 0 0 / .18);
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    color-scheme: dark;
+    --background: color-mix(in srgb, var(--navy) 55%, black);
+    --surface: color-mix(in srgb, var(--navy) 75%, black);
+    --text: color-mix(in srgb, white 90%, var(--navy));
+    --secondary: color-mix(in srgb, white 68%, var(--navy));
+    --border: color-mix(in srgb, var(--navy) 76%, white);
+    --heading: color-mix(in srgb, white 96%, var(--navy));
+    --link-color: color-mix(in srgb, var(--sage) 60%, var(--teal));
+    --page-background: var(--background);
+    --paper-surface: color-mix(in srgb, var(--navy) 90%, var(--sand));
+    --shadow: 0 18px 54px rgb(0 0 0 / .24);
+    --header-shadow: 0 3px 14px rgb(0 0 0 / .2);
+    --scrolled-shadow: 0 4px 18px rgb(0 0 0 / .28);
+    --menu-shadow: 0 22px 60px rgb(0 0 0 / .35), 0 5px 16px rgb(0 0 0 / .18);
+  }
+}
+body { background: var(--page-background); }
+h1,h2,h3,.brand,.text-link,.hero-lead,.large-copy,.mac-hero-lead,
+.mega-heading strong,.mega-column strong,.faq-list summary,.footer-main strong,
+.footer-bottom>a,.article-prose strong,.overview-stats strong,.visual-center strong,
+.visual-node span,.guide-card-art>span,.device-shell>strong,.tablet-art .device-shell strong,
+.device-float,.device-notes strong,.legal-main .legal-lead,.floating-label strong,
+.promise-strip span:first-child,.idea-tile strong,.art-tag,.paper strong,
+.account-card>span,.export-art span { color: var(--heading); }
+.site-header { background: var(--header-surface); box-shadow: var(--header-shadow); }
+.site-header.scrolled { background: var(--header-surface); box-shadow: var(--scrolled-shadow); }
+.floating-label { background: var(--header-surface); }
+.mega-menu { box-shadow: var(--menu-shadow); }
+.button,.filter-chips button[aria-pressed="true"],.skip-link,.roadmap-marker { color: var(--on-dark); }
+.menu-toggle span { background: var(--heading); }
+.teal,.mini-label,.section-number,.pill,.card-link,.benefit-number,.status-badge,
+.mac-eyebrow,.mac-card-action,.mac-hero-bottom>a,.mac-flow-card .icon,.help-icon,
+.feature-tabs button[aria-selected="true"],.check-list li::before,.faq-list summary>span,
+.mega-column>a>.icon,.mega-link-arrow,.desktop-nav .mega-footer a,
+.desktop-nav .mega-heading .text-link,.desktop-nav .nav-section-active,
+.desktop-nav>.nav-link.active,.desktop-nav>.nav-link:hover,.desktop-nav>.nav-link:focus-visible,
+.nav-dropdown-control:hover,.nav-dropdown-toggle:hover,.nav-open .nav-dropdown-control,
+.mega-column>a:hover,.mega-column>a:focus-visible,.desktop-nav .mega-column>a:hover,
+.visual-center .icon,.visual-node .icon,.benefit-strip>.reveal>.icon,
+.mobile-benefits>.reveal>.icon,.device-row .icon,.phone-art .device-shell>.icon,
+.tablet-art aside .icon,.tablet-cards .icon,.mobile-store-link,
+.card-top>.icon,.overview-stats .icon,.editorial-panel .icon,.guide-card-art,
+.breadcrumb a:hover,.nav-disclosure[open]>summary,.article-checklist li::marker,
+.underlined,.step-number,.paper-front>.icon,.paper-seal,.account-card em,
+.bento-top>.icon,.task-art i,.export-art>.icon,.closing-art>.icon,
+.article-toc a:hover,.article-toc .toc-active,.footer-main>div>a:hover,
+.legal-main a:not(.button),.article-prose a:not(.button) { color: var(--link-color); }
+.mac-hero-facts .icon { color: var(--link-color); }
+button:focus-visible,a:focus-visible,summary:focus-visible,[tabindex]:focus-visible { outline-color: var(--link-color); }
+.directory-search input::placeholder { color: var(--secondary); opacity: .85; }
+.guide-card:nth-child(3n+2) .guide-card-art,.paper-back { background: var(--paper-surface); }
+.art-contract,.faq,.workflow { background: color-mix(in srgb, var(--paper-surface) 40%, var(--page-background)); }
+.device-shell { border-color: color-mix(in srgb, var(--navy) 70%, var(--heading)); }
+.device-camera { background: var(--heading); }
+.coin { color: var(--navy); }
+/* Navy presentation regions use their own fixed foreground, in either mode. */
+.mac-workspace-section,.privacy { color: var(--on-dark); }
+.mac-workspace-copy h2,.mac-workspace-item h3,.mac-workspace-copy .text-link,
+.privacy h2,.privacy-points h3,.light-link { color: var(--on-dark); }
+.privacy-copy>p,.privacy-points p { color: color-mix(in srgb, white 80%, var(--navy)); }
+.mac-workspace-copy .mini-label { color: var(--sage); }
+.header-actions { display: flex; align-items: center; gap: 12px; flex-shrink: 0; }
+.header-actions .header-cta,.header-actions .menu-toggle { margin-left: 0; }
+.theme-picker { display: inline-flex; align-items: center; gap: 2px; padding: 3px; height: 44px; border: 1px solid var(--border); background: var(--surface); border-radius: var(--controlRadius); flex-shrink: 0; }
+.theme-picker button { display: grid; place-items: center; width: 32px; height: 36px; padding: 0; border: 0; border-radius: 6px; background: transparent; color: var(--secondary); transition: background .18s,color .18s; }
+.theme-picker button:hover { color: var(--heading); background: var(--background); }
+.theme-picker button[aria-pressed="true"] { color: var(--link-color); background: color-mix(in srgb, var(--teal) 12%, transparent); }
+.theme-picker .icon { width: 17px; height: 17px; stroke-width: 1.7; }
+.mobile-theme-controls { display: none; align-items: center; justify-content: space-between; gap: 20px; padding-top: 12px; border-top: 1px solid var(--border); color: var(--secondary); font-size: 12px; }
+.mobile-theme-controls .theme-picker { height: 48px; }
+.mobile-theme-controls .theme-picker button { width: 44px; height: 40px; }
+@media (max-width:1160px) { .header-actions { margin-left: auto; } }
+@media (max-width:700px) {
+  .header-actions>.theme-picker { display: none; }
+  .mobile-theme-controls { display: flex; }
+}
+@media (prefers-reduced-motion:reduce) { .theme-picker button { transition: none; } }
