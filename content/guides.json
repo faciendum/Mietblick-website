@@ -1,0 +1,802 @@
+[
+  {
+    "slug": "ratgeber-mietverwaltung",
+    "title": "Mietverwaltung organisieren: ein klarer Ablauf für private Vermieter",
+    "description": "So ordnen private Vermieter Immobilien, Verträge, Zahlungen und Unterlagen: mit einer praktischen Struktur und einem festen Monatsablauf.",
+    "category": "Organisation",
+    "read_minutes": 7,
+    "intro": "Eine verlässliche Mietverwaltung beginnt mit einer Struktur, die zum eigenen Bestand passt. Entscheidend ist, dass Sie eine Zahlung ihrem Vertrag, einen Beleg seinem Objekt und eine Aufgabe ihrem Anlass zuordnen können. Dieser Ratgeber zeigt, wie Sie Ihre Unterlagen zusammenführen, vorhandene Informationen prüfen und daraus einen überschaubaren Arbeitsablauf machen. Das funktioniert für eine einzelne Wohnung ebenso wie für mehrere Häuser.",
+    "sections": [
+      {
+        "id": "bestand",
+        "title": "1. Den Bestand in drei Ebenen aufteilen",
+        "paragraphs": [
+          "Beginnen Sie mit den Immobilien. Ein Haus oder eine vermietete Eigentumswohnung erhält eine eindeutige Bezeichnung und die zugehörige Anschrift. Darunter ordnen Sie die Einheiten ein: Wohnung, Garage oder Stellplatz. Auf einer dritten Ebene stehen die Mietverhältnisse mit ihren jeweiligen Zeiträumen. Diese Trennung verhindert, dass Unterlagen eines früheren Mieters mit dem aktuellen Vertrag vermischt werden oder eine gemeinsam abgerechnete Hausrechnung versehentlich einer einzigen Wohnung zugeordnet wird.",
+          "Verwenden Sie Bezeichnungen, die auch in einem Jahr noch verständlich sind. Eine kurze Objektkennung und eine feste Einheitenbezeichnung reichen oft aus. Änderungen an Bewohnern sollten die Kennung der Wohnung nicht verändern. Beim späteren Mieterwechsel bleibt so die Geschichte der Einheit erhalten, während die personenbezogenen Vertragsunterlagen getrennt geführt werden."
+        ],
+        "bullets": [
+          "Objekt: Anschrift, eigene Kennung und gemeinsame Unterlagen.",
+          "Einheit: Lage, Nutzungsart und überprüfte Flächenangaben.",
+          "Mietverhältnis: Vertragspartner, Beginn, Ende und vereinbarte Zahlungen."
+        ]
+      },
+      {
+        "id": "stammdaten",
+        "title": "2. Stammdaten aus belastbaren Unterlagen übernehmen",
+        "paragraphs": [
+          "Übertragen Sie Daten aus dem unterschriebenen Mietvertrag, aus nachvollziehbaren Flächenunterlagen und aus den vorhandenen Abrechnungen. Schreiben Sie bei einem unklaren Wert nicht einfach eine Schätzung als gesicherte Angabe fest. Kennzeichnen Sie die offene Frage und legen Sie fest, welches Dokument oder welche Rückfrage sie klären soll. Eine überprüfbare Lücke ist im Alltag besser handhabbar als eine scheinbar vollständige, aber unzuverlässige Übersicht.",
+          "Achten Sie besonders auf die Mietbestandteile. Nettomiete, vereinbarte Vorauszahlungen und separat vermietete Stellplätze sollten erkennbar bleiben. Bei Vertragsänderungen bewahren Sie die ursprüngliche Vereinbarung und den Nachtrag zusammen auf. Notieren Sie, ab welchem Datum der neue Betrag gilt. Damit lässt sich später erklären, warum zwei aufeinanderfolgende Monate unterschiedliche Sollbeträge haben."
+        ]
+      },
+      {
+        "id": "ablage",
+        "title": "3. Eine gemeinsame Ablageregel festlegen",
+        "paragraphs": [
+          "Dokumente brauchen einen festen Ablageort und eine verständliche Benennung. Ein praktischer Dateiname verbindet Datum, Dokumentart und Zuordnung, beispielsweise Jahr-Monat-Tag, Rechnung und Objektkennung. Die genaue Schreibweise ist weniger wichtig als ihre konsequente Anwendung. Bewahren Sie das erhaltene Original auf und unterscheiden Sie es von eigenen Bearbeitungen, Notizen und Entwürfen. Bei Papierunterlagen sollte außerdem erkennbar sein, wo das Original liegt.",
+          "Legen Sie für neue Unterlagen einen Eingangskorb an, den Sie regelmäßig abarbeiten. Jeder Eingang wird zugeordnet, auf Vollständigkeit geprüft und gegebenenfalls mit einer Aufgabe versehen. Das vermeidet eine zweite, ungepflegte Ablage in E-Mail-Anhängen oder auf dem Desktop. Für personenbezogene Daten gelten unter anderem Zweckbindung und Datenminimierung nach <a href=\"https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX%3A32016R0679\">Artikel 5 DSGVO</a>: Sammeln Sie nur, was Sie für einen nachvollziehbaren Verwaltungszweck benötigen."
+        ]
+      },
+      {
+        "id": "monat",
+        "title": "4. Einen festen Monatsabschluss einführen",
+        "paragraphs": [
+          "Planen Sie einen wiederkehrenden Termin, an dem Sie die erwarteten Mieten mit den tatsächlichen Eingängen vergleichen. Prüfen Sie anschließend neue Rechnungen, offene Rückfragen und anstehende Termine. Der Monatsabschluss muss kein großer Bericht sein. Eine kurze Liste der ungeklärten Sachverhalte und ein dokumentierter Stand der Zahlungskonten schaffen bereits eine gute Grundlage. Wichtig ist, dass jeder ungeklärte Eintrag einen nächsten Schritt erhält.",
+          "Trennen Sie dabei Zahlungsprüfung und rechtliche Bewertung. Ein abweichender Eingang kann eine Teilzahlung, eine noch ungeklärte Zuordnung oder einen anderen Sachverhalt bedeuten. Erst nachdem Sie Vertrag, Zahlungszweck und Kommunikation geprüft haben, lässt sich die passende Reaktion festlegen. Für Betriebskostenvorauszahlungen sieht <a href=\"https://www.gesetze-im-internet.de/bgb/__556.html\">§ 556 Absatz 3 BGB</a> eine jährliche Abrechnung vor; Ihre monatliche Ordnung erleichtert deren Vorbereitung."
+        ]
+      },
+      {
+        "id": "aufgaben",
+        "title": "5. Aufgaben mit Anlass und Ergebnis führen",
+        "paragraphs": [
+          "Eine Aufgabe wie „Handwerker anrufen“ ist schnell geschrieben, aber später schwer einzuordnen. Ergänzen Sie die betroffene Einheit, den Anlass, die Kontaktperson und das gewünschte Ergebnis. Nach dem Gespräch notieren Sie den vereinbarten nächsten Schritt. So entsteht eine nachvollziehbare Bearbeitungskette, ohne dass Sie den gesamten E-Mail-Verlauf jedes Mal erneut lesen müssen. Sensible persönliche Einschätzungen gehören nicht in eine sachliche Vorgangsnotiz.",
+          "Legen Sie für gesetzliche, vertragliche und selbst gesetzte Termine unterschiedliche Kennzeichnungen fest. Ein eigener Erinnerungstermin ist keine gesetzliche Frist. Wenn eine Frist vom Zugang eines Schreibens oder von einem besonderen Ereignis abhängt, halten Sie die Grundlage mit fest. Unklare Fristberechnungen sollten vor einer verbindlichen Maßnahme geprüft werden. Das gilt besonders bei Kündigungen, Nachforderungen und streitigen Ansprüchen."
+        ]
+      },
+      {
+        "id": "start",
+        "title": "6. Bestehende Unterlagen schrittweise aufräumen",
+        "paragraphs": [
+          "Beginnen Sie mit den laufenden Mietverhältnissen und dem aktuellen Jahr. Ordnen Sie zuerst die Vertragsgrundlagen, dann die Zahlungen und anschließend die zugehörigen Belege. Historische Unterlagen lassen sich danach in überschaubaren Zeitfenstern ergänzen. So bleibt die laufende Verwaltung arbeitsfähig, während Sie ältere Ordner verbessern. Eine vollständige Neuorganisation an einem einzigen Wochenende ist selten nötig.",
+          "Prüfen Sie nach dem ersten Monat, welche Informationen Sie tatsächlich gesucht haben. Passen Sie die Ablage an diesen Bedarf an, statt ständig neue Kategorien einzuführen. Zum Abschluss gehört auch eine Datensicherung: Nur wenn Dokumente und Verwaltungsstand gemeinsam wiederherstellbar sind, bleibt die Ordnung bei einem Geräteausfall erhalten. Ein kurzer Wiederherstellungstest zeigt, ob Ihre Sicherung in der Praxis nutzbar ist."
+        ],
+        "bullets": [
+          "Aktuelle Verträge und Änderungen vollständig zuordnen.",
+          "Sollbeträge und Eingänge für den laufenden Monat abstimmen.",
+          "Offene Unterlagen und Rückfragen als konkrete Aufgaben erfassen.",
+          "Sicherung erstellen und stichprobenartig wiederherstellen."
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "question": "Reicht eine Tabelle für die Mietverwaltung?",
+        "answer": "Für einen kleinen Bestand kann eine gut gepflegte Tabelle funktionieren. Entscheidend sind klare Zuordnungen, nachvollziehbare Änderungen und eine verlässliche Dokumentablage. Sobald mehrere Verträge, Teilzahlungen oder viele Belege zusammenkommen, steigt der Aufwand für die manuelle Abstimmung."
+      },
+      {
+        "question": "Wie oft sollte ich die Unterlagen prüfen?",
+        "answer": "Ein fester monatlicher Termin ist ein guter organisatorischer Ausgangspunkt. Neue Verträge, dringende Schäden und fristgebundene Schreiben bearbeiten Sie unabhängig davon zeitnah. Die passende Häufigkeit richtet sich nach Ihrem Bestand und den konkreten Vorgängen."
+      },
+      {
+        "question": "Was mache ich mit unvollständigen historischen Daten?",
+        "answer": "Übernehmen Sie nur belegbare Angaben als gesichert. Kennzeichnen Sie fehlende Dokumente und offene Fragen, setzen Sie Prioritäten und ergänzen Sie ältere Zeiträume schrittweise. Vermeiden Sie Schätzwerte, die später wie überprüfte Vertragsdaten erscheinen."
+      }
+    ],
+    "sources": [
+      {
+        "title": "BGB § 556 – Betriebskosten und jährliche Abrechnung",
+        "url": "https://www.gesetze-im-internet.de/bgb/__556.html"
+      },
+      {
+        "title": "DSGVO – insbesondere Artikel 5",
+        "url": "https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX%3A32016R0679"
+      }
+    ],
+    "related_features": [
+      "immobilienverwaltung",
+      "dokumentenverwaltung",
+      "aufgaben-fristen"
+    ],
+    "reviewed_at": "2026-10-09"
+  },
+  {
+    "slug": "ratgeber-mietkonto",
+    "title": "Mietkonto führen: Sollmiete, Zahlungseingänge und Teilzahlungen verstehen",
+    "description": "Ein Mietkonto nachvollziehbar führen: Forderungen und Eingänge trennen, Teilzahlungen zuordnen und offene Beträge sauber abstimmen.",
+    "category": "Mietzahlungen",
+    "read_minutes": 7,
+    "intro": "Der Kontostand Ihrer Bank beantwortet nicht automatisch, ob eine bestimmte Monatsmiete vollständig bezahlt wurde. Dafür brauchen Sie eine Übersicht, die erwartete Forderungen und tatsächliche Zahlungen miteinander verbindet. Ein Mietkonto macht diese Beziehung sichtbar. Hier erfahren Sie, welche Informationen dazugehören, wie Sie Teilzahlungen nachvollziehbar behandeln und weshalb ungeklärte Eingänge zunächst geprüft werden sollten.",
+    "sections": [
+      {
+        "id": "begriffe",
+        "title": "1. Soll, Ist und offener Betrag unterscheiden",
+        "paragraphs": [
+          "Das Soll beschreibt den Betrag, der sich für einen Zeitraum aus dem Vertrag und wirksamen Änderungen ergibt. Das Ist beschreibt die tatsächlich erfassten Zahlungen. Ein offener Betrag ist die rechnerische Differenz nach der zutreffenden Zuordnung. Halten Sie diese drei Größen getrennt. Wenn Sie nur eine laufende Summe pflegen, erkennen Sie zwar eine Abweichung, aber oft nicht mehr, aus welchem Monat oder welchem Mietbestandteil sie stammt.",
+          "Führen Sie mindestens die Vertragszuordnung, den Forderungszeitraum, den Betrag und die Zahlungseingänge mit Datum. Ein Monatsbetrag kann aus Nettomiete und Vorauszahlungen bestehen; diese Bestandteile bleiben für spätere Prüfungen erkennbar. Die Berechnung sollte centgenau erfolgen. Rundungen bei nachträglichen Aufteilungen dokumentieren Sie so, dass die Summe der Teilbeträge stets wieder den ursprünglichen Eingang ergibt."
+        ]
+      },
+      {
+        "id": "grundlagen",
+        "title": "2. Die Vertragsgrundlage vor der Buchung prüfen",
+        "paragraphs": [
+          "Übernehmen Sie Sollbeträge aus der geltenden Vereinbarung und markieren Sie den Zeitpunkt einer Änderung. Eine rückwirkend bearbeitete Tabelle darf nicht stillschweigend die ursprüngliche Übersicht ersetzen. Bewahren Sie Nachträge und Mitteilungen auf und halten Sie fest, weshalb eine Forderung geändert wurde. Bei einem Beginn oder Ende innerhalb des Monats muss außerdem geklärt sein, welcher Betrag für den konkreten Zeitraum tatsächlich geschuldet ist.",
+          "Nach <a href=\"https://www.gesetze-im-internet.de/bgb/__556b.html\">§ 556b Absatz 1 BGB</a> ist die Wohnraummiete zu Beginn, spätestens am dritten Werktag des vereinbarten Zeitabschnitts zu zahlen. Für diese Zahlungsfrist zählt ein Samstag nicht mit, wie der <a href=\"https://juris.bundesgerichtshof.de/cgi-bin/rechtsprechung/document.py?Art=pm&Blank=1&Datum=2010-7&Gericht=bgh&file=dokument.pdf&linked=urt&nr=52857\">Bundesgerichtshof im Urteil VIII ZR 129/09</a> erläutert. Halten Sie deshalb die Vertragsregel und den maßgeblichen Zeitraum fest, statt die Fälligkeit automatisch mit dem dritten Kalendertag gleichzusetzen.",
+          "Bei einer Überweisung ist außerdem zwischen dem Auftrag an die Bank und dem Eingang auf Ihrem Konto zu unterscheiden. Nach dem <a href=\"https://juris.bundesgerichtshof.de/cgi-bin/rechtsprechung/document.py?Art=en&Blank=1.pdf&Datum=2016-10&Gericht=bgh&Sort=1&anz=266&nr=76934&pos=16\">BGH-Urteil VIII ZR 222/15</a> reicht bei ausreichender Kontodeckung ein bis zum dritten Werktag erteilter Zahlungsauftrag aus. Ein später sichtbarer Kontoeingang beweist deshalb allein noch keine verspätete Mietzahlung. Erfassen Sie zunächst den tatsächlichen Bankeingang; bei einer Rückfrage ergänzen Sie den mitgeteilten Auftragstag und den vorhandenen Nachweis. So bleibt der Unterschied zwischen Buchungsdatum und rechtlicher Zahlungsbewertung nachvollziehbar."
+        ]
+      },
+      {
+        "id": "zuordnung",
+        "title": "3. Jeden Eingang mit seinem Zahlungszweck erfassen",
+        "paragraphs": [
+          "Prüfen Sie Betrag, Buchungsdatum, Absender und Verwendungszweck gemeinsam. Der Name des Kontoinhabers kann von der mietenden Person abweichen. Ein anderer Absender bedeutet deshalb nicht automatisch, dass die Zahlung zu einem anderen Vertrag gehört. Ebenso kann ein identischer Monatsbetrag für mehrere Wohnungen vorkommen. Eine eindeutige Zuordnung entsteht aus dem gesamten Zusammenhang und den vorhandenen Angaben.",
+          "Reicht eine Zahlung nicht für mehrere Forderungen, ist die Tilgungsbestimmung zu beachten; <a href=\"https://www.gesetze-im-internet.de/bgb/__366.html\">§ 366 BGB</a> regelt die Anrechnung auf mehrere Forderungen. Verteilen Sie einen unklaren Eingang daher nicht pauschal auf die älteste Monatsmiete. Bewahren Sie die ursprüngliche Zahlungsinformation und dokumentieren Sie, wie die Zuordnung geklärt wurde. Bei rechtlich zweifelhaften Konstellationen ist eine Prüfung des Einzelfalls sinnvoll."
+        ]
+      },
+      {
+        "id": "teilzahlungen",
+        "title": "4. Teilzahlungen transparent zusammenführen",
+        "paragraphs": [
+          "Ein einfaches Rechenbeispiel: Für einen Monat sind 900 Euro zu erfassen. Es gehen zunächst 600 Euro und später weitere 300 Euro mit eindeutigem Bezug zu diesem Monat ein. Das Mietkonto zeigt eine Forderung und zwei zugehörige Eingänge. Nach dem zweiten Eingang beträgt die rechnerische Differenz null. Die Forderung wird dabei nicht zweimal angelegt, und der erste Eingang wird nicht durch den zweiten überschrieben.",
+          "Die gleiche Struktur hilft bei Sammelzahlungen. Umfasst ein eindeutig erklärter Eingang mehrere Monate, erfassen Sie den Gesamtbetrag einmal und dokumentieren seine Aufteilung. Bleibt ein Teil ungeklärt, führen Sie ihn als offenen Zuordnungsfall. Für die Bankabstimmung gilt: Die Summe der bestätigten Zuordnungen und des noch ungeklärten Restbetrags entspricht dem ursprünglichen Eingang. Bei einem Eingang von 1.200 Euro mit einer bestätigten Monatszuordnung von 900 Euro bleiben beispielsweise 300 Euro gesondert zu klären. Dieser Rest wird nicht vorschnell einer weiteren Forderung zugeschlagen."
+        ]
+      },
+      {
+        "id": "kontrolle",
+        "title": "5. Abweichungen in einer festen Reihenfolge prüfen",
+        "paragraphs": [
+          "Prüfen Sie zuerst technische Fehler: Wurde ein Eingang doppelt importiert, liegt er noch ohne Zuordnung vor oder wurde ein falscher Monat ausgewählt? Vergleichen Sie danach die Forderung mit der gültigen Vertragsgrundlage. Erst anschließend betrachten Sie die Kommunikation und mögliche Gründe für die Differenz. Diese Reihenfolge verhindert, dass ein Erfassungsfehler vorschnell als Zahlungsproblem behandelt wird.",
+          "Notieren Sie das Prüfergebnis sachlich. Statt „Mieter zahlt unzuverlässig“ ist eine Beschreibung von Datum, Betrag und offener Rückfrage hilfreich. Bei einer Rückzahlung erfassen Sie sowohl den ursprünglichen Eingang als auch die spätere Auszahlung. Bei einer Korrektur bleibt erkennbar, welche Buchung ersetzt oder geändert wurde. Eine lückenlose Chronologie erleichtert die Abstimmung mit der mietenden Person und mit beratenden Fachleuten."
+        ],
+        "bullets": [
+          "Doppelte oder nicht zugeordnete Bankeingänge ausschließen.",
+          "Sollbetrag und Gültigkeitsdatum mit dem Vertrag vergleichen.",
+          "Zahlungszweck und vorhandene Rückmeldungen prüfen.",
+          "Korrektur, Rückfrage oder weiteren Prüfbedarf dokumentieren."
+        ]
+      },
+      {
+        "id": "abschluss",
+        "title": "6. Den Monatsstand nachvollziehbar abschließen",
+        "paragraphs": [
+          "Vergleichen Sie am Monatsende alle erfassten Eingänge mit dem relevanten Bankauszug. Die Bankabstimmung prüft, ob Zahlungen vollständig und nur einmal erfasst wurden. Die Vertragsabstimmung prüft, ob die Zuordnung zu den Forderungen stimmt. Beide Kontrollen beantworten unterschiedliche Fragen und sollten deshalb getrennt betrachtet werden. Eine passende Gesamtsumme allein beweist noch keine richtige Zuordnung.",
+          "Speichern Sie den geprüften Stand und eine Liste verbleibender Rückfragen. Kautionen, Nebenkostennachzahlungen und sonstige Forderungen erhalten eigene erkennbare Vorgänge, auch wenn sie auf demselben Bankkonto eingehen. Ein rechnerischer Saldo ist keine automatische Aussage darüber, ob eine Mahnung, Aufrechnung oder Kündigung zulässig wäre. Vor Maßnahmen mit rechtlichen Folgen müssen Anspruch, Fälligkeit und Einzelfall sorgfältig geprüft werden."
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "question": "Sind Kontoeingang und bezahlte Monatsmiete dasselbe?",
+        "answer": "Ein Eingang ist zunächst eine tatsächliche Zahlung. Welche Forderung dadurch erfüllt wird, ergibt sich aus Zahlungszweck, Zuordnung und rechtlichem Zusammenhang. Deshalb sollte ein Mietkonto die Bankbuchung mit der jeweiligen Forderung verbinden."
+      },
+      {
+        "question": "Wie erfasse ich zwei Zahlungen für denselben Monat?",
+        "answer": "Legen Sie die Monatsforderung einmal an und ordnen Sie beide Eingänge mit ihrem jeweiligen Datum und Betrag zu. So bleiben Teilzahlungen sichtbar und die rechnerische Restforderung verändert sich nachvollziehbar."
+      },
+      {
+        "question": "Soll ich eine unklare Zahlung sofort auf den ältesten Rückstand buchen?",
+        "answer": "Eine pauschale Regel ist ungeeignet. Prüfen Sie die Tilgungsbestimmung und die gesetzlichen Anrechnungsregeln. Halten Sie den Eingang zunächst als ungeklärten Zuordnungsfall fest, wenn wesentliche Angaben fehlen."
+      }
+    ],
+    "sources": [
+      {
+        "title": "BGB § 556b – Fälligkeit der Miete",
+        "url": "https://www.gesetze-im-internet.de/bgb/__556b.html"
+      },
+      {
+        "title": "BGB § 366 – Anrechnung auf mehrere Forderungen",
+        "url": "https://www.gesetze-im-internet.de/bgb/__366.html"
+      },
+      {
+        "title": "BGH, Urteil vom 13. Juli 2010 – VIII ZR 129/09: Samstag und Mietzahlungsfrist",
+        "url": "https://juris.bundesgerichtshof.de/cgi-bin/rechtsprechung/document.py?Art=pm&Blank=1&Datum=2010-7&Gericht=bgh&file=dokument.pdf&linked=urt&nr=52857"
+      },
+      {
+        "title": "BGH, Urteil vom 5. Oktober 2016 – VIII ZR 222/15: rechtzeitiger Überweisungsauftrag",
+        "url": "https://juris.bundesgerichtshof.de/cgi-bin/rechtsprechung/document.py?Art=en&Blank=1.pdf&Datum=2016-10&Gericht=bgh&Sort=1&anz=266&nr=76934&pos=16"
+      }
+    ],
+    "related_features": [
+      "mietzahlungen",
+      "mietvertraege",
+      "dashboard-auswertungen"
+    ],
+    "reviewed_at": "2026-10-09"
+  },
+  {
+    "slug": "ratgeber-nebenkostenabrechnung",
+    "title": "Nebenkostenabrechnung vorbereiten: Unterlagen, Verteilung und Fristen",
+    "description": "Betriebskostenabrechnung systematisch vorbereiten: Vertragsgrundlage, Belege, Umlageschlüssel, Vorauszahlungen und Heizkosten im Blick behalten.",
+    "category": "Betriebskosten",
+    "read_minutes": 8,
+    "intro": "Eine Nebenkostenabrechnung wird leichter prüfbar, wenn Belege, Mietzeiträume und Vorauszahlungen bereits während des Jahres geordnet sind. Dieser Ratgeber führt durch die Vorbereitung einer Betriebskostenabrechnung für vermieteten Wohnraum. Er zeigt, welche Informationen Sie zusammenstellen sollten und wo eine genauere Prüfung nötig ist. Die konkrete Umlage hängt immer von Vertrag, Gebäude und Kostenart ab.",
+    "sections": [
+      {
+        "id": "vereinbarung",
+        "title": "1. Zuerst die vertragliche Grundlage klären",
+        "paragraphs": [
+          "Prüfen Sie den Mietvertrag, bevor Sie Kosten zusammentragen. Welche Betriebskosten sind vereinbart? Sind Pauschalen oder Vorauszahlungen vorgesehen? Welche Umlageschlüssel gelten? <a href=\"https://www.gesetze-im-internet.de/bgb/__556.html\">§ 556 BGB</a> bildet die gesetzliche Grundlage für Vereinbarungen über Betriebskosten. Die bloße Existenz einer Rechnung bedeutet noch nicht, dass Sie sie auf Mieter umlegen können. Bewahren Sie die relevante Vertragsfassung und spätere Änderungen zusammen auf.",
+          "Unterscheiden Sie Ihr Gebäude von einer vermieteten Eigentumswohnung. Eine WEG-Jahresabrechnung ist nicht automatisch die fertige Betriebskostenabrechnung für Ihren Mietvertrag. Prüfen Sie Kostenpositionen, Maßstäbe und Vorauszahlungen gesondert. Besondere Regelungen, etwa für Heizkosten, können zusätzliche Anforderungen auslösen. Legen Sie eine Übersicht an, die pro Kostenart die Vertragsgrundlage und die benötigte Prüfung festhält. So werden offene Fragen sichtbar, bevor die Abrechnung fertiggestellt wird."
+        ]
+      },
+      {
+        "id": "kosten",
+        "title": "2. Kostenarten und Belege vollständig sammeln",
+        "paragraphs": [
+          "Ordnen Sie Rechnungen nach Objekt, Leistungszeitraum und Kostenart. Prüfen Sie, ob Gutschriften, Erstattungen oder ergänzende Rechnungen vorhanden sind. Eine einmal gespeicherte Rechnung wird nicht zusätzlich als Bankausgabe noch einmal in die Kostensumme übernommen. Der Beleg und die Zahlung beschreiben unterschiedliche Aspekte desselben Vorgangs. Dokumentieren Sie, welche Position in die Abrechnung übernommen werden soll und woher ihr Betrag stammt.",
+          "Die <a href=\"https://www.gesetze-im-internet.de/betrkv/__1.html\">Betriebskostenverordnung</a> grenzt laufende Betriebskosten insbesondere von Verwaltungs- sowie Instandhaltungs- und Instandsetzungskosten ab. <a href=\"https://www.gesetze-im-internet.de/betrkv/__2.html\">§ 2 BetrKV</a> enthält die Kostenarten. Prüfen Sie Mischrechnungen einzeln: Wenn eine Rechnung verschiedene Leistungen enthält, lässt sich der Gesamtbetrag nicht ohne Weiteres einer umlagefähigen Kategorie zuordnen. Eine nachvollziehbare Aufteilung benötigt eine belastbare Grundlage, keine freie Schätzung."
+        ]
+      },
+      {
+        "id": "verteilung",
+        "title": "3. Den richtigen Verteilungsmaßstab dokumentieren",
+        "paragraphs": [
+          "Halten Sie für jede Kostenart fest, welcher Maßstab angewendet wird und auf welchen Daten er beruht. Bei einer Flächenverteilung benötigen Sie sowohl die maßgebliche Gesamtfläche als auch den Anteil der betreffenden Einheit. Bei Verbrauchswerten gehören Messdaten, Ablesedatum und die Zuordnung der Geräte dazu. Ein Mietwechsel innerhalb des Jahres muss in den betroffenen Zeiträumen und Daten berücksichtigt werden.",
+          "<a href=\"https://www.gesetze-im-internet.de/bgb/__556a.html\">§ 556a BGB</a> enthält Regeln zum Abrechnungsmaßstab; er unterscheidet auch vermietetes Wohnungseigentum. Der pauschale Satz „alles immer nach Wohnfläche“ reicht deshalb nicht aus. Verknüpfen Sie den verwendeten Schlüssel mit Vertrag und gesetzlichem Rahmen. Wird ein Maßstab geändert, prüfen Sie dessen Zulässigkeit und zeitliche Wirkung. Ändern Sie alte Abrechnungsgrundlagen nicht stillschweigend, sondern dokumentieren Sie den Anlass und die geprüfte Grundlage."
+        ]
+      },
+      {
+        "id": "heizung",
+        "title": "4. Heiz- und Warmwasserkosten gesondert prüfen",
+        "paragraphs": [
+          "Bei zentraler Wärme- oder Warmwasserversorgung ist die <a href=\"https://www.gesetze-im-internet.de/heizkostenv/\">Heizkostenverordnung</a> zu beachten, soweit ihr Anwendungsbereich eröffnet ist. Die Vorbereitung umfasst daher mehr als das Sammeln der Energiekosten. Sie brauchen die passenden Verbrauchs- und Verteilungsdaten sowie eine klare Zuordnung zu Gebäude, Einheit und Zeitraum. Prüfen Sie bei extern erstellten Heizkostenunterlagen, ob die Angaben zu Mietzeiträumen und Nutzern mit Ihren Vertragsdaten übereinstimmen.",
+          "Bei einem Nutzerwechsel regelt <a href=\"https://www.gesetze-im-internet.de/heizkostenv/__9b.html\">§ 9b HeizkostenV</a> die Zwischenablesung und Aufteilung. Verbrauchsbezogene Kosten knüpfen an die Zwischenablesung an; die übrigen Anteile folgen je nach Wärme oder Warmwasser den dort vorgesehenen Maßstäben. Für bestimmte technisch nicht mögliche oder nicht aussagekräftige Zwischenablesungen enthält die Vorschrift Ersatzregeln. Legen Sie Übergabeprotokolle und Ableseunterlagen deshalb rechtzeitig zusammen und stimmen Sie fehlende Daten mit dem Messdienst ab. Eine reine Zeitteilung sämtlicher Heizkosten passt nicht allgemein zu diesen Regeln.",
+          "Prüfen Sie zusätzlich, ob das <a href=\"https://www.gesetze-im-internet.de/co2kostaufg/\">Kohlendioxidkostenaufteilungsgesetz</a> auf die Versorgung anwendbar ist. Für Wohngebäude benötigen Sie unter anderem die auf den Lieferunterlagen ausgewiesenen CO₂-Kosten und Emissionen, den zugehörigen Zeitraum sowie die maßgebliche Wohnfläche. <a href=\"https://www.gesetze-im-internet.de/co2kostaufg/__5.html\">§ 5 CO2KostAufG</a> verknüpft den auf Fläche und Jahr bezogenen Ausstoß mit einer Einstufung und dem daraus folgenden Aufteilungsverhältnis. Prüfen Sie abweichende Liefer- und Abrechnungszeiträume und halten Sie den Vermieteranteil getrennt vom Mieteranteil fest. Wenn sich der Mieter selbst mit Wärme versorgt, ist der <a href=\"https://www.gesetze-im-internet.de/co2kostaufg/__6.html\">Erstattungsablauf nach § 6</a> gesondert zu beachten; die Lieferrechnung allein wird dadurch nicht zur fertigen Umlageberechnung."
+        ]
+      },
+      {
+        "id": "vorauszahlungen",
+        "title": "5. Vorauszahlungen mit dem Mietkonto abstimmen",
+        "paragraphs": [
+          "Übernehmen Sie die für den Abrechnungszeitraum zu berücksichtigenden Vorauszahlungen aus einer abgestimmten Zahlungsübersicht. Verwechseln Sie dabei die vertraglich vorgesehenen Vorauszahlungen nicht mit den tatsächlich geleisteten Beträgen. Prüfen Sie Teilzahlungen, Änderungen während des Jahres und eindeutig zugeordnete Nachbuchungen. Wenn ein Zahlungseingang mehrere Forderungen betrifft, muss seine Aufteilung nachvollziehbar sein.",
+          "Ein rein erklärendes Beispiel verdeutlicht die Kontrolle: Sind zwölf Monate mit jeweils 150 Euro als vollständig geleistete Vorauszahlungen erfasst, beträgt ihre Summe 1.800 Euro. Eine Änderung ab einem bestimmten Monat verändert diesen Jahreswert. Die Berechnung bleibt nur prüfbar, wenn die betroffenen Zeiträume einzeln erkennbar sind. Bewahren Sie die Abstimmung zusammen mit den Abrechnungsunterlagen auf und klären Sie Differenzen, bevor Sie das Ergebnis versenden."
+        ]
+      },
+      {
+        "id": "termine",
+        "title": "6. Prüfzeit und Versand rechtzeitig einplanen",
+        "paragraphs": [
+          "Für Betriebskostenvorauszahlungen verlangt <a href=\"https://www.gesetze-im-internet.de/bgb/__556.html\">§ 556 Absatz 3 BGB</a> eine jährliche Abrechnung und grundsätzlich die Mitteilung spätestens zwölf Monate nach Ende des Abrechnungszeitraums. Für den Zeitraum vom 1. Januar bis 31. Dezember 2025 bedeutet das grundsätzlich: Die Abrechnung muss dem Mieter spätestens am 31. Dezember 2026 zugehen. Das bloße Absenden innerhalb der Frist reicht nicht aus. Bei verspäteten Nachforderungen enthält die Norm eine Ausnahme für Verzögerungen, die der Vermieter nicht zu vertreten hat. Planen Sie Bearbeitung und Übermittlung so früh, dass fehlende Unterlagen und Zustellprobleme noch geklärt werden können.",
+          "Prüfen Sie abschließend, ob Gesamtkosten, Maßstab, Anteil und berücksichtigte Vorauszahlungen zusammenpassen. Stellen Sie die verwendeten Belege so zusammen, dass Rückfragen beantwortet werden können. § 556 Absatz 4 BGB regelt die Belegeinsicht und erlaubt eine elektronische Bereitstellung. Bewahren Sie die übermittelte Abrechnungsfassung und vorhandene Nachweise zur Zustellung beziehungsweise zum Zugang auf. Dokumentieren Sie bei einer Berichtigung außerdem, welche Position betroffen ist und wie sich das Ergebnis gegenüber der bisherigen Fassung verändert."
+        ],
+        "bullets": [
+          "Vertrag und Abrechnungszeitraum geprüft.",
+          "Kosten, Gutschriften und Zuordnungen vollständig abgestimmt.",
+          "Maßstäbe, Flächen, Verbräuche und Mietwechsel nachvollziehbar.",
+          "Vorauszahlungen mit der Zahlungsübersicht abgeglichen.",
+          "Ergebnis, Belege, übermittelte Fassung und Zugangsnachweise dokumentiert."
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "question": "Kann ich die WEG-Abrechnung unverändert weiterreichen?",
+        "answer": "Sie sollten sie als Ausgangsunterlage prüfen. Für das Mietverhältnis sind unter anderem vereinbarte Kosten, Umlagemaßstäbe und geleistete Vorauszahlungen relevant. Nicht jede Position einer WEG-Abrechnung gehört in die Betriebskostenabrechnung des Mieters."
+      },
+      {
+        "question": "Gehören Reparaturen in die Betriebskostenabrechnung?",
+        "answer": "Instandhaltungs- und Instandsetzungskosten zählen nach § 1 Absatz 2 BetrKV nicht zu den Betriebskosten. Bei Rechnungen mit mehreren Leistungsarten ist eine sachgerechte Prüfung und gegebenenfalls eine belegbare Trennung nötig."
+      },
+      {
+        "question": "Wann muss die Abrechnung mitgeteilt werden?",
+        "answer": "Grundsätzlich muss die Abrechnung dem Mieter spätestens bis zum Ende des zwölften Monats nach Ende des Abrechnungszeitraums zugehen. Für das Kalenderjahr 2025 ist das der 31. Dezember 2026. § 556 BGB enthält außerdem die Ausnahme für verspätete Nachforderungen bei einer Verzögerung, die der Vermieter nicht zu vertreten hat. Ein rechtzeitiger Versand allein belegt den rechtzeitigen Zugang nicht."
+      }
+    ],
+    "sources": [
+      {
+        "title": "BGB § 556 – Betriebskosten, Abrechnung und Belegeinsicht",
+        "url": "https://www.gesetze-im-internet.de/bgb/__556.html"
+      },
+      {
+        "title": "BGB § 556a – Abrechnungsmaßstäbe",
+        "url": "https://www.gesetze-im-internet.de/bgb/__556a.html"
+      },
+      {
+        "title": "BetrKV § 1 – Betriebskosten und Abgrenzung",
+        "url": "https://www.gesetze-im-internet.de/betrkv/__1.html"
+      },
+      {
+        "title": "BetrKV § 2 – Kostenarten",
+        "url": "https://www.gesetze-im-internet.de/betrkv/__2.html"
+      },
+      {
+        "title": "Heizkostenverordnung",
+        "url": "https://www.gesetze-im-internet.de/heizkostenv/"
+      },
+      {
+        "title": "HeizkostenV § 9b – Nutzerwechsel",
+        "url": "https://www.gesetze-im-internet.de/heizkostenv/__9b.html"
+      },
+      {
+        "title": "Kohlendioxidkostenaufteilungsgesetz",
+        "url": "https://www.gesetze-im-internet.de/co2kostaufg/"
+      },
+      {
+        "title": "CO2KostAufG § 5 – Einstufung und Aufteilung bei Wohngebäuden",
+        "url": "https://www.gesetze-im-internet.de/co2kostaufg/__5.html"
+      },
+      {
+        "title": "CO2KostAufG § 6 – Umlagegrenze und Erstattung bei Selbstversorgung",
+        "url": "https://www.gesetze-im-internet.de/co2kostaufg/__6.html"
+      }
+    ],
+    "related_features": [
+      "nebenkostenabrechnung",
+      "kostenverwaltung",
+      "zaehlerstaende"
+    ],
+    "reviewed_at": "2026-10-09"
+  },
+  {
+    "slug": "ratgeber-wohnungsuebergabe",
+    "title": "Wohnungsübergabe: Checkliste für Zustand, Schlüssel und Zählerstände",
+    "description": "Wohnungsübergabe strukturiert dokumentieren: Vorbereitung, Raumprüfung, Fotos, Schlüssel, Zählerstände und offene Punkte im Übergabeprotokoll.",
+    "category": "Mieterwechsel",
+    "read_minutes": 7,
+    "intro": "Bei einer Wohnungsübergabe müssen viele Details in kurzer Zeit zusammenkommen. Ein vorbereiteter Ablauf hilft, den Zustand der Räume, die übergebenen Schlüssel und die abgelesenen Zählerstände nachvollziehbar festzuhalten. Diese Checkliste unterstützt eine sachliche Dokumentation bei Einzug und Auszug. Sie ersetzt weder die Prüfung des Mietvertrags noch die rechtliche Bewertung von Schäden oder Ansprüchen.",
+    "sections": [
+      {
+        "id": "vorbereitung",
+        "title": "1. Den Termin mit Unterlagen und klarer Zuständigkeit vorbereiten",
+        "paragraphs": [
+          "Legen Sie vor dem Termin fest, welche Einheit übergeben wird, wer teilnimmt und welche Unterlagen benötigt werden. Hilfreich sind der Mietvertrag, frühere Übergabeunterlagen, eine Liste der vorhandenen Schlüssel und Hinweise auf bereits gemeldete Mängel. Prüfen Sie auch, ob Keller, Garage oder andere mitvermietete Räume zum Termin gehören. So beginnt die Übergabe mit einem gemeinsamen Überblick statt mit einer Suche nach fehlenden Informationen.",
+          "Stellen Sie ausreichend Zeit und gute Lichtverhältnisse sicher. Ein fast leerer Akku oder ein kurzfristig nur teilweise zugänglicher Raum kann die Dokumentation unnötig erschweren. Nehmen Sie ein geeignetes Protokoll und eine Möglichkeit für Fotos mit. Wenn jemand in Vertretung handelt, klären Sie die Befugnis vorab. Halten Sie Termin und tatsächliche Teilnahme später im Protokoll fest, ohne unnötige personenbezogene Details zu sammeln."
+        ]
+      },
+      {
+        "id": "raeume",
+        "title": "2. Raum für Raum in derselben Reihenfolge prüfen",
+        "paragraphs": [
+          "Gehen Sie systematisch durch die Wohnung. Beginnen Sie etwa im Flur und prüfen Sie danach Wohnräume, Küche und Bad. Notieren Sie den sichtbaren Zustand von Boden, Wänden, Türen, Fenstern und vorhandenen Einrichtungen. Eine feste Reihenfolge macht es leichter, einen Raum nicht zu vergessen. Beschreiben Sie Auffälligkeiten konkret: Ort, Art und erkennbarer Umfang sind aussagekräftiger als eine pauschale Bemerkung wie „schlechter Zustand“.",
+          "Unterscheiden Sie Beobachtung und Bewertung. Das Protokoll kann eine sichtbare Beschädigung festhalten, ohne bereits verbindlich festzulegen, wer dafür verantwortlich ist. <a href=\"https://www.gesetze-im-internet.de/bgb/__538.html\">§ 538 BGB</a> betrifft Veränderungen durch vertragsgemäßen Gebrauch. Daraus folgt für die Organisation: Normale Nutzung und mögliche Schäden dürfen nicht allein anhand einer kurzen Sammelbezeichnung gleichgesetzt werden. Bei Meinungsverschiedenheiten dokumentieren Sie die unterschiedlichen Angaben sachlich."
+        ]
+      },
+      {
+        "id": "fotos",
+        "title": "3. Fotos verständlich zuordnen",
+        "paragraphs": [
+          "Ein Foto ist besonders hilfreich, wenn später noch erkennbar ist, was es zeigt. Erstellen Sie zunächst eine Übersicht des betroffenen Raums und anschließend Detailbilder der Auffälligkeit. Verbinden Sie die Bilddatei mit einem Protokolleintrag. Ein loses Foto eines Flecks ohne Raumbezeichnung und Datum lässt sich nach Monaten schwer einordnen. Bewahren Sie die Originaldatei auf und kennzeichnen Sie Bearbeitungen oder ergänzte Markierungen separat.",
+          "Fotografieren Sie nur die für die Dokumentation relevanten Bereiche. Persönliche Unterlagen, Familienfotos oder andere private Gegenstände gehören möglichst nicht ins Bild. Wenn ein Raum noch bewohnt ist, stimmen Sie die Aufnahme vor Ort ab und achten Sie auf eine zurückhaltende Auswahl. Eine breite Fotosammlung ohne Zuordnung ist keine bessere Dokumentation. Entscheidend ist, dass jedes verwendete Bild eine konkrete Beobachtung im Protokoll unterstützt."
+        ]
+      },
+      {
+        "id": "zaehler",
+        "title": "4. Zählerdaten samt Gerätenummer erfassen",
+        "paragraphs": [
+          "Für Strom, Wasser und gegebenenfalls Wärme notieren Sie den Zählertyp, die Gerätenummer, den Stand, die Einheit und das Ablesedatum. Bei mehrteiligen Anzeigen muss klar sein, welcher Wert übernommen wurde. Ein Foto der Anzeige hilft bei der späteren Kontrolle, ersetzt jedoch nicht die lesbare Erfassung. Prüfen Sie, ob der Zähler tatsächlich zur betreffenden Einheit gehört. Eine korrekt gelesene Zahl am falschen Gerät führt trotzdem zu einer falschen Zuordnung.",
+          "Bei einem Nutzerwechsel innerhalb eines Heizkosten-Abrechnungszeitraums ist die Zwischenablesung nach <a href=\"https://www.gesetze-im-internet.de/heizkostenv/__9b.html\">§ 9b HeizkostenV</a> zu berücksichtigen. Ein selbst fotografierter Heizkostenverteiler ist nicht automatisch die vollständige Abrechnungsvorbereitung. Klären Sie, welche Daten der Messdienst benötigt und wie die Übergabewerte dort einfließen. Dokumentieren Sie eine fehlende oder technisch nicht mögliche Ablesung als offenen Punkt, damit sie später gezielt bearbeitet werden kann."
+        ]
+      },
+      {
+        "id": "schluessel",
+        "title": "5. Schlüssel und offene Punkte einzeln festhalten",
+        "paragraphs": [
+          "Erfassen Sie die Anzahl und Art der übergebenen Schlüssel, beispielsweise Haustür, Wohnung, Briefkasten, Keller und Garage. Unterscheiden Sie ausgegebene, zurückerhaltene und fehlende Schlüssel. Die Aussage „Schlüssel vollständig“ ist nur dann hilfreich, wenn die zugrunde liegende Liste stimmt. Notieren Sie auch vorhandene Zugangsmittel wie Transponder, soweit sie zum Mietverhältnis gehören. Bewahren Sie die frühere Ausgabeliste für den Vergleich auf.",
+          "Offene Punkte erhalten eine präzise Beschreibung, eine zuständige Person und einen vereinbarten nächsten Schritt. Ein notwendiger Folgetermin oder eine ausstehende Unterlage sollte aus dem Protokoll in die Aufgabenübersicht übernommen werden. Die Rückgabepflicht nach Ende des Mietverhältnisses ist in <a href=\"https://www.gesetze-im-internet.de/bgb/__546.html\">§ 546 BGB</a> geregelt. Ob ein konkreter Vorgang Ansprüche auslöst, muss unabhängig von der bloßen Schlüsselzählung geprüft werden."
+        ],
+        "bullets": [
+          "Schlüsselart und tatsächlich übergebene Anzahl notieren.",
+          "Fehlende Schlüssel oder Zugangsmittel konkret benennen.",
+          "Mängel, abweichende Angaben und ausstehende Arbeiten getrennt erfassen.",
+          "Vereinbarte nächste Schritte mit Termin und Zuständigkeit dokumentieren."
+        ]
+      },
+      {
+        "id": "abschluss",
+        "title": "6. Das Protokoll gemeinsam durchgehen und ablegen",
+        "paragraphs": [
+          "Lesen Sie die Einträge vor dem Abschluss gemeinsam durch. Unleserliche Angaben und unklare Zuordnungen lassen sich vor Ort am einfachsten korrigieren. Stellen Sie sicher, dass die Beteiligten wissen, welche Fassung das abschließende Protokoll ist und wie sie eine Kopie erhalten. Wenn eine Person nicht unterschreibt oder eine Aussage bestreitet, halten Sie den Vorgang sachlich fest. Eine fehlende Einigung sollte nicht durch eine nachträglich behauptete Zustimmung ersetzt werden.",
+          "Legen Sie Protokoll, Bilder und gegebenenfalls ergänzende Nachrichten beim richtigen Mietverhältnis ab. Trennen Sie die Übergabe des bisherigen Mieters von der anschließenden Übergabe an den neuen Mieter. Übernehmen Sie offene Aufgaben und Zählerdaten in die weitere Verwaltung. Kautionsabrechnung und mögliche Forderungen sind eigenständige Prüfungen; ein Übergabeprotokoll allein entscheidet sie nicht abschließend. Bei streitigen Schäden oder Forderungen ist eine qualifizierte Einzelfallprüfung sinnvoll."
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "question": "Muss jede Auffälligkeit sofort als Schaden bewertet werden?",
+        "answer": "Eine sachliche Beschreibung ist zunächst wichtiger. Das Protokoll sollte festhalten, was tatsächlich beobachtet wurde. Ob eine Auffälligkeit vertragsgemäße Abnutzung oder ein ersatzfähiger Schaden ist, hängt vom konkreten Sachverhalt ab."
+      },
+      {
+        "question": "Welche Zählerangaben gehören ins Protokoll?",
+        "answer": "Mindestens Zählerart, Gerätenummer, Stand, Einheit und Ablesedatum. Ein zugeordnetes Foto erleichtert die Kontrolle. Bei Heizkosten kann außerdem eine abgestimmte Zwischenablesung mit dem Messdienst erforderlich sein."
+      },
+      {
+        "question": "Was passiert mit offenen Punkten nach der Übergabe?",
+        "answer": "Übernehmen Sie sie in eine Aufgabenübersicht mit Einheit, Anlass, Zuständigkeit und nächstem Schritt. Bewahren Sie Protokoll und Kommunikation zusammen auf. So bleiben Folgetermine und Rückfragen nachvollziehbar."
+      }
+    ],
+    "sources": [
+      {
+        "title": "BGB § 538 – Vertragsgemäßer Gebrauch",
+        "url": "https://www.gesetze-im-internet.de/bgb/__538.html"
+      },
+      {
+        "title": "BGB § 546 – Rückgabepflicht",
+        "url": "https://www.gesetze-im-internet.de/bgb/__546.html"
+      },
+      {
+        "title": "HeizkostenV § 9b – Nutzerwechsel",
+        "url": "https://www.gesetze-im-internet.de/heizkostenv/__9b.html"
+      }
+    ],
+    "related_features": [
+      "wohnungsuebergabe",
+      "zaehlerstaende",
+      "aufgaben-fristen"
+    ],
+    "reviewed_at": "2026-10-09"
+  },
+  {
+    "slug": "ratgeber-vermietungskosten",
+    "title": "Belege und Kosten ordnen: eine nachvollziehbare Ablage für Vermieter",
+    "description": "Rechnungen, Ausgaben und Zahlungen sauber unterscheiden: mit Objektzuordnung, Kostenarten, Originalbelegen und einer praktischen Monatskontrolle.",
+    "category": "Kosten & Belege",
+    "read_minutes": 7,
+    "intro": "Eine Rechnung, eine Kostenposition und eine Bankzahlung gehören oft zusammen, sind aber unterschiedliche Informationen. Wenn Sie diese Ebenen sauber verknüpfen, können Sie Ausgaben leichter prüfen und spätere Abrechnungen vorbereiten. Dieser Ratgeber zeigt eine praktische Ablagestruktur für Vermietungsbelege. Er behandelt die Organisation der Unterlagen; die konkrete steuerliche Behandlung oder Umlagefähigkeit ist gesondert zu prüfen.",
+    "sections": [
+      {
+        "id": "unterscheiden",
+        "title": "1. Dokument, Kostenposition und Zahlung auseinanderhalten",
+        "paragraphs": [
+          "Das Dokument enthält die ursprünglichen Angaben des Ausstellers, etwa Leistungsbeschreibung, Rechnungsbetrag und Zeitraum. Die Kostenposition beschreibt, wie Sie den Vorgang in Ihrer Verwaltung einordnen. Die Zahlung zeigt, wann und in welcher Höhe Geld geflossen ist. Ein Rechnungsbetrag kann durch mehrere Zahlungen beglichen werden; umgekehrt kann eine Überweisung mehrere Rechnungen betreffen. Eine einzige Zeile ohne Verknüpfungen verdeckt diese Zusammenhänge.",
+          "Beginnen Sie deshalb mit dem Originalbeleg und erfassen Sie daneben dessen Zuordnung. Verknüpfen Sie anschließend die tatsächlichen Zahlungen. Bearbeitungsvermerke gehören in eine eigene Notiz oder eine erkennbare Kopie. Das erhaltene Dokument bleibt unverändert. So lässt sich später feststellen, welche Angaben vom Rechnungsaussteller stammen und welche Einordnung Sie selbst vorgenommen haben. Ein Zahlungsausgang ohne Rechnung bleibt zunächst ein klärungsbedürftiger Vorgang."
+        ]
+      },
+      {
+        "id": "objekte",
+        "title": "2. Kosten dem richtigen Objekt und Zeitraum zuordnen",
+        "paragraphs": [
+          "Prüfen Sie Anschrift, Leistungsort und Leistungszeitraum. Eine Rechnung kann das ganze Haus, eine einzelne Einheit oder mehrere Objekte betreffen. Wählen Sie die Zuordnung anhand der tatsächlich beschriebenen Leistung. Enthält der Beleg mehrere Positionen mit unterschiedlichen Bezügen, halten Sie die Aufteilung nachvollziehbar fest. Eine spätere Auswertung ist nur so genau wie diese ursprüngliche Zuordnung.",
+          "Rechnungsdatum, Leistungszeitraum und Zahlungsdatum können auseinanderliegen. Erfassen Sie diese Informationen getrennt, wenn sie für den Vorgang relevant sind. Die Frage, welcher Zeitraum für eine bestimmte Abrechnung oder steuerliche Behandlung maßgeblich ist, wird dadurch nicht automatisch entschieden. Die Dokumentation macht die nötige Prüfung erst möglich. Bei fehlenden Angaben fragen Sie beim Aussteller nach, statt einen vermeintlich passenden Zeitraum aus dem Dateinamen abzuleiten."
+        ]
+      },
+      {
+        "id": "kostenarten",
+        "title": "3. Kategorien mit einer überprüfbaren Bedeutung verwenden",
+        "paragraphs": [
+          "Wählen Sie wenige, verständliche Kategorien und beschreiben Sie deren Bedeutung. Beispielsweise können Reinigung, Versicherung, Verwaltung und Reparatur organisatorisch getrennt geführt werden. Eine Kategorie sollte die tatsächlich erbrachte Leistung widerspiegeln. Der Name eines Handwerksbetriebs reicht zur Einordnung nicht aus: Derselbe Betrieb kann eine Wartung, eine Reparatur und eine Erneuerung ausführen. Lesen Sie deshalb die Leistungsbeschreibung und prüfen Sie Mischpositionen.",
+          "Für Betriebskosten unterscheidet <a href=\"https://www.gesetze-im-internet.de/betrkv/__1.html\">§ 1 BetrKV</a> laufende Betriebskosten von Verwaltungs-, Instandhaltungs- und Instandsetzungskosten. Eine intern gewählte Kategorie wie „Hauskosten“ trifft diese Abgrenzung nicht. Die organisatorische Zuordnung ist daher ein erster Schritt und keine Freigabe zur Umlage. Halten Sie gesondert fest, ob eine rechtliche oder steuerliche Prüfung bereits erfolgt ist und auf welcher Grundlage sie beruht."
+        ]
+      },
+      {
+        "id": "belege",
+        "title": "4. Originale auffindbar halten und Dubletten vermeiden",
+        "paragraphs": [
+          "Verwenden Sie eine feste Dateibenennung mit Datum, Dokumentart und Objektkennung. Eine eindeutige interne Belegnummer kann die Verknüpfung mit Kosten und Zahlung erleichtern. Bei eingescannten Papierunterlagen notieren Sie den Aufbewahrungsort des Originals, soweit dieses weiter benötigt wird. Speichern Sie E-Mail-Anhänge nicht zugleich in mehreren unabhängigen Ordnern, die später unterschiedliche Bearbeitungsstände enthalten.",
+          "Prüfen Sie vor dem Anlegen eines neuen Vorgangs, ob derselbe Beleg bereits vorhanden ist. Ein erneuter E-Mail-Versand macht aus einer Rechnung keine zweite Ausgabe. Stornos, Gutschriften und berichtigte Rechnungen bleiben als eigene Dokumente mit Bezug zum ursprünglichen Vorgang erhalten. Löschen Sie eine frühere Fassung nicht kommentarlos. Die allgemeine Rechenschaftsregel des <a href=\"https://www.gesetze-im-internet.de/bgb/__259.html\">§ 259 BGB</a> zeigt die Bedeutung geordneter Zusammenstellungen und Belege, wenn eine Rechenschaftspflicht besteht."
+        ]
+      },
+      {
+        "id": "routine",
+        "title": "5. Den Eingangskorb regelmäßig abarbeiten",
+        "paragraphs": [
+          "Richten Sie einen gemeinsamen Eingangskorb für neu erhaltene Rechnungen und Unterlagen ein. Einmal pro Woche oder zu einem anderen festen Termin prüfen Sie die Dokumente, ordnen sie zu und markieren offene Fragen. Ein ungeklärter Betrag bleibt sichtbar, statt stillschweigend einer beliebigen Kategorie zugeordnet zu werden. Aus fehlenden Leistungsangaben, falschen Objektanschriften oder strittigen Positionen entstehen konkrete Aufgaben.",
+          "Stimmen Sie anschließend die Zahlungen mit den Belegen ab. Bei Teilzahlungen erfassen Sie die einzelnen Beträge und den verbleibenden Stand. Eine Zahlungserinnerung des Dienstleisters sollte Anlass für eine Prüfung sein: Vielleicht fehlt eine Bankbuchung in Ihrer Übersicht oder eine Gutschrift wurde übersehen. Dokumentieren Sie das Ergebnis. So reduziert die regelmäßige Pflege den Aufwand am Jahresende und verhindert, dass kleine Unklarheiten über viele Monate anwachsen."
+        ],
+        "bullets": [
+          "Originalbeleg speichern und auf Vollständigkeit prüfen.",
+          "Objekt, Zeitraum und Kostenart nachvollziehbar festlegen.",
+          "Zahlungen und gegebenenfalls Gutschriften verknüpfen.",
+          "Offene Rückfragen mit einem nächsten Schritt erfassen."
+        ]
+      },
+      {
+        "id": "uebergabe",
+        "title": "6. Unterlagen für Abrechnung und Beratung zusammenstellen",
+        "paragraphs": [
+          "Eine geordnete Übergabe enthält eine Kostenübersicht, die zugehörigen Belege und eine Liste noch offener Sachverhalte. Wählen Sie einen klar abgegrenzten Zeitraum und legen Sie fest, welchen Stand die Zusammenstellung wiedergibt. Wenn Sie Unterlagen an eine steuerliche oder rechtliche Beratung geben, beschreiben Sie den Prüfauftrag. Ein unkommentierter Ordner lässt häufig offen, ob es um Zahlungsabgleich, steuerliche Einordnung oder Betriebskosten geht.",
+          "Geben Sie nur die für den jeweiligen Zweck erforderlichen Unterlagen weiter. Prüfen Sie enthaltene personenbezogene Daten und verwenden Sie einen geeigneten Übertragungsweg. Bewahren Sie die übergebene Fassung und die spätere Rückmeldung so auf, dass Entscheidungen nachvollziehbar bleiben. Aus der strukturierten Ablage folgt keine automatische Aussage über Abzugsfähigkeit, Aufbewahrungsdauer oder Umlage. Diese Fragen richten sich nach dem konkreten Vorgang und den einschlägigen Regeln."
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "question": "Ist der Kontoauszug ein Ersatz für die Rechnung?",
+        "answer": "Er dokumentiert eine Zahlung, enthält aber häufig nicht die vollständige Leistungsbeschreibung oder andere Rechnungsangaben. Bewahren Sie deshalb Beleg und Zahlungsnachweis mit einer nachvollziehbaren Verknüpfung auf."
+      },
+      {
+        "question": "Wie behandle ich eine berichtigte Rechnung?",
+        "answer": "Speichern Sie die Berichtigung mit Bezug zur ursprünglichen Fassung. Dokumentieren Sie, welche Kostenposition oder Zahlung betroffen ist. Eine nachvollziehbare Korrekturkette ist hilfreicher als das kommentarlos ersetzte Original."
+      },
+      {
+        "question": "Kann ich die Kostenkategorie gleich als steuerliche Entscheidung verwenden?",
+        "answer": "Eine organisatorische Kategorie beschreibt zunächst Ihren Verwaltungsstand. Die steuerliche Behandlung und die Umlagefähigkeit hängen von den jeweiligen Voraussetzungen ab und sollten gesondert geprüft werden."
+      }
+    ],
+    "sources": [
+      {
+        "title": "BetrKV § 1 – Abgrenzung der Betriebskosten",
+        "url": "https://www.gesetze-im-internet.de/betrkv/__1.html"
+      },
+      {
+        "title": "BGB § 259 – Umfang der Rechenschaftspflicht",
+        "url": "https://www.gesetze-im-internet.de/bgb/__259.html"
+      }
+    ],
+    "related_features": [
+      "kostenverwaltung",
+      "dokumentenverwaltung",
+      "steuer-vorbereitung"
+    ],
+    "reviewed_at": "2026-10-09"
+  },
+  {
+    "slug": "ratgeber-mietkaution",
+    "title": "Mietkaution organisieren: Vereinbarung, Eingänge und getrennte Dokumentation",
+    "description": "Mietsicherheit übersichtlich verwalten: Kautionsvereinbarung, Teilzahlungen, Anlageunterlagen und spätere Abrechnung nachvollziehbar zusammenführen.",
+    "category": "Mietvertrag",
+    "read_minutes": 7,
+    "intro": "Die Mietkaution ist ein eigenständiger Vorgang neben den laufenden Mietzahlungen. Eine saubere Dokumentation verbindet die Vereinbarung, die erhaltenen Beträge, die Anlageunterlagen und die spätere Abrechnung. Dieser Ratgeber zeigt, wie Sie den Überblick behalten und typische Vermischungen vermeiden. Er bezieht sich auf die organisatorische Vorbereitung bei Wohnraummietverhältnissen; besondere Vereinbarungen und streitige Ansprüche erfordern eine gesonderte Prüfung.",
+    "sections": [
+      {
+        "id": "vereinbarung",
+        "title": "1. Art und Höhe der Sicherheit aus dem Vertrag übernehmen",
+        "paragraphs": [
+          "Prüfen Sie zunächst, welche Sicherheit tatsächlich vereinbart wurde. Eine Geldkaution, eine Bürgschaft und andere Gestaltungen brauchen unterschiedliche Unterlagen. Erfassen Sie Art, Betrag, Vertragsbezug und den Beginn des Mietverhältnisses. Bewahren Sie die Vereinbarung als Grundlage auf. Eine bloße Notiz „Kaution vorhanden“ sagt noch nicht, welcher Nachweis vorliegt, welcher Betrag vereinbart ist oder ob die Sicherheit tatsächlich geleistet wurde.",
+          "<a href=\"https://www.gesetze-im-internet.de/bgb/__551.html\">§ 551 BGB</a> begrenzt die Sicherheit bei Wohnraum grundsätzlich auf drei Monatsmieten ohne ausgewiesene Betriebskosten. Bei einer Geldsumme erlaubt die Norm drei gleiche monatliche Teilzahlungen; die erste ist zu Mietbeginn fällig, die weiteren mit den folgenden Mietzahlungen. Übertragen Sie deshalb nicht pauschal die gesamte Warmmiete als Berechnungsbasis und setzen Sie die gesetzlichen Raten nicht mit einer freiwilligen Sondervereinbarung gleich."
+        ]
+      },
+      {
+        "id": "eingang",
+        "title": "2. Kautionseingänge vom Mietkonto unterscheiden",
+        "paragraphs": [
+          "Erfassen Sie einen Kautionseingang mit Datum, Betrag und eindeutigem Bezug zur Sicherheit. Auch wenn er auf demselben Bankkonto eingeht wie eine Miete, handelt es sich um einen anderen Vorgang. Ein Gesamtbetrag darf nicht versehentlich eine Monatsforderung als bezahlt erscheinen lassen. Prüfen Sie den Verwendungszweck und klären Sie ungenaue Angaben, bevor Sie die Zuordnung abschließen.",
+          "Ein rein organisatorisches Beispiel: Eine vereinbarte Geldkaution von 2.400 Euro wird in drei eindeutig bezeichneten Eingängen von je 800 Euro geleistet. Ihre Übersicht zeigt die Vereinbarung, die drei Eingänge und den jeweils noch nicht geleisteten Teil. Die laufende Miete bleibt davon getrennt. Erhalten Sie eine Bürgschaftsurkunde statt einer Geldsumme, dokumentieren Sie den Eingang des Nachweises; daraus entsteht kein eigener Bankzahlungseingang."
+        ]
+      },
+      {
+        "id": "anlage",
+        "title": "3. Die Anlageunterlagen mit der Kaution verknüpfen",
+        "paragraphs": [
+          "Für eine überlassene Geldsumme sieht <a href=\"https://www.gesetze-im-internet.de/bgb/__551.html\">§ 551 Absatz 3 BGB</a> die gesetzliche Anlage vor; eine andere Anlageform kann vereinbart werden. Die Anlage muss vom Vermögen des Vermieters getrennt sein, und Erträge stehen dem Mieter zu. Die Vorschrift enthält eine Besonderheit für Studenten- und Jugendwohnheime. Halten Sie fest, welche Form für Ihr Mietverhältnis gilt und welche Unterlagen sie belegen.",
+          "Legen Sie Kontonachweis, Bankunterlagen und relevante Mitteilungen zusammen mit der Kautionsvereinbarung ab. Eine interne Markierung in Ihrer Verwaltungsübersicht ersetzt die erforderliche tatsächliche Trennung nicht. Prüfen Sie die Abwicklung mit dem gewählten Kreditinstitut und bewahren Sie den Nachweis nachvollziehbar auf. Notieren Sie, wo die aktuelle Unterlage liegt und wer auf sie zugreifen darf. Die Informationen sollten erreichbar sein, ohne sie unnötig breit zu teilen."
+        ]
+      },
+      {
+        "id": "laufend",
+        "title": "4. Den Stand während des Mietverhältnisses aktuell halten",
+        "paragraphs": [
+          "Prüfen Sie in einer passenden Routine, ob Vereinbarung, Eingänge und Anlageunterlagen übereinstimmen. Erfassen Sie Erträge und relevante Veränderungen mit ihrem jeweiligen Nachweis. Wenn der Vertrag geändert oder die Sicherheit in einer anderen Form gestellt wird, behalten Sie die frühere Dokumentation und den Bezug zur neuen Vereinbarung. Eine aktuelle Übersicht sollte zeigen, was vorhanden ist und welche Rückfrage noch offensteht.",
+          "Vermeiden Sie eine Vermischung mit der Einnahmenübersicht. Die Kaution ist keine gewöhnliche Monatsmiete, und ihr organisatorischer Bestand sollte in einer eigenen Darstellung erkennbar bleiben. Bei mehreren Mietverhältnissen bekommt jede Sicherheit ihren eigenen Bezug. Dass Beträge gleich hoch sind oder Zahlungen vom selben Absender kommen, genügt nicht für eine Zuordnung. Prüfen Sie außerdem, ob Unterlagen inzwischen überholt sind und deshalb als frühere Fassung markiert werden sollten."
+        ]
+      },
+      {
+        "id": "auszug",
+        "title": "5. Nach dem Auszug den Prüfstand dokumentieren",
+        "paragraphs": [
+          "Führen Sie Übergabeprotokoll, Vertragsende, offene Zahlungsfragen und relevante Korrespondenz zusammen. Halten Sie fest, welche Sachverhalte bereits geklärt sind und welche noch geprüft werden müssen. Die reine Existenz eines Übergabeeintrags entscheidet nicht, ob ein Anspruch besteht oder ob ein Betrag aus der Kaution verwendet werden darf. Dokumentation und Anspruchsprüfung sind unterschiedliche Arbeitsschritte.",
+          "Verwenden Sie keine pauschale Rückzahlungsregel wie „immer sechs Monate“. Umfang und Zeitpunkt der Abrechnung hängen vom konkreten Sachverhalt ab. Bei möglichen Einbehalten, streitigen Schäden, Aufrechnungen oder noch offenen Betriebskosten sollte die rechtliche Grundlage geprüft werden. Für Ihre Organisation bedeutet das: Benennen Sie offene Punkte, halten Sie den Bearbeitungsstand aktuell und kommunizieren Sie nachvollziehbar, statt einen ungeprüften Standardtermin als verbindlich auszugeben."
+        ]
+      },
+      {
+        "id": "abschluss",
+        "title": "6. Die abschließende Abrechnung und Auszahlung festhalten",
+        "paragraphs": [
+          "Wenn die Prüfung abgeschlossen ist, führen Sie die erforderlichen Unterlagen zur Kautionsabrechnung zusammen. Die Übersicht sollte die erhaltene Sicherheit, nachvollziehbare Erträge, tatsächlich berücksichtigte Positionen und den ausgezahlten Betrag erkennen lassen. Verknüpfen Sie jede Auszahlung mit ihrem Banknachweis. Wurden Teile bereits zurückgezahlt, bleiben diese früheren Vorgänge sichtbar und dürfen bei einer späteren Abschlussübersicht nicht erneut berücksichtigt werden.",
+          "Bewahren Sie die abschließende Kommunikation beim richtigen Mietverhältnis auf und legen Sie einen Prüfpunkt für die spätere Löschung oder weitere Aufbewahrung fest. Welche Dokumente wie lange benötigt werden, richtet sich nach ihrem Zweck und einschlägigen Pflichten; eine universelle Frist für alle Kautionsunterlagen gibt es in dieser Organisationshilfe nicht. So bleibt der Vorgang auch nach dem Ende des Mietverhältnisses verständlich, ohne unnötig viele personenbezogene Daten dauerhaft anzusammeln."
+        ],
+        "bullets": [
+          "Vereinbarung, Art und Höhe der Sicherheit nachvollziehbar erfasst.",
+          "Eingänge und tatsächliche Anlageunterlagen miteinander verknüpft.",
+          "Erträge, Änderungen und offene Prüfungen dokumentiert.",
+          "Abrechnung und Auszahlung mit Nachweisen abgeschlossen."
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "question": "Soll die Kaution in derselben Übersicht wie die Miete stehen?",
+        "answer": "Eine gemeinsame Vertragsübersicht kann auf beide Vorgänge verweisen. Forderungen und Zahlungen sollten jedoch eindeutig getrennt bleiben, damit eine Kautionszahlung nicht versehentlich als Monatsmiete zählt."
+      },
+      {
+        "question": "Kann ich immer drei Warmmieten als Kaution eintragen?",
+        "answer": "Bei Wohnraum nennt § 551 BGB grundsätzlich drei Monatsmieten ohne ausgewiesene Betriebskosten als Obergrenze. Maßgeblich sind die konkrete Vereinbarung und der gesetzliche Rahmen; die Warmmiete ist keine pauschale Berechnungsbasis."
+      },
+      {
+        "question": "Muss eine Kaution immer nach sechs Monaten vollständig zurückgezahlt werden?",
+        "answer": "Eine solche pauschale Regel lässt sich nicht auf jeden Fall übertragen. Abrechnung, mögliche Ansprüche und noch offene Sachverhalte sind konkret zu prüfen. Dokumentieren Sie den Stand und lassen Sie streitige Fragen qualifiziert beurteilen."
+      }
+    ],
+    "sources": [
+      {
+        "title": "BGB § 551 – Begrenzung und Anlage von Mietsicherheiten",
+        "url": "https://www.gesetze-im-internet.de/bgb/__551.html"
+      }
+    ],
+    "related_features": [
+      "kaution-mahnwesen",
+      "mietvertraege",
+      "wohnungsuebergabe"
+    ],
+    "reviewed_at": "2026-10-09"
+  },
+  {
+    "slug": "ratgeber-zaehlerstaende",
+    "title": "Zählerstände beim Mieterwechsel: Ablesung und Zuordnung richtig vorbereiten",
+    "description": "Strom-, Wasser- und Wärmewerte beim Mieterwechsel nachvollziehbar erfassen: Gerätenummer, Datum, Fotos und Übergabe an die Abrechnung.",
+    "category": "Mieterwechsel",
+    "read_minutes": 7,
+    "intro": "Ein abgelesener Wert hilft nur, wenn er zum richtigen Gerät, zur richtigen Einheit und zum richtigen Zeitpunkt gehört. Gerade beim Mieterwechsel liegen diese Informationen oft verteilt in Fotos, Nachrichten und Übergabeprotokollen. Mit einer festen Ablesestruktur führen Sie sie zusammen und schaffen eine prüfbare Grundlage für die weitere Bearbeitung. Dieser Ratgeber erklärt die Organisation und die Besonderheit der Heizkosten-Zwischenablesung.",
+    "sections": [
+      {
+        "id": "inventar",
+        "title": "1. Vor dem Termin eine Zählerliste anlegen",
+        "paragraphs": [
+          "Stellen Sie zusammen, welche Geräte zur Einheit gehören und wo sie erreichbar sind. Eine Zählerliste enthält Typ, Gerätenummer, Standort und die betroffene Nutzung. Kennzeichnen Sie beispielsweise getrennt, ob ein Wasserzähler zur Wohnung oder zu einem Gemeinschaftsbereich gehört. Bei mehreren ähnlich aussehenden Geräten ist die vollständige Nummer wichtiger als eine vermeintlich eindeutige räumliche Nähe.",
+          "Vergleichen Sie die Liste mit vorhandenen Abrechnungsunterlagen und früheren Ablesungen. Wenn ein Gerät inzwischen ausgetauscht wurde, brauchen Sie den Bezug zwischen alter und neuer Nummer. Halten Sie den Wechsel und vorhandene Ein- beziehungsweise Ausbauwerte mit ihren Nachweisen fest. Eine bloße Fortschreibung des bisherigen Geräts kann zu falschen Verbrauchsdifferenzen führen. Unklare Zuordnungen sollten möglichst vor dem Übergabetermin mit der zuständigen Stelle geklärt werden."
+        ]
+      },
+      {
+        "id": "ablesung",
+        "title": "2. Jeden Wert mit Datum, Einheit und Nachweis erfassen",
+        "paragraphs": [
+          "Notieren Sie den tatsächlichen Ablesetag und, wenn für den Vorgang hilfreich, die Uhrzeit. Übernehmen Sie den Wert in der auf dem Gerät angezeigten Einheit. Achten Sie auf Nachkommastellen und unterschiedliche Register. Bei elektronischen Anzeigen kann der erste sichtbare Wert ein anderer sein als der für die Abrechnung benötigte Stand. Orientieren Sie sich an Gerätehinweisen und Vorgaben des zuständigen Versorgers oder Messdienstes.",
+          "Ein Foto sollte Gerätenummer und Anzeige möglichst lesbar zeigen. Wenn beides nicht auf ein Bild passt, erfassen Sie zwei Bilder mit eindeutigem Bezug. Vergleichen Sie den übertragenen Wert vor Ort noch einmal mit der Anzeige. Dokumentieren Sie, wer abgelesen hat und zu welchem Übergabevorgang die Ablesung gehört. Die spätere Ablage sollte diese Informationen erhalten, auch wenn ein Foto aus der ursprünglichen Nachricht herausgelöst wird."
+        ],
+        "bullets": [
+          "Geräteart, vollständige Nummer und Einheit notieren.",
+          "Ablesedatum und konkreten Übergabevorgang festhalten.",
+          "Anzeige lesbar fotografieren und den Wert kontrollieren.",
+          "Mehrere Register sowie Gerätewechsel getrennt dokumentieren."
+        ]
+      },
+      {
+        "id": "plausibilitaet",
+        "title": "3. Neue Werte mit den Vorwerten vergleichen",
+        "paragraphs": [
+          "Prüfen Sie, ob die neue Ablesung zum bisherigen Verlauf passt. Ein kleinerer Stand kann auf einen Zählerwechsel, einen Übertragungsfehler, ein anderes Register oder besondere Geräteeigenschaften hinweisen. Ein stark abweichender Wert benötigt ebenfalls eine nachvollziehbare Erklärung. Ändern Sie den abgelesenen Stand nicht einfach so lange, bis die erwartete Verbrauchskurve passt. Bewahren Sie die Beobachtung und prüfen Sie ihre Ursache.",
+          "Eine Differenz zwischen zwei Ständen ist erst dann sinnvoll, wenn Gerät, Register, Einheit und Zeitraum übereinstimmen. Bei einem Wechsel benötigen Sie gegebenenfalls getrennte Teilzeiträume. Ein Heizkostenverteiler kann außerdem Bewertungs- und Abrechnungsverfahren erfordern, die über das einfache Subtrahieren zweier Zahlen hinausgehen. Die Plausibilitätsprüfung ist deshalb eine Kontrollhilfe und keine eigenständige Abrechnungsfreigabe. Halten Sie offenen Klärungsbedarf für die spätere Bearbeitung fest."
+        ]
+      },
+      {
+        "id": "heizung",
+        "title": "4. Die Heizkosten-Zwischenablesung rechtzeitig abstimmen",
+        "paragraphs": [
+          "Bei einem Nutzerwechsel innerhalb des Abrechnungszeitraums sieht <a href=\"https://www.gesetze-im-internet.de/heizkostenv/__9b.html\">§ 9b HeizkostenV</a> eine Zwischenablesung der betroffenen Verbrauchserfassung vor. Die Vorschrift unterscheidet verbrauchsbezogene Anteile und die Verteilung übriger Kosten; für technisch ungeeignete oder nicht mögliche Zwischenablesungen enthält sie besondere Regeln. Eine reine Zeitteilung aller Heizkosten bildet diesen gesetzlichen Ablauf nicht allgemein ab.",
+          "Informieren Sie den zuständigen Messdienst frühzeitig über den Wechsel und klären Sie Termin, benötigte Daten und die Zuordnung zum Abrechnungsjahr. Fernablesbare Geräte können andere Abläufe ermöglichen als Geräte, die vor Ort erfasst werden. Entscheidend ist, dass die verwendeten Daten zur konkreten Abrechnung passen. Bewahren Sie die Bestätigung des Messdienstes und die Ableseunterlagen zusammen mit dem Übergabevorgang auf. Bestehen technische oder rechtliche Fragen, lassen Sie den passenden Maßstab prüfen."
+        ]
+      },
+      {
+        "id": "versorgung",
+        "title": "5. Übergabewerte und Versorgungsverträge zusammenführen",
+        "paragraphs": [
+          "Klären Sie, welche Vertrags- und Meldewege für die jeweiligen Medien gelten. Bei direkt vom Mieter geschlossenen Stromverträgen unterscheidet sich die Bearbeitung von gemeinsam über das Gebäude abgerechneten Wasser- oder Wärmekosten. Die Zuständigkeit ergibt sich aus der konkreten Versorgung und den Verträgen. Das Übergabeprotokoll ersetzt keine erforderliche Mitteilung an den jeweiligen Vertragspartner.",
+          "Stellen Sie für eine Weitergabe ein überschaubares Paket zusammen: Einheit, Zählernummer, Ablesedatum, Stand und betroffener Wechsel. Übermitteln Sie nur die Angaben, die für diesen Zweck benötigt werden. Bewahren Sie den bestätigten Meldestand auf. Sind Vertragsende, Einzug und tatsächliche Übergabe unterschiedliche Tage, führen Sie diese Daten getrennt und klären ihre Bedeutung. Ein einziges Feld „Mieterwechsel“ verschleiert sonst, welches Ereignis eine Ablesung oder Meldung beschreibt."
+        ]
+      },
+      {
+        "id": "abschluss",
+        "title": "6. Einen geschlossenen Übergabevorgang herstellen",
+        "paragraphs": [
+          "Nach dem Termin prüfen Sie, ob alle vorgesehenen Geräte erfasst wurden und ob Fotos sowie Protokolleinträge zusammenpassen. Übernehmen Sie Rückfragen in eine Aufgabenliste. Typische offene Punkte sind eine nicht lesbare Gerätenummer, ein fehlender Zugang zum Zählerraum oder ein noch ausstehender Nachweis des Messdienstes. Jeder Punkt bekommt eine konkrete Zuständigkeit und einen nächsten Bearbeitungsschritt.",
+          "Legen Sie die Daten beim jeweiligen Objekt, der Einheit und dem passenden Übergabevorgang ab. Der bisherige und der neue Nutzer sollten als getrennte Vertragszeiträume erkennbar sein. Wenn später ein Wert berichtigt wird, bleiben ursprünglicher Stand, Korrekturgrund und Nachweis nachvollziehbar. Diese saubere Chronologie erleichtert Rückfragen bei der Abrechnung. Sie schafft einen überprüfbaren Datenbestand, entscheidet aber nicht allein über vertragliche Zuständigkeiten oder die rechtliche Verteilung einzelner Kosten."
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "question": "Reicht ein Foto der Zähleranzeige?",
+        "answer": "Für eine prüfbare Zuordnung benötigen Sie zusätzlich mindestens Geräteart, Gerätenummer, Einheit und Ablesedatum. Das Foto sollte lesbar und dem richtigen Übergabevorgang zugeordnet sein. Bei Heizkosten ist außerdem der abgestimmte Abrechnungsablauf relevant."
+      },
+      {
+        "question": "Was mache ich, wenn der neue Wert niedriger als der alte ist?",
+        "answer": "Prüfen Sie Gerätewechsel, Register, Einheit und mögliche Übertragungsfehler. Behalten Sie den ursprünglichen Nachweis und dokumentieren Sie die Klärung. Korrigieren Sie einen Wert nur mit nachvollziehbarer Grundlage."
+      },
+      {
+        "question": "Wer kümmert sich um die Zwischenablesung für Heizkosten?",
+        "answer": "§ 9b HeizkostenV richtet die Pflicht zur Zwischenablesung bei Nutzerwechsel an den Gebäudeeigentümer. In der praktischen Abwicklung kann ein Messdienst beteiligt sein. Stimmen Sie rechtzeitig ab, wie die erforderlichen Daten erfasst und in die Abrechnung übernommen werden."
+      }
+    ],
+    "sources": [
+      {
+        "title": "HeizkostenV § 9b – Kostenaufteilung bei Nutzerwechsel",
+        "url": "https://www.gesetze-im-internet.de/heizkostenv/__9b.html"
+      },
+      {
+        "title": "HeizkostenV – Anwendungsbereich und Abrechnungsregeln",
+        "url": "https://www.gesetze-im-internet.de/heizkostenv/"
+      }
+    ],
+    "related_features": [
+      "zaehlerstaende",
+      "wohnungsuebergabe",
+      "nebenkostenabrechnung"
+    ],
+    "reviewed_at": "2026-10-09"
+  },
+  {
+    "slug": "ratgeber-datensicherung",
+    "title": "Vermietungsunterlagen sichern: Datenschutz, Backups und klare Zugriffe",
+    "description": "Verträge und Vermietungsdaten geschützt aufbewahren: Zugriff, Datenminimierung, verschlüsselte Sicherungen und Wiederherstellung praktisch organisieren.",
+    "category": "Datenschutz & Sicherheit",
+    "read_minutes": 8,
+    "intro": "Mietverträge, Kontaktdaten und Zahlungsübersichten enthalten Informationen, die Sie vertraulich und zugleich zuverlässig verfügbar halten müssen. Eine gute Ablage beantwortet daher zwei Fragen: Wer darf die Unterlagen sehen, und wie erhalten Sie sie nach einem Geräteausfall zurück? Dieser Ratgeber verbindet Datenschutz und Datensicherung zu einem praktischen Ablauf für die Vermietungsverwaltung.",
+    "sections": [
+      {
+        "id": "ueberblick",
+        "title": "1. Daten und Zwecke in einer Übersicht erfassen",
+        "paragraphs": [
+          "Listen Sie zunächst die Arten Ihrer Unterlagen auf: Verträge, Kontaktdaten, Zahlungsvorgänge, Rechnungen, Übergabeprotokolle und Kommunikation. Halten Sie daneben fest, wofür Sie sie benötigen und an welchen Orten sie liegen. Häufig gibt es mehr Speicherorte als erwartet: Computer, Telefon, E-Mail-Postfach, externe Festplatte und gemeinsame Ordner. Diese Bestandsaufnahme macht es möglich, den Zugriff und die späteren Sicherungen vollständig zu planen.",
+          "Die <a href=\"https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX%3A32016R0679\">DSGVO</a> verlangt unter anderem Zweckbindung, Datenminimierung, Speicherbegrenzung und angemessene Sicherheit. Artikel 6 regelt die Rechtsgrundlagen; Artikel 13 enthält Informationspflichten bei einer Datenerhebung bei der betroffenen Person. Die Vermietung ist nicht allein deshalb eine ausschließlich persönliche Tätigkeit, weil nur wenige Wohnungen betroffen sind. Prüfen Sie Ihre konkrete Verarbeitung und sammeln Sie keine persönlichen Angaben ohne nachvollziehbaren Zweck."
+        ]
+      },
+      {
+        "id": "zugriffe",
+        "title": "2. Zugriffe nach Aufgabe vergeben",
+        "paragraphs": [
+          "Überlegen Sie, wer welche Unterlagen für seine Aufgabe benötigt. Eine Handwerksfirma braucht für einen Termin andere Informationen als eine steuerliche Beratung. Stellen Sie passende Auszüge zusammen, statt stets den gesamten Mietordner weiterzugeben. Verwenden Sie auf gemeinsam genutzten Geräten getrennte Benutzerkonten und eine Bildschirmsperre. Bewahren Sie Papierunterlagen so auf, dass Besucher oder andere unbefugte Personen sie nicht beiläufig einsehen können.",
+          "Prüfen Sie auch die indirekten Zugänge. E-Mail-Konten, verlorene Mobilgeräte und dauerhaft freigegebene Ordner können Zugriff auf dieselben Unterlagen ermöglichen. Führen Sie deshalb eine einfache Übersicht bestehender Freigaben und heben Sie nicht mehr benötigte Berechtigungen auf. Bei unterstützenden Personen muss klar sein, welche Bearbeitung erlaubt ist und welche Informationen vertraulich bleiben. Eine eindeutige Zuständigkeit erleichtert es außerdem, Rückfragen oder fehlerhafte Freigaben schnell zu klären."
+        ]
+      },
+      {
+        "id": "geraete",
+        "title": "3. Geräte und Übertragungswege absichern",
+        "paragraphs": [
+          "Aktualisieren Sie Betriebssystem und verwendete Programme regelmäßig. Schützen Sie Geräte mit einem geeigneten Zugang und nutzen Sie verfügbare Verschlüsselung. Für wichtige Online-Konten ist eine zusätzliche Absicherung wie eine zweite Anmeldestufe sinnvoll, wenn der Anbieter sie unterstützt. Das <a href=\"https://www.bsi.bund.de/DE/Themen/Verbraucherinnen-und-Verbraucher/Informationen-und-Empfehlungen/Cyber-Sicherheitsempfehlungen/Daten-sichern-verschluesseln-und-loeschen/daten-sichern-verschluesseln-und-loeschen.html\">BSI</a> beschreibt Zugangsschutz, Verschlüsselung und Datensicherung als zusammengehörige Sicherheitsmaßnahmen.",
+          "Bevor Sie Dokumente versenden, kontrollieren Sie Empfänger, Anhänge und Freigaberechte. Eine Adresse aus der automatischen Vervollständigung kann ähnlich aussehen, aber zur falschen Person gehören. Bei größeren Unterlagenpaketen ist ein kontrollierter Übertragungsweg hilfreich, dessen Zugriff Sie begrenzen können. Verschlüsselung ist dabei kein Ersatz für die richtige Empfängerauswahl. Dokumentieren Sie wichtige Übergaben, damit nachvollziehbar bleibt, welche Fassung für welchen Zweck weitergegeben wurde."
+        ]
+      },
+      {
+        "id": "backup",
+        "title": "4. Eine Sicherung mit Wiederherstellungsplan einrichten",
+        "paragraphs": [
+          "Legen Sie fest, welche Daten gemeinsam gesichert werden müssen. Zu einer Verwaltung gehören neben sichtbaren PDF-Dateien oft auch strukturierte Daten und deren Verknüpfungen. Eine Kopie einzelner Dokumente kann deshalb unvollständig sein. Das <a href=\"https://www.bsi.bund.de/DE/Themen/Verbraucherinnen-und-Verbraucher/Informationen-und-Empfehlungen/Cyber-Sicherheitsempfehlungen/Daten-sichern-verschluesseln-und-loeschen/Datensicherung-und-Datenverlust/Back-up-Doppelt-gesichert-haelt-besser/back-up-doppelt-gesichert-haelt-besser.html\">BSI empfiehlt</a>, Umfang, Speichermedium und regelmäßigen Sicherungsturnus zu planen sowie Lesbarkeit und Vollständigkeit zu prüfen.",
+          "Wählen Sie eine Sicherung, die auch bei Verlust des ursprünglichen Geräts erreichbar bleibt. Schützen Sie Sicherungsmedien vor unbefugtem Zugriff und bewahren Sie die erforderlichen Zugangsdaten sicher auf. Testen Sie eine Wiederherstellung in einem getrennten Ordner oder einer passenden Testumgebung. Prüfen Sie dabei nicht nur, ob eine Datei vorhanden ist, sondern ob Dokumente geöffnet werden können und der Verwaltungsstand sinnvoll nutzbar ist. Eine erfolgreiche Sicherungsanzeige allein beantwortet diese Fragen nicht."
+        ],
+        "bullets": [
+          "Dokumente, strukturierte Daten und wichtige Verknüpfungen berücksichtigen.",
+          "Passenden Turnus und verantwortliche Person festlegen.",
+          "Sicherung gegen Zugriff und Verlust des Originalgeräts schützen.",
+          "Wiederherstellung regelmäßig praktisch kontrollieren."
+        ]
+      },
+      {
+        "id": "anbieter",
+        "title": "5. Lokale Ablage und externe Dienste bewusst prüfen",
+        "paragraphs": [
+          "Bei einer lokalen Ablage steuern Sie Gerätezugriff, Dateispeicher und Sicherung selbst. Bei einem externen Dienst prüfen Sie zusätzlich, welche Daten dort verarbeitet werden, wer Zugriff erhalten kann und welche Vertragsbedingungen gelten. „Cloud“ ist keine ausreichende Beschreibung des Datenschutzes. Ebenso ist „lokal“ keine Garantie für Sicherheit, wenn ein Gerät ungeschützt bleibt oder keine nutzbare Sicherung existiert.",
+          "Artikel 28 DSGVO enthält Anforderungen, wenn ein Dienstleister personenbezogene Daten in Ihrem Auftrag verarbeitet. Artikel 32 behandelt ein angemessenes Sicherheitsniveau einschließlich Wiederherstellbarkeit. Prüfen Sie daher die konkrete Rolle des Anbieters, erforderliche Vereinbarungen und mögliche Übermittlungen. Die Verantwortung für Ihre eigenen Abläufe bleibt relevant. Eine Datenschutzbewertung sollte sich auf nachvollziehbare Eigenschaften und Verträge stützen, statt allein auf ein Werbeversprechen oder einen Speicherort."
+        ]
+      },
+      {
+        "id": "aufbewahrung",
+        "title": "6. Aufbewahrung, Löschung und Vorfälle organisieren",
+        "paragraphs": [
+          "Legen Sie für Dokumentarten regelmäßige Prüfpunkte fest. Nach einem Mieterwechsel werden manche Daten weiterhin für Abrechnung oder Anspruchsprüfung benötigt, andere verlieren ihren Zweck. Die benötigte Dauer kann durch gesetzliche Pflichten beeinflusst werden. Vermeiden Sie eine einzige pauschale Frist für sämtliche Dateien. Dokumentieren Sie den Zweck weiterer Aufbewahrung und prüfen Sie auch Kopien in E-Mail-Postfächern, Freigaben und Sicherungen.",
+          "Bereiten Sie einen kurzen Ablauf für den Verlust eines Geräts, einen falsch versandten Anhang oder beschädigte Daten vor. Halten Sie zuständige Kontakte, vorhandene Sicherungen und erste Prüfschritte griffbereit. Datenschutzvorfälle können zusätzliche Pflichten auslösen und sollten zeitnah fachlich eingeordnet werden. Ein vorbereitetes Vorgehen spart in dieser Situation Sucharbeit. Ergänzen Sie außerdem eine Anleitung für eine berechtigte Vertretung, damit die Verwaltung bei Krankheit oder längerer Abwesenheit nachvollziehbar fortgeführt werden kann."
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "question": "Reicht eine synchronisierte Ablage als Backup?",
+        "answer": "Eine Synchronisierung allein kann auch versehentliche Änderungen oder Löschungen auf weitere Geräte übertragen. Prüfen Sie, ob unabhängige frühere Stände wiederherstellbar sind und ob die Sicherung bei Verlust des Originalgeräts erreichbar bleibt."
+      },
+      {
+        "question": "Ist eine lokale Ablage automatisch datenschutzkonform?",
+        "answer": "Der Speicherort allein reicht für diese Bewertung nicht aus. Zugriff, Verarbeitung, Rechtsgrundlage, Aufbewahrung und Sicherung müssen zum konkreten Vorgang passen. Ein ungeschütztes lokales Gerät kann ebenso ein Problem sein wie ein ungeeigneter externer Dienst."
+      },
+      {
+        "question": "Wie lange soll ich Mietunterlagen aufbewahren?",
+        "answer": "Das hängt von Dokumentart, Zweck und einschlägigen Pflichten ab. Legen Sie überprüfbare Aufbewahrungs- und Löschregeln fest und lassen Sie unklare Fälle beurteilen. Eine einheitliche Standardfrist für alle Unterlagen ist nicht ausreichend."
+      }
+    ],
+    "sources": [
+      {
+        "title": "DSGVO – insbesondere Artikel 5, 6, 13, 28 und 32",
+        "url": "https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX%3A32016R0679"
+      },
+      {
+        "title": "BSI – Daten verschlüsseln, löschen und sichern",
+        "url": "https://www.bsi.bund.de/DE/Themen/Verbraucherinnen-und-Verbraucher/Informationen-und-Empfehlungen/Cyber-Sicherheitsempfehlungen/Daten-sichern-verschluesseln-und-loeschen/daten-sichern-verschluesseln-und-loeschen.html"
+      },
+      {
+        "title": "BSI – Back-up: Doppelt gesichert hält besser",
+        "url": "https://www.bsi.bund.de/DE/Themen/Verbraucherinnen-und-Verbraucher/Informationen-und-Empfehlungen/Cyber-Sicherheitsempfehlungen/Daten-sichern-verschluesseln-und-loeschen/Datensicherung-und-Datenverlust/Back-up-Doppelt-gesichert-haelt-besser/back-up-doppelt-gesichert-haelt-besser.html"
+      }
+    ],
+    "related_features": [
+      "datensicherung",
+      "dokumentenverwaltung",
+      "datenimport"
+    ],
+    "reviewed_at": "2026-10-09"
+  }
+]

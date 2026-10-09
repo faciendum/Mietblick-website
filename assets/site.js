@@ -98,6 +98,6 @@
     const sectionObserver = new IntersectionObserver(entries => entries.forEach(entry => {
       if (entry.isIntersecting) navLinks.forEach(link => link.classList.toggle('active', link.hash === `#${entry.target.id}`));
     }), { rootMargin: '-15% 0px -60% 0px' });
-    navLinks.forEach(link => { const section = document.querySelector(link.hash); if (section) sectionObserver.observe(section); });
+    navLinks.forEach(link => { if (!link.hash || link.pathname !== window.location.pathname) return; const section = document.getElementById(link.hash.slice(1)); if (section) sectionObserver.observe(section); });
   }
 })();

@@ -7,8 +7,11 @@ import xml.etree.ElementTree as ET
 import json
 import re
 
-DIST = Path(__file__).resolve().parents[1]
+ROOT = Path(__file__).resolve().parents[1]
+DIST = ROOT / 'dist' if (ROOT / 'dist').is_dir() else ROOT
 errors = []
+titles, descriptions, canonicals = set(), set(), set()
+indexable = set()
 
 class Page(HTMLParser):
     def __init__(self, path):
@@ -29,6 +32,12 @@ class Page(HTMLParser):
 pages = {path.resolve(): Page(path) for path in DIST.glob('*.html')}
 for path, page in pages.items():
     source = path.read_text()
+    for attribute,seen,pattern in [('title',titles,r'<title>(.*?)</title>'),('description',descriptions,r'<meta name="description" content="([^"]+)">'),('canonical',canonicals,r'<link rel="canonical" href="([^"]+)">')]:
+        match = re.search(pattern, source, re.S)
+        if not match: errors.append(f'{path.name}: missing {attribute}')
+        elif match[1] in seen: errors.append(f'{path.name}: duplicate {attribute}')
+        else: seen.add(match[1])
+    if 'content="index,follow' in source: indexable.add(path.name)
     for block in re.findall(r'<script[^>]*type="application/ld\+json"[^>]*>(.*?)</script>', source, re.S):
         try: json.loads(block)
         except json.JSONDecodeError: errors.append(f'{path.name}: invalid JSON-LD')
@@ -40,7 +49,7 @@ for path, page in pages.items():
     for link in page.links:
         url = urlsplit(link)
         if url.scheme or url.netloc: continue
-        target = (path.parent / unquote(url.path)).resolve() if url.path else path
+        target = ((DIST / unquote(url.path).lstrip('/')) if url.path.startswith('/') else (path.parent / unquote(url.path))).resolve() if url.path else path
         if not target.exists(): errors.append(f'{path.name}: missing {link}')
         if url.fragment and target in pages and url.fragment not in pages[target].ids:
             errors.append(f'{path.name}: missing fragment {link}')
@@ -49,11 +58,26 @@ for svg in DIST.rglob('*.svg'):
     except ET.ParseError as exc: errors.append(f'{svg.name}: {exc}')
 try:
     sitemap = ET.parse(DIST / 'sitemap.xml')
+    sitemap_pages = set()
     for location in sitemap.findall('.//{http://www.sitemaps.org/schemas/sitemap/0.9}loc'):
         url = urlsplit(location.text)
         filename = url.path.lstrip('/') or 'index.html'
+        sitemap_pages.add(filename)
         if url.netloc != 'mietblick-app.de' or not (DIST / filename).exists(): errors.append(f'Invalid sitemap URL: {location.text}')
+    if sitemap_pages != indexable: errors.append('Sitemap and indexable pages differ')
 except ET.ParseError: errors.append('Invalid sitemap XML')
+if (ROOT / 'content/features.json').exists():
+    features=json.loads((ROOT / 'content/features.json').read_text())
+    requirements={f'R{i:02d}' for i in range(1,27)}-{'R23'}
+    if {f['roadmap_id'] for f in features} != requirements: errors.append('Feature coverage incomplete')
+    if len(features) != 25 or len({f['slug'] for f in features}) != 25: errors.append('Feature pages incomplete or duplicated')
+    guides=json.loads((ROOT / 'content/guides.json').read_text())
+    for guide in guides:
+        text=guide['intro']+' '+' '.join(' '.join(s['paragraphs'])+' '+' '.join(s.get('bullets',[])) for s in guide['sections'])
+        if len(re.sub(r'<[^>]*>','',text).split()) < 650: errors.append(f'{guide["slug"]}: guide too short')
+        if not guide['sources']: errors.append(f'{guide["slug"]}: missing original sources')
+        page_path=DIST/(guide['slug']+'.html')
+        if not page_path.exists(): errors.append(f'{guide["slug"]}: missing article')
 if not (DIST / 'assets/social-preview.png').exists(): errors.append('Missing social preview image')
 if errors:
     raise SystemExit('\n'.join(errors))
