@@ -1,21 +1,56 @@
 (() => {
   'use strict';
-  const disclosure = document.querySelector('.nav-disclosure');
-  const closeDisclosure = () => { if (disclosure) disclosure.open = false; };
-  document.addEventListener('click', event => {
-    if (disclosure?.open && !disclosure.contains(event.target)) closeDisclosure();
-  });
-  document.addEventListener('keydown', event => {
-    if (event.key === 'Escape' && disclosure?.open) {
-      closeDisclosure();
-      disclosure.querySelector('summary').focus();
-    }
-  });
-  disclosure?.addEventListener('focusout', () => {
-    requestAnimationFrame(() => {
-      if (!disclosure.contains(document.activeElement)) closeDisclosure();
+  const dropdown = document.querySelector('[data-nav-dropdown]');
+  if (dropdown) {
+    const trigger = dropdown.querySelector('.nav-dropdown-toggle');
+    const panel = dropdown.querySelector('.mega-menu');
+    const hover = window.matchMedia('(hover: hover) and (pointer: fine)');
+    let leaveTimer;
+    let pinned = false;
+    const setOpen = (open, focusFirst = false) => {
+      clearTimeout(leaveTimer);
+      panel.hidden = !open;
+      trigger.setAttribute('aria-expanded', String(open));
+      dropdown.classList.toggle('nav-open', open);
+      if (!open) pinned = false;
+      if (open && focusFirst) panel.querySelector('a')?.focus();
+    };
+    trigger.hidden = false;
+    trigger.addEventListener('click', () => {
+      const open = panel.hidden || !pinned;
+      setOpen(open);
+      pinned = open;
     });
-  });
+    dropdown.addEventListener('pointerenter', event => {
+      if (hover.matches && event.pointerType === 'mouse') setOpen(true);
+    });
+    dropdown.addEventListener('pointerleave', event => {
+      if (!hover.matches || event.pointerType !== 'mouse' || pinned) return;
+      leaveTimer = setTimeout(() => {
+        if (!dropdown.contains(document.activeElement)) setOpen(false);
+      }, 260);
+    });
+    dropdown.addEventListener('focusout', event => {
+      // Safari may report null while a mouse click is in progress. Never hide its target.
+      if (event.relatedTarget && !dropdown.contains(event.relatedTarget)) setOpen(false);
+    });
+    dropdown.addEventListener('keydown', event => {
+      if (event.key === 'ArrowDown' && (event.target === trigger || event.target.matches('.nav-dropdown-control > a'))) {
+        event.preventDefault(); setOpen(true, true); pinned = true;
+      }
+    });
+    document.addEventListener('click', event => {
+      if (!panel.hidden && !dropdown.contains(event.target)) setOpen(false);
+    });
+    document.addEventListener('keydown', event => {
+      if (event.key === 'Escape' && !panel.hidden) {
+        event.preventDefault(); setOpen(false); trigger.focus();
+      }
+    });
+    window.matchMedia('(max-width: 900px)').addEventListener('change', event => {
+      if (event.matches) setOpen(false);
+    });
+  }
   document.querySelectorAll('[data-directory]').forEach(directory => {
     const controls = directory.querySelector('.directory-controls');
     controls.hidden = false;
@@ -36,7 +71,7 @@
         group.hidden = !Array.from(group.querySelectorAll('[data-directory-card]')).some(card => !card.hidden);
       });
       directory.querySelector('.directory-empty').hidden = count !== 0;
-      result.textContent = `${count} ${count === 1 ? 'passender Funktionsbereich' : 'passende Funktionsbereiche'} · Mobil findest du weiter unten.`;
+      result.textContent = `${count} ${count === 1 ? 'passender Funktionsbereich' : 'passende Funktionsbereiche'} · Den iPhone & iPad Companion findest du weiter unten.`;
     };
     buttons.forEach(button => button.addEventListener('click', () => {
       selected = button.dataset.filter;

@@ -6,8 +6,9 @@ Statische Website für Mietblick unter https://mietblick-app.de. Alle HTML-Seite
 
 - 26 Funktionsbereiche: 25 eigenständige Fachseiten und Mobil als Companion-Bereich.
 - Acht ausführliche Vermieter-Ratgeber mit Inhaltsverzeichnis, Checklisten, FAQ und Originalquellen.
-- Mobilübersicht mit iPhone-/iPad-Reitern und zwei Companion-Detailseiten.
-- Responsive Startseite, Funktions-Megamenü, lokale Suche und Kategorienfilter.
+- iPhone & iPad Companion mit Geräte-Reitern und zwei Detailseiten.
+- Fokussierte Mac-Startseite mit einer Produktillustration und dem Ablauf Immobilien → Mietvertrag → Mietkonto.
+- Abgesetzter Header, direkter Funktionen-Link und separat bedienbares Menü; responsive Navigation, lokale Suche und Kategorienfilter.
 - 42 HTML-Seiten insgesamt; 39 indexierbare URLs in der Sitemap.
 - Lokale Inter-Schrift mit OFL-Lizenz und Illustrationen in Mietblick-Farben.
 
