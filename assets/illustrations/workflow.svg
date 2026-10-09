@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="430" viewBox="0 0 700 430" role="img" aria-labelledby="title desc">
+  <title id="title">Vom Wohnobjekt zur geordneten Ablage</title>
+  <desc id="desc">Ein Wohnhaus, ein Mietvertrag, eine bestätigte Zahlung und ein Dokumentenordner sind durch einen ruhigen geschwungenen Weg verbunden. Abstrakte Illustration ohne persönliche oder finanzielle Beispieldaten.</desc>
+  <defs>
+    <filter id="shadow" x="-40%" y="-40%" width="180%" height="190%"><feDropShadow dx="0" dy="12" stdDeviation="12" flood-color="#18324A" flood-opacity=".07"/></filter>
+    <linearGradient id="card" x1="0" y1="0" x2="1" y2="1"><stop stop-color="white"/><stop offset="1" stop-color="#F5F6F7"/></linearGradient>
+    <linearGradient id="fold" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#2E8B8B"/><stop offset="1" stop-color="#247777"/></linearGradient>
+  </defs>
+  <ellipse cx="348" cy="231" rx="293" ry="116" fill="#E9E0D3" opacity=".24"/>
+  <path d="M112 252c26 65 98 93 145 65s36-54 78-62 73 65 116 40 61-68 109-70" fill="none" stroke="#E5EAED" stroke-width="14" stroke-linecap="round"/>
+  <path d="M112 252c26 65 98 93 145 65s36-54 78-62 73 65 116 40 61-68 109-70" fill="none" stroke="#8FB3A5" stroke-width="2" stroke-dasharray="4 8" stroke-linecap="round"/>
+  <g transform="translate(52 123) rotate(-6 63 69)" filter="url(#shadow)">
+    <rect width="128" height="143" rx="23" fill="url(#card)" stroke="#E5EAED"/>
+    <circle cx="64" cy="63" r="44" fill="#8FB3A5" opacity=".15"/>
+    <path d="m35 52 31-21 29 21v42H35Z" fill="white" stroke="#18324A" stroke-width="2" stroke-linejoin="round"/>
+    <path d="m30 54 36-25 34 25" fill="none" stroke="#2E8B8B" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M49 83V63h14v20Zm23-19h11v12H72Z" fill="#8FB3A5" fill-opacity=".3" stroke="#2E8B8B" stroke-width="1.5"/>
+    <path d="M41 94h50" stroke="#18324A" stroke-width="2" stroke-linecap="round"/>
+    <path d="M81 94V83h9v11" fill="#E9E0D3"/>
+    <rect x="37" y="116" width="55" height="4" rx="2" fill="#18324A" opacity=".12"/>
+  </g>
+  <g transform="translate(223 74) rotate(4 72 91)" filter="url(#shadow)">
+    <rect width="145" height="183" rx="23" fill="white" stroke="#E5EAED"/>
+    <rect x="18" y="18" width="109" height="105" rx="13" fill="#F5F6F7"/>
+    <path d="M47 35h34l17 17v52H47Z" fill="white" stroke="#8FB3A5" stroke-width="1.5" stroke-linejoin="round"/>
+    <path d="M81 35v17h17" fill="#E9E0D3" fill-opacity=".5" stroke="#8FB3A5" stroke-width="1.5" stroke-linejoin="round"/>
+    <path d="M58 63h29M58 73h29M58 83h22" fill="none" stroke="#2E8B8B" stroke-width="2.2" stroke-linecap="round"/>
+    <path d="M56 94c3-2 3-7 5-6s-2 8 1 8 5-7 7-5-3 4 0 5 5-3 9-2" fill="none" stroke="#18324A" stroke-width="1.5" stroke-linecap="round"/>
+    <rect x="22" y="139" width="59" height="4" rx="2" fill="#18324A" opacity=".13"/>
+    <rect x="22" y="153" width="82" height="4" rx="2" fill="#18324A" opacity=".07"/>
+    <circle cx="115" cy="146" r="13" fill="#8FB3A5" fill-opacity=".18"/>
+    <path d="m110 146 3 3 6-7" fill="none" stroke="#247777" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <g transform="translate(402 131) rotate(-4 64 71)" filter="url(#shadow)">
+    <rect width="128" height="144" rx="23" fill="url(#card)" stroke="#E5EAED"/>
+    <circle cx="64" cy="59" r="36" fill="#2E8B8B" fill-opacity=".08"/>
+    <rect x="34" y="42" width="60" height="40" rx="8" fill="#2E8B8B"/>
+    <path d="M34 54h60" stroke="#18324A" stroke-opacity=".3" stroke-width="7"/>
+    <path d="M45 71h12" stroke="white" stroke-opacity=".8" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="93" cy="83" r="15" fill="white"/>
+    <circle cx="93" cy="83" r="12" fill="#8FB3A5"/>
+    <path d="m87 83 4 4 7-8" fill="none" stroke="white" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="30" y="113" width="68" height="4" rx="2" fill="#18324A" opacity=".12"/>
+    <rect x="44" y="124" width="40" height="3" rx="1.5" fill="#18324A" opacity=".07"/>
+  </g>
+  <g transform="translate(553 88) rotate(6 62 71)" filter="url(#shadow)">
+    <rect width="125" height="146" rx="23" fill="white" stroke="#E5EAED"/>
+    <circle cx="63" cy="64" r="43" fill="#E9E0D3" opacity=".38"/>
+    <path d="M29 52V42c0-4 3-6 6-6h22l8 9h29c4 0 6 3 6 6v41H29Z" fill="#8FB3A5"/>
+    <path d="M39 40h21l13 13v35H39Z" fill="white" stroke="#E5EAED" stroke-width="1.2" stroke-linejoin="round"/>
+    <path d="M60 40v13h13" fill="#F5F6F7" stroke="#E5EAED" stroke-width="1.2"/>
+    <path d="M48 62h15M48 71h15" stroke="#8FB3A5" stroke-width="2" stroke-linecap="round"/>
+    <path d="M24 58c0-4 3-6 6-6h64c4 0 7 3 6 7l-5 33H30Z" fill="url(#fold)"/>
+    <path d="M40 70h23" stroke="white" stroke-opacity=".75" stroke-width="3" stroke-linecap="round"/>
+    <rect x="34" y="119" width="58" height="4" rx="2" fill="#18324A" opacity=".12"/>
+  </g>
+  <g fill="white" stroke="#E5EAED">
+    <circle cx="188" cy="306" r="13"/>
+    <circle cx="352" cy="259" r="13"/>
+    <circle cx="513" cy="253" r="13"/>
+  </g>
+  <g fill="none" stroke="#2E8B8B" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M183 306h10m-4-4 4 4-4 4M347 259h10m-4-4 4 4-4 4M508 253h10m-4-4 4 4-4 4"/>
+  </g>
+  <path d="M106 93v10m-5-5h10M586 286v10m-5-5h10" fill="none" stroke="#2E8B8B" stroke-opacity=".4" stroke-width="1.5" stroke-linecap="round"/>
+  <circle cx="416" cy="90" r="3" fill="#8FB3A5"/>
+  <circle cx="323" cy="340" r="4" fill="#8FB3A5" opacity=".5"/>
+  <path d="M68 366c161 17 356 22 530-5" fill="none" stroke="#E5EAED" stroke-width="1.2"/>
+</svg>
