@@ -1,0 +1,181 @@
+{
+  "overview": {
+    "title": "Mietverwaltung auf iPhone & iPad: Companion-Apps | Mietblick",
+    "description": "Mietblick für iPhone und iPad ergänzt deine Mietverwaltung am Mac: Objektakten, Dokumente, Fotos, Zählerstände und Wohnungsübergaben direkt vor Ort.",
+    "heading": "Vor Ort sein.<br><span class=\"teal\">Alles dabei haben.</span>",
+    "introduction": "Am Mac organisierst du deine Vermietung. Auf iPhone und iPad nimmst du die passenden Informationen mit zum Objekt. Der Mietblick Companion verbindet deine Unterlagen mit den Aufgaben, Fotos und Ablesungen, die bei einem Termin entstehen.",
+    "tabs_heading": "Kompakt dabei.<br>Großzügig im Überblick.",
+    "tabs_introduction": "Das iPhone für den schnellen Handgriff. Das iPad für die gemeinsame Durchsicht. Zwei Geräte, die deine Arbeit am Mac sinnvoll ergänzen.",
+    "tabs": [
+      {
+        "id": "iphone",
+        "device": "iPhone",
+        "label": "iPhone Companion",
+        "eyebrow": "FÜR DEN KURZEN BLICK VOR ORT",
+        "heading": "Die richtige Information.<br>Direkt in deiner Hand.",
+        "text": "Rufe die Objektakte auf, fotografiere einen Schaden oder halte einen Zählerstand fest. Das iPhone begleitet dich durch das Haus und macht aus einer kurzen Notiz einen klar zugeordneten Vorgang.",
+        "checks": [
+          "Objekte, Einheiten und Kontakte unterwegs aufrufen",
+          "Fotos und Scans direkt der passenden Akte zuordnen",
+          "Aufgaben, Ablesungen und Übergaben am Objekt erfassen"
+        ],
+        "href": "iphone-companion.html",
+        "link_label": "Mehr zum iPhone Companion"
+      },
+      {
+        "id": "ipad",
+        "device": "iPad",
+        "label": "iPad Companion",
+        "eyebrow": "MEHR PLATZ FÜR DEN ZUSAMMENHANG",
+        "heading": "Deine Objektakte.<br>Mit Raum für Details.",
+        "text": "Lies einen Vertrag, gehe die Unterlagen gemeinsam durch und dokumentiere eine Wohnungsübergabe. Auf dem iPad bleiben die Übersicht und die Details deines Termins angenehm lesbar.",
+        "checks": [
+          "Objektübersicht und zugehörige Informationen zusammen ansehen",
+          "Verträge, Belege und Fotos auf einer größeren Fläche durchsehen",
+          "Übergabeprotokolle mit Zustand, Zählern und Unterschriften führen"
+        ],
+        "href": "ipad-companion.html",
+        "link_label": "Mehr zum iPad Companion"
+      }
+    ],
+    "benefits_heading": "Für deinen Termin.<br>Im richtigen Zusammenhang.",
+    "benefits_introduction": "Vom ersten Blick in die Objektakte bis zum dokumentierten Ergebnis: Mietblick begleitet die Arbeit vor Ort.",
+    "benefits": [
+      {
+        "icon": "i-property",
+        "title": "Objektakten zur Hand",
+        "text": "Adresse, Einheiten, Ausstattung und Kontakte geben deinem Termin eine klare Grundlage. Du startest beim passenden Objekt und findest von dort zu den Details."
+      },
+      {
+        "icon": "i-documents",
+        "title": "Unterlagen am richtigen Ort",
+        "text": "Verträge, Originalbelege, Fotos und Scans gehören zur jeweiligen Akte. So findest du die Unterlage dort, wo die Frage entsteht."
+      },
+      {
+        "icon": "i-tasks",
+        "title": "Offenes direkt festhalten",
+        "text": "Erfasse eine Aufgabe mit Objektbezug und Fälligkeit. Ein Foto oder eine Notiz erklärt, was zu erledigen ist, und hält die nächsten Schritte nachvollziehbar."
+      },
+      {
+        "icon": "i-leases",
+        "title": "Termine sauber dokumentieren",
+        "text": "Zählerstände, Zustandsbeschreibungen und Übergaben entstehen direkt am Objekt. Datum, Einheit und zugehörige Fotos geben der Dokumentation ihren Zusammenhang."
+      }
+    ],
+    "principles_heading": "Für Apple entwickelt.<br>Für deinen Alltag gedacht.",
+    "principles": [
+      {
+        "title": "Native Bedienung",
+        "text": "Eigene Apps für iPhone und iPad mit vertrauter Navigation, gut lesbaren Unterlagen und kurzen Wegen zu den wichtigsten Aktionen."
+      },
+      {
+        "title": "Ohne Mietblick-Konto",
+        "text": "Deine Vermietungsdaten bleiben in deiner lokalen Datenhaltung. Mietblick benötigt kein eigenes Benutzerkonto und erfasst keine Telemetrie in der App."
+      },
+      {
+        "title": "Der Mac bleibt dein Arbeitsplatz",
+        "text": "Bestand, Verträge, Mietkonten und Abrechnungen haben am Mac ihren festen Platz. Der Companion ergänzt diesen Arbeitsplatz um die Arbeit am Objekt."
+      }
+    ]
+  },
+  "iphone": {
+    "device": "iPhone",
+    "filename": "iphone-companion.html",
+    "title": "Mietverwaltung auf dem iPhone: Companion-App | Mietblick",
+    "description": "Mit Mietblick auf dem iPhone hast du Objektakten, Dokumente und Aufgaben dabei. Erfasse Fotos, Scans, Zählerstände und Wohnungsübergaben direkt am Objekt.",
+    "heading": "Deine Mietverwaltung.<br>Auf dem <span class=\"teal\">iPhone.</span>",
+    "intro": "Die Objektakte in der Hand. Die passende Unterlage zur Stelle. Der Mietblick Companion für iPhone macht kurze Wege am Objekt zu klar dokumentierten Arbeitsschritten.",
+    "sections": [
+      {
+        "id": "alltag",
+        "title": "Dein Begleiter vom Termin bis zur Nachbereitung",
+        "paragraphs": [
+          "Bei einer Besichtigung, einer Rückfrage im Haus oder einer Ablesung zählt die Information zum konkreten Objekt. Mit Mietblick auf dem iPhone beginnst du bei der Immobilie und wechselst von dort zu Einheiten, Mietverhältnissen, Kontakten und Unterlagen. So musst du Adresse, Notizen und Dateien nicht aus verschiedenen Nachrichten zusammensuchen.",
+          "Bereite den Termin mit den zugehörigen Unterlagen und offenen Aufgaben vor. Während des Gesprächs hältst du neue Punkte direkt mit dem passenden Bezug fest. Aus einer Rückfrage wird eine Aufgabe, aus einer Beobachtung eine dokumentierte Notiz. Die Arbeit vor Ort bleibt damit Teil deiner Mietverwaltung und verschwindet nicht im allgemeinen Notizbuch."
+        ]
+      },
+      {
+        "id": "objektakte",
+        "title": "Objektakten, Dokumente und Kontakte unterwegs",
+        "paragraphs": [
+          "Die Objektakte verbindet die Angaben zur Immobilie mit den Einheiten und ihren Unterlagen. Du siehst nach, welche Wohnung betroffen ist, prüfst die Ausstattung und öffnest die passende Datei. Ein Vertrag, ein Objektfoto oder ein Originalbeleg bleibt bei dem Datensatz, zu dem er gehört. Das macht auch kleine Rückfragen leichter: Der Zusammenhang ist direkt sichtbar.",
+          "Kontakte gehören zum selben Arbeitsablauf. Finde die zuständige Person über das Objekt oder Mietverhältnis und nutze die Telefonaktion, wenn eine kurze Abstimmung hilft. Vor dem Termin prüfst du die benötigten Dokumente; währenddessen greifst du gezielt darauf zu. Die <a href=\"dokumentenverwaltung.html\">Dokumentenverwaltung</a> hält die Originale geordnet und die <a href=\"kontakte.html\">Kontaktverwaltung</a> die Ansprechpartner auffindbar."
+        ]
+      },
+      {
+        "id": "fotos-scans",
+        "title": "Fotos und Scans mit einem klaren Bezug",
+        "paragraphs": [
+          "Ein Bild erklärt einen Zustand oft schneller als eine lange Beschreibung. Fotografiere die betreffende Stelle und ordne die Aufnahme direkt dem Objekt, der Einheit oder dem Schaden zu. Ergänze eine Notiz, damit auch später klar ist, was auf dem Bild zu sehen ist und welcher Schritt daraus folgt. Mehrere Aufnahmen dokumentieren einen Vorgang gemeinsam.",
+          "Papierunterlagen erfasst du mit dem Scanablauf des iPhones. Anschließend legst du die Datei in der passenden Akte ab. Ein Beleg gehört zur Kostenbuchung, ein Schreiben zum Mietverhältnis und eine technische Unterlage zum Objekt. Die Zuordnung macht aus einer Aufnahme eine wiederauffindbare Unterlage. Für Reparaturen ergänzt die <a href=\"reparaturen.html\">Schaden- und Reparaturverwaltung</a> Fotos um Notizen und weitere Arbeitsschritte."
+        ]
+      },
+      {
+        "id": "ablesungen-uebergaben",
+        "title": "Zählerstände und Wohnungsübergaben am Objekt erfassen",
+        "paragraphs": [
+          "Bei einer Ablesung gehören Zählernummer, Datum, Stand und Einheit zusammen. Erfasse den Wert beim richtigen Zähler und ergänze ein Foto zur Dokumentation. Die Zuordnung hilft dir, eine spätere Rückfrage zur Wohnung oder zum Ablesezeitpunkt zu beantworten. Wie du eine Ablesung vorbereitest, zeigt der <a href=\"ratgeber-zaehlerstaende.html\">Ratgeber zu Zählerständen</a>.",
+          "Bei einer Wohnungsübergabe gehst du die Räume, den Zustand, die Schlüssel und die Zähler gemeinsam durch. Fotos und Beschreibungen halten die Feststellungen fest; offene Punkte werden zu Aufgaben. Die Beteiligten können die Übergabe mit einer Unterschrift abschließen. Das Protokoll fasst die Angaben als PDF zusammen. Die <a href=\"wohnungsuebergabe.html\">Wohnungsübergabe in Mietblick</a> gibt diesem Termin eine feste Struktur."
+        ]
+      },
+      {
+        "id": "aufgaben",
+        "title": "Nächste Schritte festhalten, solange sie präsent sind",
+        "paragraphs": [
+          "Ein defektes Bauteil, eine fehlende Unterlage oder ein vereinbarter Rückruf: Halte den nächsten Schritt direkt nach der Beobachtung oder dem Gespräch fest. Eine Aufgabe mit Objektbezug, Beschreibung und Fälligkeit bleibt konkret. Fotos und Notizen geben dir bei der späteren Bearbeitung die nötigen Einzelheiten, ohne dass du den Termin aus dem Gedächtnis rekonstruieren musst.",
+          "Das iPhone ergänzt deinen Arbeitsplatz am Mac um diese kurzen Handgriffe. Du hast die Informationen am Objekt zur Hand und dokumentierst das Ergebnis dort, wo es entsteht. Die <a href=\"aufgaben-fristen.html\">Aufgaben- und Fristenübersicht</a> verbindet offene Punkte mit deiner weiteren Planung. Für mehr Fläche beim Lesen und gemeinsamen Durchsehen ergänzt der <a href=\"ipad-companion.html\">iPad Companion</a> denselben Arbeitsablauf."
+        ]
+      }
+    ]
+  },
+  "ipad": {
+    "device": "iPad",
+    "filename": "ipad-companion.html",
+    "title": "Mietverwaltung auf dem iPad: Companion-App | Mietblick",
+    "description": "Mietblick auf dem iPad bringt Objektakten, Verträge und Übergabeprotokolle zum Termin. Dokumente durchsehen, Fotos zuordnen und Zählerstände erfassen.",
+    "heading": "Deine Mietverwaltung.<br>Auf dem <span class=\"teal\">iPad.</span>",
+    "intro": "Deine Objektakte mit Raum für Details. Der Mietblick Companion für iPad verbindet die Arbeit am Objekt mit einer großzügigen Übersicht für Dokumente, Besprechungen und Wohnungsübergaben.",
+    "sections": [
+      {
+        "id": "alltag",
+        "title": "Mehr Überblick für deine Termine",
+        "paragraphs": [
+          "Das iPad begleitet dich zu Terminen, bei denen du Informationen ausführlicher lesen oder gemeinsam durchgehen möchtest. Du startest bei der Immobilie und öffnest die betreffende Einheit mit ihren Mietverhältnissen, Unterlagen und Aufgaben. Die größere Fläche lässt Raum für den Überblick und für die Einzelheiten, die das Gespräch gerade braucht.",
+          "Vor einem Termin stellst du die relevanten Unterlagen und offenen Punkte zusammen. Vor Ort prüfst du Angaben, hältst neue Feststellungen fest und ordnest sie direkt zu. Nach dem Termin bleibt klar, was besprochen wurde und welcher Schritt folgt. Der Companion ergänzt so deinen festen Arbeitsplatz am Mac um eine gut lesbare Objektakte für unterwegs."
+        ]
+      },
+      {
+        "id": "unterlagen",
+        "title": "Verträge und Originaldokumente gut lesbar durchsehen",
+        "paragraphs": [
+          "Ein Vertrag, ein mehrseitiges Schreiben oder eine technische Unterlage braucht Platz. Auf dem iPad liest du die zugeordneten Originaldokumente direkt aus der Akte. Die Datei bleibt mit der Immobilie, der Einheit oder dem Mietverhältnis verbunden. Auch bei einer gemeinsamen Durchsicht ist damit klar, welche Unterlage zu welchem Vorgang gehört.",
+          "Der Dokumentbezug erleichtert die Vorbereitung: Öffne vor dem Termin die benötigten Dateien und prüfe die Fragen, die du klären möchtest. Neue Scans und Fotos legst du anschließend an derselben Stelle ab. Die <a href=\"dokumentenverwaltung.html\">Dokumentenverwaltung</a> schafft dafür den Zusammenhang; die <a href=\"mietvertraege.html\">Vertragsverwaltung</a> verbindet die Unterlagen mit dem jeweiligen Mietverhältnis."
+        ]
+      },
+      {
+        "id": "wohnungsuebergabe",
+        "title": "Eine Wohnungsübergabe Schritt für Schritt führen",
+        "paragraphs": [
+          "Beim Einzug oder Auszug geht es um einen nachvollziehbaren Zustand der Wohnung. Mit dem iPad gehst du Räume, Ausstattung, Schlüssel und Zähler nacheinander durch. Beschreibungen und Fotos halten die Feststellungen fest. Die Angaben gehören zur richtigen Einheit und zur konkreten Übergabe, damit du das Ergebnis später wieder einordnen kannst.",
+          "Besprich die erfassten Punkte mit den Beteiligten und ergänze fehlende Angaben direkt beim Termin. Eine Unterschrift kann die Dokumentation abschließen; das PDF-Protokoll fasst das Ergebnis für deine Unterlagen zusammen. Offene Arbeiten übernimmst du in Aufgaben. Der <a href=\"ratgeber-wohnungsuebergabe.html\">Ratgeber zur Wohnungsübergabe</a> hilft dir bei der Vorbereitung, während die <a href=\"wohnungsuebergabe.html\">Übergabefunktion</a> dem Termin seine Struktur gibt."
+        ]
+      },
+      {
+        "id": "vor-ort",
+        "title": "Fotos, Scans und Ablesungen direkt zuordnen",
+        "paragraphs": [
+          "Fotografiere einen Zustand, scanne eine Papierunterlage oder erfasse einen Zählerstand beim passenden Objekt. Jede Aufnahme erhält den Bezug, der sie später verständlich macht: Einheit, Datum, Beschreibung und zugehöriger Vorgang. Bei einem Schaden kannst du mehrere Fotos zusammenhalten und notieren, was geprüft oder repariert werden muss.",
+          "Für Ablesungen führst du Zählernummer, Stand, Datum und Einheit gemeinsam. Ein Foto unterstützt die Dokumentation. Neue Belege gehören zur jeweiligen Kostenbuchung, andere Unterlagen zur Objekt- oder Vertragsakte. Die größere Ansicht des iPads erleichtert es, die erfassten Angaben vor dem Abschluss noch einmal durchzusehen. Die <a href=\"zaehlerstaende.html\">Zählerverwaltung</a> und die <a href=\"reparaturen.html\">Schadenverwaltung</a> führen die Ergebnisse in ihren jeweiligen Abläufen weiter."
+        ]
+      },
+      {
+        "id": "nachbereitung",
+        "title": "Vom Gespräch zu einem klaren nächsten Schritt",
+        "paragraphs": [
+          "Ein Termin endet selten mit der letzten besprochenen Frage. Vielleicht fehlt noch ein Dokument, eine Reparatur muss abgestimmt oder ein Zustand erneut geprüft werden. Erfasse den nächsten Schritt mit Beschreibung, Objektbezug und Fälligkeit. So wird aus einem allgemeinen Erinnerungszettel eine Aufgabe, deren Anlass und Ergebnis nachvollziehbar bleiben.",
+          "Das iPad verbindet die gemeinsame Durchsicht mit dieser Nachbereitung. Du arbeitest direkt an der Akte und hältst Entscheidungen fest, solange der Zusammenhang präsent ist. Am Mac bilden Bestand, Mietkonten und Abrechnungen den Schwerpunkt deiner Verwaltung. Für kurze Handgriffe beim Gang durch das Haus steht dir außerdem der <a href=\"iphone-companion.html\">iPhone Companion</a> zur Seite."
+        ]
+      }
+    ]
+  }
+}

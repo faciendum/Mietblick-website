@@ -6,17 +6,17 @@ Statische Website für Mietblick unter https://mietblick-app.de. Alle HTML-Seite
 
 - 26 Funktionsbereiche: 25 eigenständige Fachseiten und Mobil als Companion-Bereich.
 - Acht ausführliche Vermieter-Ratgeber mit Inhaltsverzeichnis, Checklisten, FAQ und Originalquellen.
-- iPhone & iPad Companion mit Geräte-Reitern und zwei Detailseiten.
-- Fokussierte Mac-Startseite mit einer Produktillustration und dem Ablauf Immobilien → Mietvertrag → Mietkonto.
-- Abgesetzter Header, direkter Funktionen-Link und separat bedienbares Menü; responsive Navigation, lokale Suche und Kategorienfilter.
+- iPhone & iPad Companion mit Geräte-Reitern, zwei Detailseiten und eigener redaktioneller Quelle.
+- Mac-Startseite mit der Häuserillustration, Arbeitsweise Immobilien → Mietvertrag → Mietkonto und konkreten Vermieter-Anwendungsfällen.
+- Fünf Navigationsziele: Funktionen, Arbeitsweise, Wobei hilft Mietblick?, iPhone & iPad und Ratgeber. Separat bedienbares Funktionsmenü, App-Store-CTA, lokale Suche und Kategorienfilter.
 - 42 HTML-Seiten insgesamt; 39 indexierbare URLs in der Sitemap.
 - Lokale Inter-Schrift mit OFL-Lizenz und Illustrationen in Mietblick-Farben.
 
-Die Funktionsseiten unterscheiden lokale Funktionen und Ausblick anhand des tatsächlichen Produktumfangs. Geplante OCR-, Abrechnungs-, Kautions- und Companion-Abläufe werden nicht als aktuell verfügbar beschrieben. App-Store-Download und geräteübergreifende Synchronisation werden nicht behauptet.
+Die Website beschreibt den vollständigen Produktumfang mit fertigen Funktions- und Companion-Texten. Die Inhalte sind nach Themen gegliedert und durch passende Verknüpfungen verbunden.
 
 ## Inhalte bearbeiten und Website neu erzeugen
 
-Die redaktionellen Quellen liegen in `content/features.json` und `content/guides.json`. Die Startseite, Symbole und Rechtstexte liegen unter `templates/`. Der Generator rendert statisches HTML sowie Titel, Beschreibungen, Canonicals, Social-Metadaten, JSON-LD und Sitemap gemeinsam:
+Die redaktionellen Quellen liegen in `content/features.json`, `content/guides.json` und `content/mobile.json`. Die Startseite, Symbole und Rechtstexte liegen unter `templates/`. Der Generator rendert statisches HTML sowie Titel, Beschreibungen, Canonicals, Social-Metadaten, JSON-LD und Sitemap gemeinsam:
 
 ```sh
 python3 scripts/build-site.py
@@ -34,3 +34,5 @@ python3 -m http.server 4173 --bind 127.0.0.1
 ```
 
 Danach http://127.0.0.1:4173 öffnen.
+
+Der zentrale Wert `APP_STORE_URL` in `scripts/build-site.py` steuert die Store-Buttons. Bis zum Mietblick-Listing führen sie zur allgemeinen Mac-App-Store-Seite.

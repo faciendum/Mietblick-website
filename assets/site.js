@@ -52,7 +52,7 @@
   document.addEventListener('keydown', event => {
     if (event.key === 'Escape' && menu && !menu.hidden) { closeMenu(); menuButton.focus(); }
   });
-  window.matchMedia('(min-width: 901px)').addEventListener('change', event => { if (event.matches) closeMenu(); });
+  window.matchMedia('(min-width: 1161px)').addEventListener('change', event => { if (event.matches) closeMenu(); });
 
   document.querySelectorAll('[data-tabs]').forEach(explorer => {
     const tabs = Array.from(explorer.querySelectorAll('[role="tab"]'));
@@ -93,11 +93,11 @@
     });
   }
 
-  const navLinks = Array.from(document.querySelectorAll('.desktop-nav a'));
+  const navLinks = Array.from(document.querySelectorAll('.desktop-nav .nav-link'));
   if ('IntersectionObserver' in window && navLinks.length) {
     const sectionObserver = new IntersectionObserver(entries => entries.forEach(entry => {
-      if (entry.isIntersecting) navLinks.forEach(link => link.classList.toggle('active', link.hash === `#${entry.target.id}`));
+      navLinks.filter(link => link.hash === `#${entry.target.id}`).forEach(link => link.classList.toggle('active', entry.isIntersecting));
     }), { rootMargin: '-15% 0px -60% 0px' });
-    navLinks.forEach(link => { if (!link.hash || link.pathname !== window.location.pathname) return; const section = document.getElementById(link.hash.slice(1)); if (section) sectionObserver.observe(section); });
+    navLinks.forEach(link => { if (!link.hash || link.pathname.replace(/\/index\.html$/, '/') !== window.location.pathname.replace(/\/index\.html$/, '/')) return; const section = document.getElementById(link.hash.slice(1)); if (section) sectionObserver.observe(section); });
   }
 })();

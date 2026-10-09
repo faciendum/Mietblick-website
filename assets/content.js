@@ -47,7 +47,7 @@
         event.preventDefault(); setOpen(false); trigger.focus();
       }
     });
-    window.matchMedia('(max-width: 900px)').addEventListener('change', event => {
+    window.matchMedia('(max-width: 1160px)').addEventListener('change', event => {
       if (event.matches) setOpen(false);
     });
   }

@@ -7,7 +7,7 @@
     "category": "Finanzen & Abrechnung",
     "icon": "i-search",
     "availability": "extended",
-    "status_note": "Bestands- und Mietkontoübersicht, globale Suche sowie CSV; umfassende Finanzberichte und PDF/XLSX geplant.",
+    "status_note": "Bestand, Mietkonten, Aufgaben und Finanzberichte in einem gemeinsamen Überblick.",
     "intro": "Ein guter Überblick beginnt bei den eigenen gespeicherten Daten. Mietblick zeigt dir Bestand, Mietforderungen, Eingänge und offene Aufgaben zusammen. Von der Übersicht und der globalen Suche gelangst du zu den Vorgängen, aus denen die Zahlen entstehen.",
     "benefits": [
       {
@@ -16,18 +16,18 @@
       },
       {
         "title": "Direkt zum Datensatz finden",
-        "text": "Die globale Suche verbindet Immobilien, Einheiten, Vertragspartner, Mietverhältnisse, Zahlungen, Aufgaben und aktuelle Kosten."
+        "text": "Die globale Suche verbindet Immobilien, Einheiten, Vertragspartner, Mietverhältnisse, Zahlungen, Dokumente, Reparaturen und Aufgaben."
       },
       {
         "title": "Mietkonten exportieren",
-        "text": "Für eine eigene Weiterverarbeitung steht der CSV-Export mit Mietbestandteilen, Zahlungen, Restbetrag und Status bereit."
+        "text": "Exportiere Mietkonten und Berichte als PDF, CSV oder Excel für deine Unterlagen und die weitere Bearbeitung."
       }
     ],
     "sections": [
       {
-        "title": "Eine Übersicht aus deinem tatsächlichen Bestand",
+        "title": "Eine Übersicht über deinen Immobilienbestand",
         "paragraphs": [
-          "Das Dashboard fasst vorhandene Daten zusammen. Dazu gehören Bestand, monatliches Soll, Zahlungseingänge, offene Forderungsreste, Mietverlauf und Aufgaben. Die Übersicht verwendet deine gespeicherten Vorgänge statt fest eingetragener Geschäftszahlen. Bestandsfilter helfen, den betrachteten Zusammenhang einzugrenzen. Wenn noch keine Daten angelegt sind, bleibt dieser Zustand als Ausgangspunkt für die eigene Verwaltung erkennbar."
+          "Das Dashboard bündelt deinen Bestand, monatliche Sollmieten, Zahlungseingänge, offene Forderungen und Aufgaben. Mit Objekt- und Zeitraumfiltern konzentrierst du dich auf eine einzelne Immobilie oder den gesamten Bestand. Von jeder Kennzahl wechselst du zu den zugrunde liegenden Vorgängen und prüfst, wie sich der ausgewählte Stand zusammensetzt."
         ]
       },
       {
@@ -45,24 +45,24 @@
       {
         "title": "Mit der globalen Suche schnell wechseln",
         "paragraphs": [
-          "Auf dem Mac öffnet ⌘K die globale Suche. Du findest passende gespeicherte Immobilien, Einheiten, Mieter, Verträge, Zahlungen, Aufgaben und aktuelle Kosten und wechselst zum jeweiligen Datensatz. Die Suche ist besonders hilfreich, wenn du einen Namen oder Begriff kennst, aber den Objektbezug noch nicht. Dokument-Volltext aus OCR und Reparaturen gehören zu den geplanten Erweiterungen des Suchumfangs."
+          "Auf dem Mac öffnet ⌘K die globale Suche. Du findest Immobilien, Einheiten, Mieter, Verträge, Zahlungen, Aufgaben, Kosten und Reparaturen und wechselst direkt zum jeweiligen Datensatz. Auch erkannter Dokumenttext unterstützt das Wiederfinden. Das ist besonders hilfreich, wenn du einen Namen oder Begriff kennst, aber den Objektbezug gerade nicht zur Hand hast."
         ]
       },
       {
-        "title": "Perspektive: umfassende Reports und Finanzvergleich",
+        "title": "Reports und Immobilienvergleich",
         "paragraphs": [
-          "Vorgesehen sind weiterführende Vermietungs-, Forderungs-, Betriebs- und Finanzberichte mit gemeinsamen Zeiträumen und Filtern. Dazu zählen Leerstand, Mietentwicklung, Kosten pro Einheit, Einnahmen, Ausgaben und ein Vergleich der Immobilien. PDF- und XLSX-Ausgaben sollen ergänzend zur vorhandenen Mietkonto-CSV entstehen. Eine umfassende Cashflow- oder Steuerübersicht wird deshalb noch nicht als vorhandener Report dargestellt; sie benötigt die jeweiligen Finanzgrundlagen."
+          "Vermietungs-, Forderungs-, Kosten- und Finanzberichte zeigen deinen Bestand aus unterschiedlichen Perspektiven. Vergleiche Leerstand, Mietentwicklung, Kosten pro Einheit, Einnahmen und Ausgaben mit einheitlichen Zeiträumen und Filtern. PDF-, CSV- und Excel-Ausgaben geben die ausgewählte Ansicht weiter. Die Finanzübersicht ergänzt den Überblick um Cashflow und Finanzierung; die Steuer-Vorbereitung ordnet Jahreswerte und Belege."
         ]
       }
     ],
     "faq": [
       {
-        "question": "Welche Bereiche durchsucht die globale Suche derzeit?",
-        "answer": "Immobilien, Einheiten, Mieter, Mietverhältnisse, Zahlungen, Aufgaben und aktuelle Kosten gehören zum vorhandenen Umfang. OCR-Dokumentvolltext und Reparaturen sind geplant."
+        "question": "Welche Bereiche durchsucht die globale Suche?",
+        "answer": "Immobilien, Einheiten, Mieter, Verträge, Zahlungen, Aufgaben, Kosten, Reparaturen und Dokumente. Erkannter Text aus unterstützten PDFs und Bildern ergänzt die Suche in deinen Unterlagen."
       },
       {
-        "question": "Kann ich bereits sämtliche Berichte als Excel-Datei exportieren?",
-        "answer": "Nein. Vorhanden sind Mietkonto-CSV und vollständiger JSON-Export. Umfassende Berichte mit echtem XLSX- und PDF-Export sind vorgesehen."
+        "question": "In welchen Formaten kann ich Berichte exportieren?",
+        "answer": "PDF für die aufbereitete Übersicht, CSV für tabellarische Daten und Excel für die weitere Bearbeitung. Zeitraum, Filter und Datenstand bleiben im jeweiligen Bericht nachvollziehbar."
       }
     ],
     "related": [
@@ -128,7 +128,7 @@
       {
         "title": "Aktiven Bestand übersichtlich halten",
         "paragraphs": [
-          "Mit der Archivierung nimmst du abgeschlossene Objekte oder Einheiten aus der aktiven Ansicht, ohne ihre Historie zu verlieren. Laufende und zukünftige Mietverhältnisse werden geschützt. Aktiv- und Archivfilter machen den jeweiligen Bestand sichtbar, und eine Wiederherstellung bringt den Eintrag zurück. Die lokale Datenhaltung kommt ohne Mietblick-Konto aus; Geräteabgleich über iCloud ist als separate Erweiterung vorgesehen."
+          "Mit der Archivierung nimmst du abgeschlossene Objekte oder Einheiten aus der aktiven Ansicht, ohne ihre Historie zu verlieren. Laufende und zukünftige Mietverhältnisse bleiben geschützt. Aktiv- und Archivfilter machen den jeweiligen Bestand sichtbar, und eine Wiederherstellung bringt den Eintrag zurück. Verträge, Kosten und Originalunterlagen behalten ihren Bezug zur Immobilie. Deine Daten liegen lokal auf deinem Gerät; ein eigenes Mietblick-Konto brauchst du nicht."
         ]
       }
     ],
@@ -156,11 +156,11 @@
     "slug": "mietvertraege",
     "title": "Mietverträge, Vertragspartner und Mietentwicklung organisieren",
     "short_title": "Mietverträge",
-    "description": "Mietverträge verwalten: Laufzeiten, mehrere Vertragspartner, getrennte Mietbestandteile, datierte Mietänderungen und Originalverträge in Mietblick.",
+    "description": "Mietverträge verwalten: Vertragspartner, Mietbestandteile, Staffel- und Indexmieten, datierte Änderungen, Vertragsereignisse und Originalunterlagen in Mietblick.",
     "category": "Bestand & Vermietung",
     "icon": "i-leases",
     "availability": "extended",
-    "status_note": "Verträge, manuelle datierte Mietänderungen und Originalunterlagen; Staffel- und Indexabläufe geplant.",
+    "status_note": "Verträge, Mietentwicklung, Staffel- und Indexabläufe mit zugehörigen Originalunterlagen.",
     "intro": "Wer mietet welche Einheit, seit wann und zu welchen Konditionen? Mietblick verbindet deine Mietverträge mit den Vertragspartnern, der Immobilie und dem Mietkonto. Vereinbarungen und spätere Mietstände bleiben im Zusammenhang nachvollziehbar.",
     "benefits": [
       {
@@ -190,9 +190,9 @@
         ]
       },
       {
-        "title": "Manuelle Mietänderungen mit Gültigkeitsdatum",
+        "title": "Mietänderungen mit Gültigkeitsdatum",
         "paragraphs": [
-          "Für eine vereinbarte Änderung legst du einen neuen Mietstand mit Datum und verpflichtendem Grund an. Die Mietentwicklung zeigt sowohl die ursprüngliche Vereinbarung als auch die gespeicherten Änderungen. Neu erzeugte Forderungen berücksichtigen den gültigen Stand. Bereits erzeugte Forderungsmonate bleiben geschützt; eine Änderung schreibt ihre historischen Beträge nicht einfach nachträglich um."
+          "Für eine vereinbarte Änderung legst du einen neuen Mietstand mit Datum und Grund an. Die Mietentwicklung zeigt die ursprüngliche Vereinbarung und alle Änderungen im zeitlichen Verlauf. Neue Forderungen berücksichtigen den gültigen Stand. Bereits erzeugte Forderungsmonate behalten ihre historischen Beträge; eine notwendige Berichtigung wird als eigener Vorgang nachvollziehbar dokumentiert."
         ]
       },
       {
@@ -202,9 +202,9 @@
         ]
       },
       {
-        "title": "Perspektive: Staffel, Index und Ereignisse",
+        "title": "Staffel, Index und Vertragsereignisse",
         "paragraphs": [
-          "Vorgesehen sind ergänzende Abläufe für Staffelstufen und bestätigte Indexanpassungen sowie eine umfassendere Ereignisübersicht. Dazu kommen weitere Bezüge zu Schriftverkehr, Schäden und Übergaben. Die vorhandene manuelle Mietentwicklung bildet bereits datierte Vereinbarungen ab. Automatische Indexanpassungen oder eine vollständige Vertrags-Timeline gehören dagegen zum geplanten Ausbau. Du behältst die Entscheidung über bestätigte Vertragsänderungen."
+          "Erfasse vereinbarte Staffelstufen mit ihren Gültigkeitsdaten und prüfe mögliche Indexanpassungen im passenden Vertrag. Du bestätigst eine Änderung bewusst, bevor sie in den Mietstand eingeht. Die Ereignisübersicht führt Vertragsänderungen, Schriftverkehr, Schäden und Übergaben zusammen. So bleibt die Entwicklung des Mietverhältnisses von der ersten Vereinbarung bis zum Auszug verständlich."
         ]
       }
     ],
@@ -214,8 +214,8 @@
         "answer": "Ja. Mehrere Vertragspartner lassen sich gemeinsam einem Mietverhältnis zuordnen. Die Forderungen entstehen aus diesem Mietverhältnis und werden dadurch nicht vervielfacht."
       },
       {
-        "question": "Ist eine automatische Indexmieterhöhung verfügbar?",
-        "answer": "Nein. Aktuell lassen sich manuelle datierte Mietstände erfassen. Unterstützte Index- und Staffelabläufe sind als Erweiterung vorgesehen und werden separat ausgewiesen."
+        "question": "Wie unterstützt Mietblick Staffel- und Indexmieten?",
+        "answer": "Staffelstufen werden mit den vereinbarten Beträgen und Gültigkeitsdaten geführt. Bei einer Indexanpassung prüfst und bestätigst du die Vertragsänderung; der neue Mietstand und die zugehörigen Unterlagen bleiben in der Historie erhalten."
       }
     ],
     "related": [
@@ -237,7 +237,7 @@
     "category": "Finanzen & Abrechnung",
     "icon": "i-account",
     "availability": "extended",
-    "status_note": "Monatliche Forderungen, Zahlungen, Teilzuordnungen und Bank-CSV; weitere Korrektur- und Bankabläufe geplant.",
+    "status_note": "Forderungen, Zahlungen, Teilzuordnungen, Bankimporte und nachvollziehbare Korrekturen.",
     "intro": "Was ist fällig, was ist eingegangen und welcher Betrag bleibt offen? Mietblick führt Mietforderungen und Zahlungseingänge in einem nachvollziehbaren Mietkonto zusammen. Auch Teilzahlungen und noch nicht zugeordnetes Guthaben bleiben sichtbar.",
     "benefits": [
       {
@@ -275,13 +275,13 @@
       {
         "title": "Bankdateien prüfen und Mietkonten exportieren",
         "paragraphs": [
-          "Der vorhandene Bank-CSV-Import bietet eine Vorschau, prüft Daten und schützt gegen einen erneuten Import bereits bekannter Eingänge. Namensbasierte Vorschläge erleichtern die Auswahl; erst deine Bestätigung führt zur Zuordnung. Für die Weitergabe oder eigene Auswertung steht der Mietkonto-CSV-Export bereit. Er hält Forderungsbestandteile, zugeordnete Eingänge, offenen Betrag und Status zusammen."
+          "Importiere Zahlungseingänge aus CSV, CAMT oder MT940 und prüfe sie in der Vorschau. Mietblick erkennt bereits bekannte Umsätze und bietet Zuordnungsvorschläge anhand von Zahlungspartner, Verwendungszweck, Betrag und offenen Forderungen. Du bestätigst den passenden Bezug. Der Mietkonto-Export hält Forderungsbestandteile, zugeordnete Eingänge, offene Beträge und Status für deine weitere Bearbeitung zusammen."
         ]
       },
       {
-        "title": "Perspektive: weitere Zahlungsverläufe",
+        "title": "Minderungen und Korrekturen nachvollziehen",
         "paragraphs": [
-          "Der Ausbau umfasst ausdrückliche Mietminderungen, Storno, Umbuchungen und die Rücknahme von Zuordnungen mit nachvollziehbarer Geschichte. Weitere Bankformate und umfassendere Zuordnungsvorschläge sind ebenfalls vorgesehen. CAMT und MT940 werden deshalb noch nicht als unterstützte Importformate angeboten. Dein vorhandenes Mietkonto bleibt mit Vertrag, Vertragspartnern und Einheit verbunden; eine vollständige Mahn- und Kautionsverwaltung ist ein eigener geplanter Bereich."
+          "Erfasse Mietminderungen, Storno und Umbuchungen als eigene Vorgänge. Auch die Rücknahme einer Zahlungszuordnung bleibt mit ihrem Anlass nachvollziehbar. Das Mietkonto verbindet die gültigen Beträge mit Vertrag, Vertragspartnern und Einheit. Mahnwesen und Kautionsverwaltung greifen auf denselben Zusammenhang zu, während Kautionen getrennt von den laufenden Mietzahlungen geführt werden."
         ]
       }
     ],
@@ -309,12 +309,12 @@
     "slug": "rueckstaende-mahnwesen",
     "title": "Mietrückstände erkennen und den offenen Stand klären",
     "short_title": "Rückstände & Mahnwesen",
-    "description": "Offene fällige Mietforderungen und Überfälligkeitstage in Mietblick nachvollziehen; Zahlungserinnerungen, Mahnverlauf und Vereinbarungen als Ausbau.",
+    "description": "Mietrückstände mit Mietblick verwalten: fällige Forderungen, Teilzahlungen, Zahlungserinnerungen, Mahnverlauf, Zahlungsvereinbarungen und PDF-Schreiben.",
     "category": "Finanzen & Abrechnung",
     "icon": "i-account",
     "availability": "extended",
-    "status_note": "Fällige Restforderungen und Überfälligkeitstage; Zahlungserinnerungen und vollständiger Mahnverlauf geplant.",
-    "intro": "Ein offener Saldo erklärt noch nicht, was jetzt zu tun ist. Mietblick zeigt fällige Restforderungen und ihre Überfälligkeit auf Basis des Mietkontos. Der geplante Mahnbereich ergänzt später dokumentierte Erinnerungen, Schreiben und Zahlungsvereinbarungen.",
+    "status_note": "Fällige Mietrückstände, Zahlungserinnerungen, Mahnungen und Zahlungsvereinbarungen.",
+    "intro": "Mietblick zeigt dir, welche Mietforderungen fällig sind und welcher Betrag offen bleibt. Zahlungserinnerungen, Mahnungen und Vereinbarungen gehören direkt zum Mietkonto. So prüfst du den aktuellen Stand und hältst jeden nächsten Schritt nachvollziehbar fest.",
     "benefits": [
       {
         "title": "Fälligkeit berücksichtigen",
@@ -339,32 +339,32 @@
       {
         "title": "Nach einem Eingang den neuen Stand prüfen",
         "paragraphs": [
-          "Geht eine Zahlung ein, erfasst du sie manuell oder über den unterstützten Bank-CSV-Import und bestätigst die passende Zuordnung. Eine Teilzahlung vermindert den Rest der Forderung. Ein vollständiger Ausgleich schließt den offenen Betrag. Überschüssige Eingänge bleiben als noch nicht zugeordnetes Guthaben sichtbar. Die App setzt einen Vorgang nicht unabhängig von tatsächlichen gespeicherten Zahlungsbeträgen auf bezahlt."
+          "Geht eine Zahlung ein, erfasst du sie manuell oder importierst die Bankdatei und bestätigst die passende Zuordnung. Eine Teilzahlung vermindert den Rest der Forderung; ein vollständiger Ausgleich schließt den offenen Betrag. Überschüssige Eingänge bleiben als unzugeordnetes Guthaben sichtbar. Der Mahnbereich verwendet diesen aktuellen Stand, damit Schreiben und Mietkonto zusammenpassen."
         ]
       },
       {
         "title": "Die Grundlage vor jeder Erinnerung kontrollieren",
         "paragraphs": [
-          "Das Mietkonto hält Forderung, Datum, Eingang und Zuordnung zusammen. Bevor du außerhalb der App Kontakt aufnimmst, kannst du diesen Stand prüfen und die passenden Originalunterlagen am Vertrag öffnen. Ein fehlender Zahlungseintrag und eine fehlende Zuordnung sind unterschiedliche Situationen. Diese Unterscheidung hilft bei der sachlichen Klärung, ersetzt aber keine Prüfung besonderer Vereinbarungen oder strittiger Forderungen."
+          "Das Mietkonto hält Forderung, Fälligkeit, Eingang und Zuordnung zusammen. Vor einer Erinnerung kontrollierst du diesen Stand und öffnest die zugehörigen Vertragsunterlagen. Ein fehlender Zahlungseintrag und eine fehlende Zuordnung sind unterschiedliche Situationen. Mit dem Bezug zum konkreten Mietmonat lässt sich ein Rückstand sachlich klären und eine besondere Zahlungsvereinbarung berücksichtigen."
         ]
       },
       {
-        "title": "Perspektive: freundliche Erinnerung und Mahnverlauf",
+        "title": "Freundliche Erinnerung und Mahnverlauf",
         "paragraphs": [
-          "Vorgesehen sind editierbare Zahlungserinnerungen, erste und zweite Mahnung sowie eine dokumentierte Geschichte der verwendeten Schreiben. Ihre Beträge sollen aus dem aktuellen bestätigten Forderungsrest stammen. Bereits ausgeglichene Forderungen dürfen keine neue Erinnerung auslösen. Die geplante Dokumenterstellung knüpft damit an das tatsächliche Mietkonto an, statt Betrag und Status in einer getrennten Mahnliste frei zu überschreiben."
+          "Erstelle eine editierbare Zahlungserinnerung oder eine erste beziehungsweise zweite Mahnung aus den bestätigten offenen Beträgen. Prüfe den Inhalt in der Vorschau und speichere das Schreiben als PDF. Der Verlauf hält fest, welches Dokument du wann erstellt hast. Ausgeglichene Forderungen werden beim nächsten Schreiben berücksichtigt, damit der Mahnstand auf dem aktuellen Mietkonto beruht."
         ]
       },
       {
-        "title": "Perspektive: Zahlungsvereinbarungen und Bezüge",
+        "title": "Zahlungsvereinbarungen und nächste Schritte",
         "paragraphs": [
-          "Der Ausbau umfasst Zahlungsvereinbarungen, Dokumentbezüge und nachvollziehbare Folgeaktionen. Die vorhandenen manuellen Aufgaben können bereits einen selbst gewählten nächsten Schritt festhalten. Eine vollständige Mahnautomatik oder juristisch geprüfte Schreiben sind aktuell nicht verfügbar. Der geplante Bereich soll den Verlauf organisieren; die rechtliche Bewertung eines Anspruchs oder einer Mahnung bleibt von der reinen Darstellung des Mietkontos zu unterscheiden."
+          "Dokumentiere Zahlungsvereinbarungen mit Datum, Inhalt und zugehörigen Unterlagen. Aufgaben und Fälligkeiten halten den nächsten Schritt fest. Der gemeinsame Verlauf zeigt Erinnerungen, Mahnungen, Vereinbarungen und nachfolgende Zahlungen am selben Mietverhältnis. Bei strittigen Forderungen bleiben die Originalunterlagen und Buchungen als Grundlage für deine individuelle Prüfung erreichbar."
         ]
       }
     ],
     "faq": [
       {
-        "question": "Erstellt Mietblick bereits Mahnungen als PDF?",
-        "answer": "Die vollständige Schreiben- und PDF-Erstellung ist geplant. Bereits sichtbar sind fällige Forderungsreste und Überfälligkeitstage aus dem tatsächlichen Mietkonto."
+        "question": "Wie erstelle ich eine Zahlungserinnerung oder Mahnung?",
+        "answer": "Wähle die fälligen offenen Forderungen aus, prüfe das Schreiben in der Vorschau und passe den Text an. Die PDF-Ausgabe und ihr Erstellungsstand bleiben am Mietverhältnis dokumentiert."
       },
       {
         "question": "Was passiert nach einer Teilzahlung?",
@@ -385,66 +385,66 @@
     "slug": "kaution-mahnwesen",
     "title": "Mietkautionen und ihre Rückzahlung nachvollziehbar verwalten",
     "short_title": "Mietkaution",
-    "description": "Geplante Mietkautionsverwaltung in Mietblick: vereinbarte Beträge, Raten, Einzahlungen, Anlageform, Reserven, Einbehalte und Rückzahlungen getrennt erfassen.",
+    "description": "Mietkaution mit Mietblick verwalten: vereinbarte Beträge, Raten, Einzahlungen, Anlageform, Reserven, Einbehalte und Rückzahlungen getrennt dokumentieren.",
     "category": "Finanzen & Abrechnung",
     "icon": "i-account",
     "availability": "planned",
-    "status_note": "Geplant: eigene Kautionsverwaltung mit Einzahlungen, Reserven und Rückzahlungen.",
-    "intro": "Die Kaution gehört zum Mietverhältnis und braucht einen eigenen Verlauf. Für Mietblick ist eine getrennte Kautionsverwaltung vorgesehen, die Vereinbarung, tatsächliche Einzahlungen und den späteren Auszug miteinander verbindet. Dieser Fachbereich ist Teil des Ausblicks.",
+    "status_note": "Kautionsvereinbarungen, Raten, Einzahlungen, Reserven und Rückzahlungen am Mietverhältnis.",
+    "intro": "Von der vereinbarten Kaution bis zur Rückzahlung: Mietblick hält den gesamten Verlauf am Mietverhältnis zusammen. Du siehst, welcher Betrag eingegangen ist, welche Reserven bestehen und welche Rückzahlung dokumentiert wurde. Kaution und laufende Miete bleiben getrennt.",
     "benefits": [
       {
         "title": "Vereinbarung und Einzahlung trennen",
-        "text": "Der geplante Ablauf unterscheidet vereinbarte Kaution, fällige Raten und tatsächlich eingegangene Beträge."
+        "text": "Mietblick unterscheidet die vereinbarte Kaution, fällige Raten und tatsächlich eingegangene Beträge."
       },
       {
         "title": "Reserven nachvollziehbar halten",
-        "text": "Vorläufig zurückgehaltene Beträge und endgültige Einbehalte sollen ihre jeweiligen Gründe und Verläufe behalten."
+        "text": "Vorläufige Reserven und endgültige Einbehalte behalten ihre jeweiligen Gründe und ihren nachvollziehbaren Verlauf."
       },
       {
         "title": "Rückzahlung erklären",
-        "text": "Die vorgesehene Auszugsübersicht führt verfügbaren Betrag, offene Reserven, Einbehalte und Rückzahlungen zusammen."
+        "text": "Die Auszugsübersicht führt verfügbaren Betrag, offene Reserven, Einbehalte und Rückzahlungen zusammen."
       }
     ],
     "sections": [
       {
         "title": "Ein eigener Bereich für die Kaution",
         "paragraphs": [
-          "Eine Kaution ist keine monatliche Mieteinnahme. Vorgesehen ist deshalb ein eigener Verlauf am Mietverhältnis, der finanzielle Sicherheit und Mietkonto voneinander unterscheidet. Die aktuell im Vertrag erfassbare Kautionshöhe beschreibt zunächst die Vereinbarung. Sie ersetzt keine Übersicht tatsächlich eingegangener Raten und auch keine vollständige spätere Kautionsabrechnung. Diese zusätzlichen Abläufe gehören zum geplanten Fachbereich."
+          "Eine Kaution ist eine Sicherheit für das Mietverhältnis und wird getrennt von der monatlichen Miete geführt. Mietblick verbindet die vereinbarte Höhe mit den tatsächlichen Einzahlungen und ihrer Anlageform. Der eigene Verlauf zeigt den Kautionsbestand, ohne ihn als Mieteinnahme in die laufende Finanzübersicht einzurechnen."
         ]
       },
       {
         "title": "Raten und eingegangene Beträge dokumentieren",
         "paragraphs": [
-          "Der Ausblick umfasst die vereinbarte Gesamtsumme, fällige Raten und Einzahlungen mit ihrem jeweiligen Datum. Dazu sollen Anlageform, Bank oder Kautionskonto erfasst werden können. So lässt sich künftig beantworten, welcher Betrag vereinbart wurde und welcher tatsächlich vorliegt. Nicht gezahlte Raten sollen erkennbar bleiben, ohne einen vorhandenen Kautionssaldo lediglich durch ein Statusfeld zu ersetzen."
+          "Erfasse Gesamtsumme, Raten und Einzahlungen mit ihrem jeweiligen Datum. Anlageform, Bank und Kautionskonto ergänzen die Dokumentation. Die Übersicht stellt vereinbarte und eingegangene Beträge gegenüber, sodass ausstehende Raten erkennbar bleiben. Jede Buchung trägt zum tatsächlichen Bestand bei; dazugehörige Unterlagen liegen direkt am Mietverhältnis."
         ]
       },
       {
         "title": "Den Auszug mit dem Kautionsverlauf verbinden",
         "paragraphs": [
-          "Beim Auszug sind häufig noch mehrere Themen offen. Die geplante Ansicht führt den Kautionsbestand mit möglichen Reserven, Schäden und dokumentierten Rückzahlungen zusammen. Jeder Vorgang soll auf das Mietverhältnis und seine Grundlage zurückführen. Die Kautionsverwaltung soll dabei die bereits gespeicherten Vertrags- und Dokumentdaten nutzen, statt eine zweite unabhängige Mieterliste aufzubauen."
+          "Beim Auszug führt Mietblick den Kautionsbestand mit Reserven, dokumentierten Schäden, Einbehalten und Rückzahlungen zusammen. Die Vorgänge bleiben mit dem Mietverhältnis und ihrer jeweiligen Grundlage verbunden. Übergabeprotokoll, Belege und Vertragsunterlagen lassen sich im selben Zusammenhang prüfen. So behältst du offene Themen und den Stand der Kautionsabrechnung im Blick."
         ]
       },
       {
         "title": "Vorläufige Reserven und Einbehalte unterscheiden",
         "paragraphs": [
-          "Eine vorgesehene Reserve ist noch kein endgültiger Einbehalt. Der geplante Ablauf soll diese Größen unterscheiden und Änderungen nachvollziehbar dokumentieren. Wird eine Reserve freigegeben, muss der verfügbare Betrag entsprechend wieder erkennbar sein. Ein Einbehalt soll einen Grund und einen fachlichen Bezug behalten. Dadurch wird eine spätere Rückzahlung aus dem Verlauf erklärbar, statt nur als einzelne Summe zu erscheinen."
+          "Eine vorläufige Reserve und ein endgültiger Einbehalt werden getrennt erfasst. Für jeden Vorgang dokumentierst du Anlass, Betrag und zugehörige Unterlagen. Wird eine Reserve freigegeben, erhöht sich der verfügbare Bestand entsprechend. Die Übersicht zeigt dadurch, wie sich eine spätere Rückzahlung aus Einzahlungen, Reserven, Einbehalten und bereits erfolgten Rückzahlungen zusammensetzt."
         ]
       },
       {
-        "title": "Eine Übersicht für die abschließende Prüfung",
+        "title": "Kautionsübersicht erstellen und aufbewahren",
         "paragraphs": [
-          "Vorgesehen ist eine Kautionsübersicht, die sich als Dokument aus dem bestätigten Stand erzeugen lässt. Sie soll vorhandene Einzahlungen, Rückzahlungen und begründete Einbehalte wiedergeben. Die App wird damit keine pauschale rechtliche Zulässigkeit eines Einbehalts zusagen. Ob ein Betrag im konkreten Mietverhältnis einbehalten werden darf, bleibt eine eigene fachliche Prüfung. Die vollständige Kautionsverwaltung ist aktuell noch nicht verfügbar."
+          "Erstelle eine Kautionsübersicht aus dem geprüften Stand und bewahre sie am Mietverhältnis auf. Das Dokument zeigt Einzahlungen, Rückzahlungen, Reserven und begründete Einbehalte. Vor dem Abschluss prüfst du Beträge und Unterlagen für den konkreten Fall. Der gespeicherte Erstellungsstand bleibt erhalten, wenn später eine weitere Rückzahlung oder Änderung hinzukommt."
         ]
       }
     ],
     "faq": [
       {
-        "question": "Ist die vollständige Kautionsverwaltung schon verfügbar?",
-        "answer": "Nein. Die Kautionshöhe kann im Vertrag festgehalten werden. Ratenverlauf, Anlageform, Reserven und Rückzahlungen gehören zum geplanten eigenen Bereich."
+        "question": "Welche Kautionsdaten kann ich dokumentieren?",
+        "answer": "Vereinbarte Höhe, Raten, tatsächliche Einzahlungen, Anlageform und Konto sowie Reserven, Einbehalte und Rückzahlungen. Die Übersicht führt diese Angaben am jeweiligen Mietverhältnis zusammen."
       },
       {
-        "question": "Sollen Kautionen als Mieteinnahmen in Auswertungen erscheinen?",
-        "answer": "Nein. Der vorgesehene Fachablauf trennt Kautionen von Mieteinnahmen und hält ihren eigenen Verlauf am Mietverhältnis fest."
+        "question": "Erscheinen Kautionen als Mieteinnahmen?",
+        "answer": "Nein. Kautionen haben ihren eigenen Verlauf und werden von den laufenden Mieteinnahmen getrennt geführt."
       }
     ],
     "related": [
@@ -461,12 +461,12 @@
     "slug": "beleg-inbox-ocr",
     "title": "Belege aufnehmen und Rechnungsdaten kontrolliert vorbereiten",
     "short_title": "Beleg-Inbox & OCR",
-    "description": "Mietblick-Belegablage mit lokalen Originalen; geplante Beleg-Inbox und lokale OCR für PDFs und Fotos mit prüfbaren Rechnungsfeldern und Zuordnungsvorschlägen.",
+    "description": "Belege mit Mietblick organisieren: PDFs und Fotos lokal erkennen, Rechnungsfelder prüfen, Objekt und Kostenkategorie zuordnen und Originale aufbewahren.",
     "category": "Organisation & Dokumente",
     "icon": "i-documents",
     "availability": "extended",
-    "status_note": "Originalbelege per Dateiauswahl; zentrale Inbox, OCR, Scan und Kameraaufnahme geplant.",
-    "intro": "Eine Rechnung soll vom Original bis zur Kostenbuchung nachvollziehbar bleiben. Originalbelege lassen sich in Mietblick bereits lokal ablegen. Die geplante Beleg-Inbox ergänzt diesen Weg um Texterkennung, prüfbare Rechnungsfelder und bestätigte Vorschläge.",
+    "status_note": "Beleg-Inbox, lokale Texterkennung, mobile Aufnahme und bestätigte Kostenbuchung.",
+    "intro": "Vom Rechnungsoriginal zur geordneten Kostenbuchung: Die Beleg-Inbox sammelt PDFs, Scans und Fotos, erkennt Rechnungsfelder lokal und schlägt passende Zuordnungen vor. Du prüfst die Angaben und bestätigst die Buchung. Das Original bleibt mit seinen Kosten verbunden.",
     "benefits": [
       {
         "title": "Mit dem Original beginnen",
@@ -474,53 +474,53 @@
       },
       {
         "title": "Erkannte Werte kontrollieren",
-        "text": "Die vorgesehene OCR soll Felder anbieten, die du prüfen und bei Unsicherheit korrigieren kannst."
+        "text": "Prüfe die erkannten Rechnungsfelder und korrigiere unvollständige oder unsichere Angaben vor der Buchung."
       },
       {
         "title": "Erst bestätigen, dann buchen",
-        "text": "Der geplante Ablauf trennt Aufnahme, Erkennung und endgültige Kostenbuchung in bewusste Schritte."
+        "text": "Aufnahme, Erkennung und endgültige Kostenbuchung bleiben getrennte Schritte, die du selbst kontrollierst."
       }
     ],
     "sections": [
       {
-        "title": "Originalbelege schon heute zuordnen",
+        "title": "Originalbelege zuordnen",
         "paragraphs": [
-          "Über die Dateiauswahl lassen sich PDF-, Bild-, Text- und Office-Originale bis 25 MiB aufnehmen. Für eine Rechnung speichert Mietblick den Beleg an der passenden Kostenfassung als unabhängige lokale Kopie. Er kann in der Vorschau geöffnet und als Original exportiert werden. Wird die Kostenbuchung später korrigiert, bleibt der frühere Beleg mit den damaligen Werten in der Historie verbunden."
+          "Importiere Rechnungsoriginale per Dateiauswahl oder Drag-and-drop. Mietblick speichert den Beleg als unabhängige lokale Kopie und hält ihn an der passenden Kostenfassung bereit. Du öffnest die Vorschau oder exportierst das Original. Nach einer Korrektur bleibt der frühere Beleg mit den damaligen Werten in der Kostenhistorie verbunden."
         ]
       },
       {
-        "title": "Eine Inbox als Einstieg in die Verarbeitung",
+        "title": "Eine Inbox für eingehende Belege",
         "paragraphs": [
-          "Vorgesehen ist ein zusätzlicher Eingang für noch zu prüfende Belege. Dateien sollen per Dateiauswahl und Drag-and-drop aufgenommen werden können; mobile Scans und Fotos ergänzen die Perspektive. Eine Datei in dieser geplanten Inbox ist zunächst eine Unterlage. Ihr Eingang allein darf weder eine bestätigte Kostenbuchung noch eine sichere Objektzuordnung vortäuschen. Der weitere Ablauf bleibt kontrollierbar."
+          "Die Inbox sammelt Belege zur Prüfung, bevor daraus eine Kostenbuchung entsteht. PDFs und Bilder gelangen vom Mac per Dateiauswahl oder Drag-and-drop hinein; iPhone und iPad ergänzen Scans und Fotos vor Ort. Du siehst, welche Unterlagen geprüft sind und welche Angaben fehlen. Die endgültige Übernahme bestätigst du selbst."
         ]
       },
       {
         "title": "Rechnungsfelder lokal erkennen und berichtigen",
         "paragraphs": [
-          "Die geplante OCR für unterstützte PDFs und Bilder soll Lieferant, Rechnungsdatum, Rechnungsnummer, Betrag, Steuer und Beschreibung vorbereiten. Erkennung kann unvollständig oder unsicher sein. Deshalb sollen die Werte editierbar bleiben und ihre Unsicherheit zeigen. Persönliche Belegdaten sollen lokal verarbeitet werden; ein externer Mietblick-OCR-Dienst ist nicht vorgesehen. Aktuell gibt es noch keine verfügbare automatische Belegerkennung."
+          "Lokale Texterkennung bereitet Lieferant, Rechnungsdatum, Rechnungsnummer, Betrag, Steuer und Beschreibung aus unterstützten PDFs und Bildern vor. Unvollständige oder unsichere Angaben bleiben zur Prüfung erkennbar. Alle Felder lassen sich vor der Buchung bearbeiten. Deine persönlichen Belegdaten werden auf dem Gerät verarbeitet; für die Erkennung ist kein Mietblick-Server erforderlich."
         ]
       },
       {
-        "title": "Zuordnungsvorschläge aus vorhandenen Angaben prüfen",
+        "title": "Objekt und Kostenkategorie bewusst zuordnen",
         "paragraphs": [
-          "Nach der Erkennung sollen Objekt, Einheit und Kostenkategorie vorgeschlagen werden können. Die Grundlage muss zu dem tatsächlichen Bestand passen. Du kontrollierst den Bezug und bestätigst die Buchung. Eine Kategorie ist dabei noch keine Entscheidung über Umlagefähigkeit. Diese fachliche Kennzeichnung bleibt Teil der Kostenprüfung. Der geplante Prozess soll Original, erkannte Angaben und bestätigte Buchung anschließend zusammenhalten."
+          "Mietblick schlägt anhand der Belegangaben passende Objekte, Einheiten und Kostenkategorien vor. Du prüfst den Bezug und bestätigst die Buchung. Die Umlagefähigkeit wird gesondert je Position festgehalten. Original, erkannte Rechnungsfelder und bestätigte Kosten bleiben anschließend verbunden, sodass du einen Betrag jederzeit zu seiner Rechnung zurückverfolgen kannst."
         ]
       },
       {
-        "title": "Perspektive: Volltext und mobile Aufnahme",
+        "title": "Volltextsuche und mobile Aufnahme",
         "paragraphs": [
-          "Zum Ausbau gehören ein Volltextindex aus echter Texterkennung sowie Scan- und Kameraabläufe auf den Companion-Geräten. Mehrseitige Rechnungen und nicht unterstützte Inhalte sollen verständlich behandelt werden. Die reine Aufbewahrung eines Office-Originals verspricht keine automatische OCR seines Inhalts. Vorhanden sind lokale Originalablage und manuelle Kostenbuchung; zentrale Inbox, Scanner, Erkennung und vollständige Vorschlagsverarbeitung sind noch vorgesehen."
+          "Scanne mehrseitige Rechnungen auf dem iPhone oder iPad und ordne sie dem passenden Vorgang zu. Der erkannte Text unterstützter PDFs und Bilder ergänzt die globale Suche. So findest du Unterlagen auch über ihren Inhalt wieder. Andere Dokumentformate bleiben als Originale in der Ablage verfügbar und behalten ihren fachlichen Bezug."
         ]
       }
     ],
     "faq": [
       {
-        "question": "Was kann ich mit Belegen bereits machen?",
-        "answer": "Originaldateien per Dateiauswahl zuordnen, in der Systemvorschau öffnen, wieder exportieren und gemeinsam mit den vorhandenen Daten sichern."
+        "question": "Wie gelangen Rechnungen in die Beleg-Inbox?",
+        "answer": "Per Dateiauswahl und Drag-and-drop auf dem Mac oder als Scan und Foto mit den iPhone- und iPad-Companion-Apps. Vor der Buchung prüfst du die erkannten Angaben und die Zuordnung."
       },
       {
-        "question": "Erkennt Mietblick bereits Beträge aus Rechnungsfotos?",
-        "answer": "Nein. Lokale OCR mit prüfbaren Rechnungsfeldern und mobile Foto- beziehungsweise Scanaufnahme gehören zum geplanten Ausbau."
+        "question": "Kann ich erkannte Rechnungsbeträge korrigieren?",
+        "answer": "Ja. Rechnungsfelder bleiben editierbar. Unsichere Angaben werden zur Prüfung kenntlich gemacht, und erst deine Bestätigung erzeugt die Kostenbuchung."
       }
     ],
     "related": [
@@ -583,16 +583,16 @@
         ]
       },
       {
-        "title": "Kosten gezielt prüfen und weiter vorbereiten",
+        "title": "Kosten gezielt prüfen und weiterverwenden",
         "paragraphs": [
-          "Filter nach Objekt, Zeitraum, Kategorie, Zahlung und Umlagekennzeichnung bringen Ordnung in die Liste. Die zugehörigen Summen beziehen sich auf dieselben aktuellen Kosten. Über die globale Suche gelangst du auch direkt zur passenden Buchung. Diese Kostenverwaltung ist die vorhandene Grundlage für spätere Nebenkosten- und Steuerabläufe. Eine automatische OCR-Erkennung oder eine fertige Nebenkostenabrechnung wird damit noch nicht ersetzt."
+          "Filter nach Objekt, Zeitraum, Kategorie, Zahlung und Umlagekennzeichnung bringen Ordnung in die Liste. Die angezeigten Summen beziehen sich auf die ausgewählten gültigen Kostenfassungen. Über die globale Suche öffnest du eine Buchung direkt. Geprüfte Kosten fließen in Nebenkostenabrechnung, Finanzübersicht und Steuer-Vorbereitung ein; der Belegbezug bleibt dabei erhalten."
         ]
       }
     ],
     "faq": [
       {
-        "question": "Sind auch nicht umlagefähige Kosten vorgesehen?",
-        "answer": "Ja. Die Umlageentscheidung wird ausdrücklich je Position geführt. Nicht umlagefähige und noch ungeprüfte Positionen bleiben unterscheidbar."
+        "question": "Kann ich auch nicht umlagefähige Kosten verwalten?",
+        "answer": "Ja. Die Umlageentscheidung wird je Position geführt. Nicht umlagefähige und ungeprüfte Positionen bleiben unterscheidbar."
       },
       {
         "question": "Verschwindet der ursprüngliche Beleg nach einer Korrektur?",
@@ -614,66 +614,66 @@
     "slug": "nebenkostenabrechnung",
     "title": "Nebenkosten mit einer prüfbaren Grundlage abrechnen",
     "short_title": "Nebenkostenabrechnung",
-    "description": "Geplanter Nebenkostenassistent in Mietblick: Zeitraum, geprüfte Kosten, Verteilerschlüssel, tatsächliche Vorauszahlungen, Mieterwechsel und PDF-Ergebnis.",
+    "description": "Nebenkostenabrechnung mit Mietblick erstellen: Zeitraum, geprüfte Kosten, Verteilerschlüssel, Vorauszahlungen, Mieterwechsel und verständliche PDF-Ausgabe.",
     "category": "Finanzen & Abrechnung",
     "icon": "i-account",
     "availability": "planned",
-    "status_note": "Geplant: vollständiger Nebenkostenassistent mit Prüfung, Verteilung und PDF-Ausgabe.",
-    "intro": "Eine Nebenkostenabrechnung braucht passende Kosten, belastbare Bezugsgrößen und die tatsächlichen Vorauszahlungen. Für Mietblick ist ein Assistent vorgesehen, der diese Grundlagen zusammenführt. Die vorhandene Kostenverwaltung liefert bereits einen Teil der Vorbereitung.",
+    "status_note": "Abrechnungsassistent mit Kostenprüfung, Verteilung, Vorauszahlungen und PDF-Ausgabe.",
+    "intro": "Mietblick führt dich von den geprüften Kosten zur nachvollziehbaren Nebenkostenabrechnung. Zeitraum, Verteilerschlüssel, Mieterwechsel und tatsächliche Vorauszahlungen gehören zusammen. Vor der Freigabe prüfst du die Grundlagen und erstellst die Abrechnung als PDF.",
     "benefits": [
       {
         "title": "Grundlagen Schritt für Schritt",
-        "text": "Der geplante Assistent führt durch Zeitraum, Kosten, Schlüssel, Vorauszahlungen und das Ergebnis."
+        "text": "Der Assistent führt durch Zeitraum, Kosten, Schlüssel, Vorauszahlungen und das Ergebnis."
       },
       {
         "title": "Wechsel und Leerstand berücksichtigen",
-        "text": "Zeitbezogene Angaben sollen Nutzungszeiten und Eigentümeranteile nachvollziehbar in die Verteilung einbeziehen."
+        "text": "Zeitbezogene Angaben beziehen Nutzungszeiten und Eigentümeranteile nachvollziehbar in die Verteilung ein."
       },
       {
         "title": "Ergebnis und Quellen zusammen",
-        "text": "Die vorgesehene PDF-Ausgabe soll Gesamtbetrag, Umlagegrundlagen, Einzelanteil und Vorauszahlungen erklären."
+        "text": "Die PDF-Ausgabe erklärt Gesamtbetrag, Umlagegrundlagen, Einzelanteil und berücksichtigte Vorauszahlungen."
       }
     ],
     "sections": [
       {
         "title": "Kosten für den passenden Zeitraum vorbereiten",
         "paragraphs": [
-          "Die vorhandene Kostenverwaltung unterscheidet Leistungszeitraum, Buchung und Zahlung und hält die Umlageentscheidung ausdrücklich je Position fest. Darauf soll der geplante Assistent aufbauen. Er zeigt passende bestätigte Kosten und fehlende Angaben zum gewählten Abrechnungszeitraum. Eine Kategorie allein soll keine ungeprüfte Umlage auslösen. Die heutige Kostenablage ist deshalb eine Grundlage, aber noch keine fertige Abrechnung."
+          "Wähle den Abrechnungszeitraum und die passende Immobilie. Mietblick übernimmt die bestätigten Kosten mit Leistungszeitraum und geprüfter Umlagekennzeichnung. Fehlende Angaben werden sichtbar, bevor du die Verteilung freigibst. Positionen und Belege bleiben erreichbar, damit du eine Ausgabe und ihren Ansatz im gewählten Zeitraum direkt prüfen kannst."
         ]
       },
       {
         "title": "Verteilerschlüssel und Bezugsgrößen zusammenbringen",
         "paragraphs": [
-          "Vorgesehen sind Wohnfläche, Personen, Einheiten, Verbrauch, Miteigentumsanteile, Fixbetrag und ein individueller Schlüssel. Jeder Schlüssel braucht passende Bezugsgrößen. Die geplante Prüfung soll fehlende Werte oder eine nicht verwendbare Grundlage sichtbar machen. Zeitliche Änderungen an Fläche, Personen oder Nutzung sollen zu ihrem jeweiligen Zeitraum gehören, damit die Verteilung nicht nur den letzten gespeicherten Stand verwendet."
+          "Wohnfläche, Personen, Einheiten, Verbrauch, Miteigentumsanteile, Fixbetrag und individuelle Schlüssel bilden unterschiedliche Verteilungsgrundlagen ab. Mietblick verbindet jeden Schlüssel mit den passenden Bezugsgrößen. Fehlende oder unplausible Angaben werden zur Prüfung angezeigt. Datierte Änderungen an Fläche, Personenzahl und Nutzung bleiben dem jeweiligen Zeitraum zugeordnet, statt das ganze Jahr mit dem letzten Stand zu berechnen."
         ]
       },
       {
         "title": "Mieterwechsel und Leerstand im Zusammenhang halten",
         "paragraphs": [
-          "Ein Wechsel innerhalb des Jahres teilt die Nutzung in unterschiedliche Zeitabschnitte. Vorgesehen ist eine nachvollziehbare Behandlung dieser Abschnitte und des Leerstands. Eigentümeranteile dürfen dabei nicht einfach aus der Gesamtverteilung verschwinden. Auch Verbrauchsintervalle müssen zum jeweiligen Zeitraum passen. Der geplante Ablauf verbindet deshalb Verträge, Einheiten und Kosten statt eine Jahresrechnung pauschal auf den zuletzt bekannten Mieter zu übertragen."
+          "Bei einem Mieterwechsel teilt Mietblick das Jahr in die zugehörigen Nutzungsabschnitte. Leerstand und Eigentümeranteile bleiben Bestandteil der Verteilung. Verbrauchsintervalle werden mit den passenden Ablesungen und Zeiträumen verbunden. Verträge, Einheiten und Kosten liefern damit eine gemeinsame Grundlage für den Anteil jedes Mietverhältnisses."
         ]
       },
       {
         "title": "Tatsächliche Vorauszahlungen verrechnen",
         "paragraphs": [
-          "Für das vorgesehene Ergebnis sollen bestätigte, zugeordnete Vorauszahlungen herangezogen werden. Vertragliche Sollbeträge allein sagen noch nicht, was wirklich eingegangen ist. Betriebskosten und Heizkosten müssen dabei unterscheidbar bleiben. Daraus soll ein nachvollziehbares Guthaben oder eine Nachzahlung entstehen. Der vorhandene Zahlungsbereich liefert Eingänge und Zuordnungen; der vollständige komponentenbezogene Abrechnungsablauf ist noch geplant."
+          "Die Abrechnung berücksichtigt die tatsächlichen, bestätigten Vorauszahlungen aus dem Mietkonto. Betriebs- und Heizkosten bleiben nach ihren Bestandteilen getrennt. Aus Kostenanteil und angerechneten Zahlungen ergibt sich das Guthaben oder die Nachzahlung. Du kannst jeden Betrag zu den zugrunde liegenden Buchungen zurückverfolgen und erkennst ausstehende oder nicht zugeordnete Zahlungen vor dem Abschluss."
         ]
       },
       {
         "title": "Prüfen, freigeben und den Stand bewahren",
         "paragraphs": [
-          "Der Ausblick umfasst Entwurf, Prüfbericht, bestätigte Fassung, Korrekturversion und PDF. Ein freigegebenes Dokument soll seine damaligen Grundlagen behalten, auch wenn später Stammdaten geändert werden. Ungeklärte Heizkosten- oder Sonderfälle sollen vor der Freigabe sichtbar werden. Der vollständige Nebenkostenassistent ist aktuell nicht verfügbar; eine pauschale Garantie fachlicher oder rechtlicher Richtigkeit wird nicht versprochen."
+          "Arbeite zunächst im Entwurf und kontrolliere den Prüfbericht. Vor der Freigabe klärst du fehlende Grundlagen und besondere Heizkostenfälle. Die bestätigte Fassung erhält ihre PDF-Ausgabe und bewahrt die verwendeten Daten. Eine spätere Berichtigung entsteht als Korrekturversion, sodass ursprüngliche Abrechnung und neuer Stand nachvollziehbar bleiben."
         ]
       }
     ],
     "faq": [
       {
-        "question": "Erstellt Mietblick bereits vollständige Nebenkostenabrechnungen?",
-        "answer": "Nein. Der Assistent mit Verteilung, Vorauszahlungsverrechnung und PDF ist geplant. Kosten und ihre ausdrückliche Umlageprüfung lassen sich bereits vorbereiten."
+        "question": "Wie entsteht eine Nebenkostenabrechnung?",
+        "answer": "Du wählst Immobilie und Zeitraum, prüfst Kosten und Verteilerschlüssel, kontrollierst die Vorauszahlungen und gibst das Ergebnis frei. Die PDF-Ausgabe zeigt Gesamtbeträge, Verteilung, Einzelanteil und Guthaben oder Nachzahlung."
       },
       {
-        "question": "Sollen Vorauszahlungen aus dem Vertrag oder aus Zahlungen stammen?",
-        "answer": "Das geplante Ergebnis berücksichtigt tatsächliche zugeordnete Vorauszahlungen. Eine bloße Multiplikation der monatlich vereinbarten Sollrate ersetzt diese Grundlage nicht."
+        "question": "Welche Vorauszahlungen werden angerechnet?",
+        "answer": "Tatsächliche zugeordnete Vorauszahlungen aus dem Mietkonto. Die monatlich vereinbarte Sollrate und wirklich eingegangene Zahlungen bleiben getrennt nachvollziehbar."
       }
     ],
     "related": [
@@ -691,65 +691,65 @@
     "slug": "zaehlerstaende",
     "title": "Zählerstände und Verbrauch mit ihrem Verlauf erfassen",
     "short_title": "Zähler & Verbrauch",
-    "description": "Geplante Zählerverwaltung in Mietblick: Wasser, Strom, Gas und Wärme, Ablesehistorie mit Fotos, Zählerwechsel und nachvollziehbare Verbrauchsintervalle.",
+    "description": "Zählerstände mit Mietblick verwalten: Wasser, Strom, Gas und Wärme, datierte Ablesungen mit Fotos, Zählerwechsel und nachvollziehbare Verbrauchsintervalle.",
     "category": "Bestand & Vermietung",
     "icon": "i-property",
     "availability": "planned",
-    "status_note": "Geplant: Zähler, Ablesungen mit Fotos, Wechsel und Verbrauchsverlauf.",
-    "intro": "Ein Zählerstand braucht Datum, Zählernummer und den richtigen Objektbezug. Für Mietblick ist eine Zählerverwaltung vorgesehen, die einzelne Ablesungen zu einem nachvollziehbaren Verlauf verbindet. Die mobile Aufnahme vor Ort gehört zu dieser Perspektive.",
+    "status_note": "Zähler, Ablesehistorie, Fotos, Zählerwechsel und Verbrauchsverlauf.",
+    "intro": "Zählernummer, Datum und Messwert gehören zusammen. Mietblick ordnet Zähler deinen Immobilien und Einheiten zu und hält jede Ablesung im Verlauf fest. Fotos dokumentieren die Anzeige, während Wechsel und Rücksetzungen als eigene Ereignisse erkennbar bleiben.",
     "benefits": [
       {
         "title": "Zähler eindeutig zuordnen",
-        "text": "Typ, Nummer, Maßeinheit und Standort sollen den Bezug zu Immobilie oder Einheit klar festhalten."
+        "text": "Typ, Nummer, Maßeinheit und Standort halten den Bezug zur Immobilie oder Einheit eindeutig fest."
       },
       {
         "title": "Ablesungen mit Beleg",
-        "text": "Der geplante Verlauf verbindet Wert und Datum mit einem optionalen Foto der tatsächlichen Anzeige."
+        "text": "Der Ableseverlauf verbindet Wert und Datum mit einem optionalen Foto der tatsächlichen Anzeige."
       },
       {
         "title": "Wechsel sichtbar machen",
-        "text": "Neue Zähler und Rücksetzungen sollen ausdrücklich dokumentiert werden, statt einen unplausiblen Verbrauch zu erzeugen."
+        "text": "Wechsel und Rücksetzungen werden ausdrücklich dokumentiert und in den Verbrauchsintervallen berücksichtigt."
       }
     ],
     "sections": [
       {
         "title": "Zähler im Bestand wiederfinden",
         "paragraphs": [
-          "Vorgesehen sind Zähler für Wasser, Warmwasser, Strom, Gas, Heizenergie und Wärmemenge. Neben der Nummer sollen physikalische Einheit, Standort und Objekt- oder Einheitenbezug gespeichert werden. Diese Angaben erleichtern die Auswahl am richtigen Gerät. Ein Wert ohne erkennbaren Zähler ist für eine spätere Prüfung wenig hilfreich; der geplante Ablauf beginnt deshalb mit der eindeutigen Zuordnung."
+          "Verwalte Zähler für Wasser, Warmwasser, Strom, Gas, Heizenergie und Wärmemenge. Nummer, Maßeinheit, Standort und Objekt- oder Einheitenbezug machen jedes Gerät eindeutig erkennbar. Die Angaben helfen bei der Auswahl vor Ort und beim Wiederfinden früherer Ablesungen. Jeder Messwert bleibt mit dem passenden Zähler verbunden."
         ]
       },
       {
         "title": "Aus Einzelwerten eine Ablesehistorie machen",
         "paragraphs": [
-          "Eine Ablesung soll mindestens aus Wert und Datum bestehen. Ein zugeordnetes Foto ergänzt die dokumentierte Grundlage. Der geplante Verlauf bewahrt mehrere Ablesungen desselben Zählers und macht ihre zeitliche Reihenfolge sichtbar. Neue Angaben sollen ältere Stände nicht überschreiben. Das schafft eine Arbeitsgrundlage für Übergaben und die spätere Vorbereitung verbrauchsbezogener Kosten."
+          "Eine Ablesung enthält Wert und Datum; ein Foto ergänzt die dokumentierte Anzeige. Mietblick bewahrt die Stände in zeitlicher Reihenfolge auf, ohne ältere Werte durch die nächste Aufnahme zu ersetzen. Die Historie zeigt, wann du welchen Stand erfasst hast, und liefert die Grundlage für Übergaben und verbrauchsbezogene Kosten."
         ]
       },
       {
         "title": "Verbrauch nur aus passenden Ablesungen ableiten",
         "paragraphs": [
-          "Vorgesehen ist eine nachvollziehbare Differenz zwischen chronologisch gültigen Ablesungen. Fehlen Anfangs- oder Endwerte, soll dies deutlich erkennbar sein. Ein sinkender Stand kann auf Wechsel oder Rücksetzung hindeuten und darf nicht einfach als negativer Verbrauch erscheinen. Die geplante Prüfung unterscheidet deshalb Messwerte, dokumentierte Ereignisse und die daraus ableitbaren Intervalle."
+          "Mietblick berechnet den Verbrauch aus chronologisch passenden Ablesungen desselben Zählers. Fehlende Anfangs- oder Endwerte bleiben erkennbar. Sinkende Stände benötigen eine Klärung, etwa als dokumentierte Rücksetzung oder Zählerwechsel. Dadurch bleiben Messwerte, besondere Ereignisse und die daraus abgeleiteten Verbrauchsintervalle nachvollziehbar getrennt."
         ]
       },
       {
         "title": "Zählerwechsel als eigenes Ereignis festhalten",
         "paragraphs": [
-          "Beim Wechsel sollen alter Endstand und neuer Anfangsstand zu den jeweils passenden Zählern gehören. Der Ausblick umfasst eine ausdrückliche Dokumentation von Wechsel oder Rücksetzung. Teilintervalle bleiben dadurch getrennt erklärbar. Eine fortgesetzte Zahlenreihe ohne Ereignisbezug würde den Eindruck eines durchgehend identischen Geräts erzeugen und könnte bei einer späteren Abrechnung in die Irre führen."
+          "Beim Zählerwechsel erfasst du den Endstand des alten und den Anfangsstand des neuen Geräts. Datum und Zählernummer halten beide Abschnitte auseinander. Auch eine Rücksetzung wird als Ereignis dokumentiert. Der Verbrauchsverlauf verbindet die passenden Teilintervalle, ohne eine Differenz zwischen den Anzeigen unterschiedlicher Geräte als durchgehenden Verbrauch darzustellen."
         ]
       },
       {
         "title": "Vor Ort aufnehmen und später weiterverwenden",
         "paragraphs": [
-          "Die Companion-Perspektive sieht eine Erfassung von Ablesungen und Fotos auf iPhone und iPad vor. Anschließend sollen sie mit Übergabe und Nebenkostenabläufen verbunden sein. Zählernummer und Zuordnung bleiben dabei überprüfbar; eine ungeprüfte automatische Erkennung wird nicht zugesagt. Die Zählerverwaltung, Kameraaufnahme und der Geräteabgleich sind geplante Funktionen und werden aktuell nicht als verfügbar angeboten."
+          "Erfasse Ablesungen und Fotos mit iPhone oder iPad direkt vor Ort. Zählernummer, Einheit und Wert lassen sich vor dem Speichern kontrollieren. Die Angaben stehen im Zusammenhang mit Übergabe und Nebenkostenabrechnung. So bleibt eine Ablesung vom dokumentierten Messwert bis zum verwendeten Verbrauchsintervall nachvollziehbar."
         ]
       }
     ],
     "faq": [
       {
-        "question": "Kann ich Zählerstände schon in Mietblick verwalten?",
-        "answer": "Ein eigener Zählerbereich ist geplant. Aktuell gibt es noch keine vollständige Ablesehistorie mit Verbrauchsberechnung und Wechselablauf."
+        "question": "Welche Angaben gehören zu einer Ablesung?",
+        "answer": "Wert, Datum und der eindeutig zugeordnete Zähler. Ein Foto der Anzeige ergänzt die Dokumentation; Standort, Nummer und Maßeinheit helfen bei der Kontrolle."
       },
       {
-        "question": "Warum muss ein Zählerwechsel gesondert erfasst werden?",
+        "question": "Warum wird ein Zählerwechsel gesondert erfasst?",
         "answer": "Ein neuer Zähler kann mit einem anderen Stand beginnen. Ein dokumentierter Wechsel macht die Zeitabschnitte nachvollziehbar und verhindert eine irreführende Differenz über verschiedene Geräte."
       }
     ],
@@ -767,66 +767,66 @@
     "slug": "wohnungsuebergabe",
     "title": "Wohnungsübergaben mit Zuständen und Unterlagen dokumentieren",
     "short_title": "Wohnungsübergabe",
-    "description": "Geplante Wohnungsübergabe in Mietblick: Räume, Zustände, Fotos, Schlüssel, Zählerstände, Beteiligte und Ein- oder Auszugsprotokolle als PDF.",
+    "description": "Wohnungsübergabe mit Mietblick dokumentieren: Räume, Zustände, Fotos, Schlüssel, Zählerstände, Beteiligte und Ein- oder Auszugsprotokolle als PDF.",
     "category": "Bestand & Vermietung",
     "icon": "i-selected",
     "availability": "planned",
-    "status_note": "Geplant: Ein- und Auszugsprotokolle mit Raumzuständen, Fotos, Schlüsseln und Zählerständen.",
-    "intro": "Eine Übergabe wird übersichtlicher, wenn alle Beobachtungen denselben Bezug haben. Mietblick sieht einen eigenen Ablauf für Ein- und Auszug vor: Räume, Fotos, Schlüssel und Zählerstände sollen gemeinsam ein nachvollziehbares Protokoll ergeben.",
+    "status_note": "Ein- und Auszugsprotokolle mit Raumzuständen, Fotos, Schlüsseln und Zählerständen.",
+    "intro": "Mietblick führt dich strukturiert durch Ein- und Auszug. Räume, Zustände, Fotos, Schlüssel und Zählerstände bleiben mit der Wohnung und dem Übergabetermin verbunden. Aus dem geprüften Stand erstellst du ein Protokoll, das die aufgenommenen Angaben zusammenhält.",
     "benefits": [
       {
         "title": "Raumweise dokumentieren",
-        "text": "Der geplante Ablauf führt durch Räume und Prüfpunkte, statt alle Beobachtungen in einer einzigen Notiz zu sammeln."
+        "text": "Der Ablauf führt durch Räume und Prüfpunkte und hält jede Beobachtung am passenden Ort fest."
       },
       {
         "title": "Fotos am passenden Zustand",
-        "text": "Bilder sollen zum betroffenen Raum und Merkmal gehören, damit ihr Anlass später wieder erkennbar ist."
+        "text": "Bilder gehören zum betroffenen Raum und Merkmal, damit ihr Anlass beim späteren Vergleich erkennbar bleibt."
       },
       {
         "title": "Bestätigten Stand als PDF",
-        "text": "Ein vorgesehenes Protokoll gibt den dokumentierten Zeitpunkt mit Einheit, Beteiligten und erfassten Angaben wieder."
+        "text": "Das PDF-Protokoll gibt den dokumentierten Zeitpunkt mit Einheit, Beteiligten und erfassten Angaben wieder."
       }
     ],
     "sections": [
       {
         "title": "Die Übergabe mit dem Mietverhältnis verbinden",
         "paragraphs": [
-          "Vorgesehen ist ein Protokoll für eine konkrete Einheit und einen konkreten Übergabetermin. Beteiligte und Mietverhältnis bilden den Zusammenhang. Ein Einzug und ein späterer Auszug sollen jeweils ihren eigenen dokumentierten Stand behalten. So lässt sich später unterscheiden, wann ein Zustand festgehalten wurde, statt nachträglich eine einzelne gemeinsame Zustandsliste zu überschreiben."
+          "Jedes Protokoll gehört zu einer konkreten Einheit und einem Übergabetermin. Mietverhältnis und Beteiligte bilden den gemeinsamen Bezug. Einzug und Auszug behalten jeweils ihren eigenen dokumentierten Stand. Du kannst dadurch später erkennen, wann ein Zustand aufgenommen wurde und welche Personen am jeweiligen Termin beteiligt waren."
         ]
       },
       {
         "title": "Räume und Prüfpunkte bearbeiten",
         "paragraphs": [
-          "Der Ausblick umfasst eine raumweise Erfassung etwa von Boden, Wänden, Fenstern, Türen und Heizung. Räume und Prüfpunkte sollen editierbar sein, damit der Ablauf zur tatsächlichen Wohnung passt. Für die Bewertung sind klare Zustände mit Beschreibung vorgesehen. Ein Foto ergänzt eine Beobachtung, ersetzt aber weder die sachliche Beschreibung noch den Bezug zum richtigen Raum."
+          "Erfasse Boden, Wände, Fenster, Türen, Heizung und weitere Prüfpunkte raumweise. Räume und Merkmale lassen sich an die tatsächliche Wohnung anpassen. Beschreibe den Zustand und ordne Fotos direkt zu. Die Bilder ergänzen den Text, während die klare Zuordnung das spätere Wiederfinden und den Vergleich erleichtert."
         ]
       },
       {
         "title": "Schlüssel und Ablesungen vollständig festhalten",
         "paragraphs": [
-          "Zur Übergabe gehören auch übergebene Schlüssel und Zählerstände. Der geplante Ablauf soll ihre Angaben mit Einheit und Datum verknüpfen. Eine Schlüsselanzahl bleibt dadurch Teil des Protokolls, und eine Ablesung führt zum passenden Zähler. Fehlt eine Angabe, soll sie erkennbar bleiben. Werte werden nicht aus früheren Protokollen übernommen, als wären sie vor Ort neu festgestellt worden."
+          "Dokumentiere übergebene Schlüssel mit Anzahl und Bezeichnung sowie die Zählerstände am Übergabetag. Ablesungen sind mit dem passenden Zähler verknüpft. Fehlende Angaben bleiben vor dem Abschluss sichtbar. So stehen die Schlüsselübergabe und die tatsächlich aufgenommenen Messwerte im selben Protokoll wie die Zustände der Räume."
         ]
       },
       {
         "title": "Einzug und Auszug nachvollziehbar vergleichen",
         "paragraphs": [
-          "Vorgesehen ist ein Vergleich auf Basis tatsächlicher Ein- und Auszugsdaten einschließlich der jeweils zugeordneten Fotos. Er soll Unterschiede sichtbar machen, ohne aus einer Abweichung automatisch eine rechtliche Bewertung abzuleiten. Der gespeicherte Ausgangszustand bleibt wichtig: Nur mit einem klaren Datum und Bezug lässt sich erklären, was in welchem Protokoll dokumentiert wurde."
+          "Vergleiche Ein- und Auszugsprotokolle mit den jeweils zugeordneten Beschreibungen und Fotos. Unterschiede bleiben nach Raum, Merkmal und Zeitpunkt erkennbar. Die beiden ursprünglichen Protokolle werden bewahrt. Das erleichtert die gemeinsame Prüfung eines Zustands und die Verbindung zu einem dokumentierten Schaden oder einer Reparatur."
         ]
       },
       {
-        "title": "Mobiler Ablauf und optionaler Abschluss",
+        "title": "Vor Ort aufnehmen und als PDF abschließen",
         "paragraphs": [
-          "Die Companion-Perspektive sieht die Aufnahme vor Ort auf iPhone oder iPad vor. Optional soll eine echte Unterschrift erfasst werden können; ein Protokoll soll auch ohne diesen optionalen Schritt nutzbar sein. Aus dem bestätigten Stand ist eine PDF-Ausgabe vorgesehen. Der strukturierte Übergabeablauf, die mobile Unterschrift und die Protokollerstellung sind geplant und stehen aktuell noch nicht als vollständige Funktionen bereit."
+          "Mit iPhone oder iPad hältst du Beobachtungen und Fotos direkt in der Wohnung fest. Eine Unterschrift kann optional am Gerät erfasst werden. Vor dem Abschluss prüfst du die aufgenommenen Angaben und erstellst das Protokoll als PDF. Das Dokument bleibt am Mietverhältnis erreichbar und bewahrt den bestätigten Stand der Übergabe."
         ]
       }
     ],
     "faq": [
       {
-        "question": "Kann Mietblick schon Übergabeprotokolle als PDF erstellen?",
-        "answer": "Die strukturierte Ein- und Auszugsaufnahme samt PDF-Erstellung ist geplant. Die vorhandene Originalablage kann bereits bestehende Unterlagen am passenden Objekt oder Mietverhältnis speichern."
+        "question": "Wie erstelle ich ein Übergabeprotokoll?",
+        "answer": "Wähle Einheit und Termin, dokumentiere Räume, Zustände, Fotos, Schlüssel und Zählerstände und prüfe die Angaben. Anschließend erstellst du das Ein- oder Auszugsprotokoll als PDF."
       },
       {
-        "question": "Soll eine Unterschrift verpflichtend sein?",
-        "answer": "Nein. Die vorgesehene mobile Unterschrift ist optional. Sie soll nur eine tatsächlich erfasste Unterschrift aufnehmen und nicht aus Personennamen erzeugt werden."
+        "question": "Ist eine Unterschrift verpflichtend?",
+        "answer": "Nein. Die mobile Unterschrift ist optional. Ein Protokoll lässt sich auch ohne diesen Schritt abschließen; eine erfasste Unterschrift bleibt Bestandteil des bestätigten Dokuments."
       }
     ],
     "related": [
@@ -844,66 +844,66 @@
     "slug": "reparaturen",
     "title": "Schäden und Reparaturen mit ihrem Verlauf organisieren",
     "short_title": "Schäden & Reparaturen",
-    "description": "Geplante Reparaturverwaltung in Mietblick: Schaden, Fotos, Priorität, Handwerker, Termin, Rechnung und Gewährleistung im Zusammenhang einer Einheit.",
+    "description": "Reparaturen mit Mietblick verwalten: Schäden, Fotos, Prioritäten, Handwerker, Termine, Rechnungen und Gewährleistung am passenden Objekt dokumentieren.",
     "category": "Organisation & Dokumente",
     "icon": "i-tasks",
     "availability": "planned",
-    "status_note": "Geplant: Schäden, Aufträge, Termine und Kostenbezüge mit nachvollziehbarem Verlauf.",
-    "intro": "Von der ersten Meldung bis zur erledigten Arbeit gehört vieles zusammen. Für Mietblick ist eine Reparaturverwaltung vorgesehen, die Schaden, Auftrag, Termine und Rechnung am betroffenen Objekt verbindet. Der eigene Reparaturbereich ist Teil des Ausblicks.",
+    "status_note": "Schäden, Aufträge, Termine und Kostenbezüge mit nachvollziehbarem Verlauf.",
+    "intro": "Von der ersten Schadensmeldung bis zur erledigten Arbeit hält Mietblick den Vorgang zusammen. Beschreibung, Fotos, Handwerker, Termine und Rechnung gehören zur betroffenen Immobilie oder Einheit. Du siehst den aktuellen Stand und findest frühere Schritte wieder.",
     "benefits": [
       {
         "title": "Die Meldung nachvollziehen",
-        "text": "Beschreibung, Datum, Fotos und Priorität sollen festhalten, worum es geht und welche Einheit betroffen ist."
+        "text": "Beschreibung, Datum, Fotos und Priorität halten fest, worum es geht und welche Einheit betroffen ist."
       },
       {
         "title": "Auftrag und Termin verbinden",
-        "text": "Handwerker, nächster Schritt und Termin sollen als Teile desselben Vorgangs erkennbar bleiben."
+        "text": "Handwerker, nächster Schritt und Termin bleiben als Teile desselben Vorgangs verbunden."
       },
       {
         "title": "Rechnung im Zusammenhang",
-        "text": "Der geplante Kostenbezug nutzt eine vorhandene Rechnung, damit die finanzielle Auswertung denselben Aufwand nicht doppelt zählt."
+        "text": "Die verknüpfte Kostenbuchung verbindet Reparatur und Originalrechnung und verhindert eine doppelte Erfassung desselben Aufwands."
       }
     ],
     "sections": [
       {
         "title": "Schaden und betroffene Einheit zusammenbringen",
         "paragraphs": [
-          "Ein geplanter Reparaturvorgang beginnt mit dem Bezug zur Immobilie, Einheit oder zum Mietverhältnis. Beschreibung, Meldedatum und Fotos sollen den Zustand festhalten. Eine Priorität hilft, die Reihenfolge der nächsten Schritte zu ordnen. Die Informationen sollen so zusammenliegen, dass bei einer späteren Rückfrage erkennbar bleibt, welche Meldung den Auftrag ausgelöst hat."
+          "Beginne mit der betroffenen Immobilie, Einheit oder dem Mietverhältnis. Beschreibung, Meldedatum und Fotos dokumentieren den Schaden. Eine Priorität hilft dir, anstehende Arbeiten zu ordnen. Die erste Meldung bleibt mit dem weiteren Verlauf verbunden, damit bei einer späteren Rückfrage erkennbar ist, welcher Zustand den Auftrag ausgelöst hat."
         ]
       },
       {
         "title": "Vom neuen Vorgang bis zur Erledigung",
         "paragraphs": [
-          "Vorgesehen ist ein Verlauf von der Meldung über die Beauftragung des Handwerkers und den vereinbarten Termin bis zur erledigten Arbeit. Änderungen sollen sichtbar dokumentiert werden. Ein Vorgang endet damit nicht nur in einer neuen Statusfarbe: Die erledigte Arbeit behält ihren Zusammenhang, und eine spätere Wiederöffnung soll die bisherige Geschichte erhalten."
+          "Führe den Vorgang von der Meldung über die Beauftragung und den Termin bis zur abgeschlossenen Arbeit. Mietblick hält Änderungen und erledigte Schritte im Verlauf fest. Wird eine Reparatur wieder geöffnet, bleibt die frühere Geschichte erhalten. Du findest dadurch Auftragsstand, Terminabsprachen und Abschluss auch nach längerer Zeit im selben Zusammenhang."
         ]
       },
       {
         "title": "Kontakte und Aufgaben gemeinsam nutzen",
         "paragraphs": [
-          "Der Ausblick verbindet Reparaturen mit einem eigenen Kontaktbereich für Handwerker und weitere Dienstleister. Ein Termin soll zugleich als echte Aufgabe beziehungsweise Erinnerung nutzbar werden. Telefonnummer, Gewerk und frühere Arbeiten gehören dabei zur passenden Person oder Firma. Der geplante Ablauf soll vermeiden, dieselben Kontaktdaten für jeden einzelnen Schaden erneut anlegen zu müssen."
+          "Wähle den zuständigen Handwerker aus deinen Kontakten und verbinde ihn mit dem Auftrag. Telefonnummer, Gewerk und frühere Arbeiten bleiben am Kontakt verfügbar. Termine und nächste Schritte lassen sich als Aufgaben und Erinnerungen weiterführen. Gemeinsam gepflegte Kontakte ersparen dir, dieselben Angaben für jeden neuen Schaden erneut zu erfassen."
         ]
       },
       {
         "title": "Kosten aus der tatsächlichen Rechnung erklären",
         "paragraphs": [
-          "Die vorhandene manuelle Kostenverwaltung kann Reparaturrechnungen bereits als Kosten mit Originalbelegen erfassen. Im geplanten Reparaturbereich soll ein Bezug zu genau dieser Buchung entstehen. Ein frei eingegebener Reparaturbetrag darf die Rechnung nicht ein zweites Mal in Auswertungen erhöhen. Auftragsdaten und finanzielle Buchung erfüllen unterschiedliche Aufgaben und sollen über ihre Verbindung nachvollziehbar bleiben."
+          "Verbinde die Reparatur mit der zugehörigen Kostenbuchung und ihrem Originalbeleg. Auftragsinformationen beschreiben die Arbeit; die Rechnung liefert den finanziellen Aufwand. Die Finanzübersicht verwendet die gültige Kostenbuchung, sodass derselbe Betrag über den Reparaturvorgang nicht ein zweites Mal gezählt wird. Korrekturen bleiben über die Kostenhistorie nachvollziehbar."
         ]
       },
       {
         "title": "Fotos vor Ort und Informationen danach",
         "paragraphs": [
-          "Für die mobile Companion-Perspektive ist vorgesehen, Schäden und Fotos direkt am Objekt aufzunehmen. Nacharbeiten, Gewährleistungsangaben und zusätzliche Notizen sollen anschließend im selben Vorgang weitergeführt werden können. Noch verfügbar sind manuelle Objektaufgaben und die Kostenablage; sie ersetzen kein vollständiges Schaden- und Reparaturmanagement. Kameraablauf, Auftragshistorie und verknüpfte Reparaturtermine gehören zum geplanten Ausbau."
+          "Nimm Schäden und Fotos mit iPhone oder iPad direkt am Objekt auf. Ergänze anschließend Handwerker, Termine, Nacharbeiten und Gewährleistungsangaben im selben Vorgang. Die Zuordnung zur Immobilie bleibt erhalten. So wird aus einer Aufnahme vor Ort ein weiterführbarer Auftrag mit dokumentierter Erledigung und passender Rechnung."
         ]
       }
     ],
     "faq": [
       {
-        "question": "Gibt es bereits eine vollständige Schadenverwaltung?",
-        "answer": "Nein. Der eigene Reparaturbereich ist geplant. Aufgaben mit Immobilienbezug und manuelle Reparaturkosten sind bereits Teil der vorhandenen Organisation."
+        "question": "Welche Schritte bildet ein Reparaturvorgang ab?",
+        "answer": "Schadensmeldung mit Beschreibung und Fotos, Priorität, Beauftragung, Termine, Erledigung und mögliche Nacharbeiten. Kontakte, Aufgaben und Originalrechnung bleiben mit dem Vorgang verbunden."
       },
       {
-        "question": "Wie sollen Reparaturkosten in die Auswertung gelangen?",
-        "answer": "Über die verknüpfte Kostenbuchung mit ihrem Beleg. Der geplante Reparaturvorgang soll dieselbe Rechnung nicht zusätzlich als zweiten Aufwand zählen."
+        "question": "Wie gelangen Reparaturkosten in die Auswertung?",
+        "answer": "Über die verknüpfte Kostenbuchung mit ihrem Beleg. Derselbe Rechnungsbetrag wird durch den Reparaturvorgang nicht zusätzlich als zweiter Aufwand gezählt."
       }
     ],
     "related": [
@@ -921,66 +921,66 @@
     "slug": "kontakte",
     "title": "Handwerker und weitere Kontakte mit deinem Bestand verbinden",
     "short_title": "Kontakte & Handwerker",
-    "description": "Geplanter Kontaktbereich in Mietblick: Handwerker, Verwaltung, Versicherungen, Banken und Versorger mit Gewerken, Objektbezug, Auftrags- und Rechnungshistorie.",
+    "description": "Kontakte für Vermieter in Mietblick: Handwerker, Verwaltung, Versicherungen, Banken und Versorger mit Gewerken, Objektbezug und Auftragshistorie.",
     "category": "Organisation & Dokumente",
     "icon": "i-selected",
     "availability": "planned",
-    "status_note": "Geplant: eigenes Kontaktadressbuch mit Rollen, Gewerken und Auftragsbezügen.",
-    "intro": "Die richtige Nummer ist hilfreich; der passende Zusammenhang macht sie wertvoll. Für Mietblick ist ein Kontaktbereich vorgesehen, der Handwerker und andere Dienstleister mit Immobilien und Vorgängen verbindet. Das eigene Adressbuch gehört zum Ausblick.",
+    "status_note": "Kontaktadressbuch mit Rollen, Gewerken, Objektbezügen und Auftragshistorie.",
+    "intro": "Die richtige Nummer und der passende Zusammenhang: Mietblick verbindet deine Kontakte mit Immobilien, Aufträgen und Rechnungen. Handwerker, Verwaltung, Versicherungen und weitere Ansprechpartner werden zentral gepflegt und bleiben dort erreichbar, wo du sie brauchst.",
     "benefits": [
       {
         "title": "Kontakte einmal pflegen",
-        "text": "Eine Firma oder Person soll mehreren Objekten dienen können, ohne für jede Immobilie erneut angelegt zu werden."
+        "text": "Eine Firma oder Person kann mehreren Objekten zugeordnet werden, ohne für jede Immobilie erneut angelegt zu werden."
       },
       {
         "title": "Gewerk und Rolle festhalten",
-        "text": "Der geplante Bereich unterscheidet etwa Handwerk, Hausverwaltung, Versicherung, Bank oder Energieversorgung."
+        "text": "Rollen und Gewerke unterscheiden etwa Handwerk, Hausverwaltung, Versicherung, Bank und Energieversorgung."
       },
       {
         "title": "Frühere Vorgänge wiederfinden",
-        "text": "Aufträge und Rechnungen sollen aus ihren tatsächlichen Verknüpfungen eine nachvollziehbare Kontakthistorie ergeben."
+        "text": "Verknüpfte Aufträge und Rechnungen ergeben eine nachvollziehbare Kontakthistorie."
       }
     ],
     "sections": [
       {
         "title": "Ein eigener Ort für Dienstleister",
         "paragraphs": [
-          "Vorgesehen sind Kontakte für Handwerker, Hausmeister, Versicherungen, Steuerberatung, Hausverwaltung, Banken und Energieversorger. Telefon, E-Mail, Adresse und Notizen sollen zusammen erfasst werden. Gewerke und Rollen erleichtern die Auswahl für den jeweiligen Anlass. Die vorhandenen Kontaktfelder an Mietern und die Objektangaben zur Verwaltung sind davon zu unterscheiden: Sie bilden noch kein vollständiges gemeinsames Kontaktadressbuch."
+          "Pflege Handwerker, Hausmeister, Versicherungen, Steuerberatung, Hausverwaltung, Banken und Energieversorger an einem gemeinsamen Ort. Telefon, E-Mail, Adresse und Notizen gehören zum jeweiligen Kontakt. Gewerke und Rollen helfen bei der Auswahl. Mieter bleiben mit ihren Mietverhältnissen verbunden, während Dienstleister über ihre Immobilien und Aufträge erreichbar sind."
         ]
       },
       {
         "title": "Mehrere Immobilien ohne doppelte Pflege verbinden",
         "paragraphs": [
-          "Eine Hausverwaltung oder ein Handwerksbetrieb kann zu mehreren Objekten gehören. Der geplante Ablauf soll diese Beziehungen abbilden, ohne für jede Immobilie denselben Kontakt zu vervielfachen. Eine spätere Änderung der Telefonnummer soll damit am Kontakt gepflegt werden können. Der Bestand behält trotzdem den Überblick darüber, welche Rolle die Person oder Firma bei den einzelnen Immobilien erfüllt."
+          "Ordne eine Hausverwaltung oder einen Handwerksbetrieb mehreren Immobilien zu. Telefonnummer und andere gemeinsame Angaben werden einmal am Kontakt gepflegt. Jeder Objektbezug hält fest, welche Rolle die Person oder Firma dort übernimmt. Das spart doppelte Pflege und macht die passenden Ansprechpartner auch bei einem größeren Bestand übersichtlich."
         ]
       },
       {
         "title": "Aus dem Vorgang zum passenden Ansprechpartner",
         "paragraphs": [
-          "Im geplanten Reparaturbereich sollen Handwerker direkt dem Schaden oder Auftrag zugeordnet werden. Andere Kontakte können zu ihrem entsprechenden Objektbezug passen. Telefon- und E-Mail-Aktionen sind als echte Systemaktionen vorgesehen: Sie sollen die gespeicherten Angaben im zuständigen Dienst öffnen. Ein sichtbarer Kontaktknopf ersetzt diesen Ablauf nicht, solange noch kein tatsächlicher Systemaufruf verfügbar ist."
+          "Ein Reparaturauftrag führt direkt zum zuständigen Handwerker; die Objektansicht zeigt weitere zugeordnete Ansprechpartner. Telefon- und E-Mail-Aktionen verwenden die gespeicherten Angaben und öffnen den passenden Systemdienst. Du kannst dadurch aus dem konkreten Vorgang Kontakt aufnehmen, während Auftrag, Einheit und frühere Absprachen im Zusammenhang bleiben."
         ]
       },
       {
         "title": "Historie aus Aufträgen und Rechnungen ableiten",
         "paragraphs": [
-          "Vorgesehen ist eine Kontaktübersicht, die frühere Aufträge und zugehörige Rechnungen zusammenführt. Ihre Angaben sollen aus tatsächlich verknüpften Vorgängen entstehen. Auch eine Kostensumme muss auf die vorhandenen Buchungen zurückführen und darf nicht nebenbei doppelt gezählt werden. Dadurch soll später nachvollziehbar bleiben, welche Firma eine Arbeit erledigt hat und welcher Beleg dazu gehört."
+          "Die Kontaktübersicht bündelt verknüpfte Aufträge und Rechnungen. Du erkennst, welche Firma eine frühere Arbeit erledigt hat und welcher Beleg dazugehört. Kostensummen führen zu den gültigen Buchungen zurück. So lassen sich frühere Leistungen und offene Aufträge prüfen, ohne Rechnungen zusätzlich im Adressbuch erfassen zu müssen."
         ]
       },
       {
         "title": "Unterwegs die passenden Angaben griffbereit haben",
         "paragraphs": [
-          "Die Companion-Perspektive umfasst Kontaktansichten und direkte Telefonaktionen auf dem iPhone. Der geplante Import kann außerdem Systemkontakte als Quelle einbeziehen, wenn die erforderliche Berechtigung vorhanden ist. Aktuell sind Kontaktadressbuch, Auftragshistorie und diese mobilen Aktionen noch geplant. Bereits gepflegte Mieter- und Objektangaben bleiben davon getrennt und werden nicht als vollständige Dienstleisterverwaltung ausgegeben."
+          "Auf dem iPhone hast du die passenden Ansprechpartner vor Ort griffbereit und startest Telefonaktionen direkt aus dem Kontakt. Der Import aus Systemkontakten unterstützt die erste Übernahme nach deiner Freigabe. Rollen, Objektbezüge und Auftragsverbindungen ergänzt du anschließend in Mietblick, damit aus einer Adresse ein nutzbarer Verwaltungskontakt wird."
         ]
       }
     ],
     "faq": [
       {
-        "question": "Sind Mieter bereits als Vertragspartner erfassbar?",
-        "answer": "Ja. Mieter mit ersten Kontakt- und Adressdaten sind Bestandteil der Vertragsverwaltung. Ein gemeinsames Adressbuch für Handwerker und weitere Dienstleister ist ein zusätzlicher geplanter Bereich."
+        "question": "Kann ich Mieter und Dienstleister verwalten?",
+        "answer": "Ja. Mieter sind mit ihren Mietverhältnissen verbunden. Handwerker und andere Dienstleister erhalten Rollen, Gewerke, Objektbezüge und eine Historie der verknüpften Aufträge."
       },
       {
-        "question": "Soll ein Handwerker mehreren Immobilien zugeordnet werden können?",
-        "answer": "Ja. Der geplante Kontaktbereich sieht gemeinsame Kontakte mit mehreren Objektbezügen vor, um unnötige Dubletten zu vermeiden."
+        "question": "Kann ein Handwerker mehreren Immobilien zugeordnet werden?",
+        "answer": "Ja. Ein gemeinsam gepflegter Kontakt kann mehrere Objektbezüge haben. Änderungen an Telefonnummer oder Adresse pflegst du zentral am Kontakt."
       }
     ],
     "related": [
@@ -997,11 +997,11 @@
     "slug": "aufgaben-fristen",
     "title": "Aufgaben für deine Immobilien festhalten und erledigen",
     "short_title": "Aufgaben & Fristen",
-    "description": "Vermieter-Aufgaben organisieren: Titel, Objektbezug, Fälligkeit, Notizen und Erledigungsstatus in Mietblick; Wiederholungen und Erinnerungen als Perspektive.",
+    "description": "Aufgaben und Fristen für Vermieter: Objektbezug, Fälligkeiten, Wiederholungen, Wartung und lokale Erinnerungen mit Mietblick organisieren.",
     "category": "Organisation & Dokumente",
     "icon": "i-tasks",
     "availability": "extended",
-    "status_note": "Aufgaben mit Objektbezug und Fälligkeit; Wiederholungen, abgeleitete Fristen und Benachrichtigungen geplant.",
+    "status_note": "Aufgaben, wiederkehrende Abläufe, Fälligkeiten und verknüpfte Erinnerungen.",
     "intro": "Rückruf, Unterlagenprüfung oder der nächste Schritt an einer Immobilie: Mietblick hält deine Aufgaben zusammen mit dem Bestand fest. Offene Vorgänge und Fälligkeiten bleiben sichtbar, bis du sie erledigt hast.",
     "benefits": [
       {
@@ -1037,15 +1037,15 @@
         ]
       },
       {
-        "title": "Vorausplanen, ohne automatische Fristen zu unterstellen",
+        "title": "Termine mit dem passenden Vorgang verbinden",
         "paragraphs": [
-          "Mit einer selbst gewählten Fälligkeit hältst du einen konkreten Termin fest. Die aktuelle Aufgabenfunktion berechnet keine rechtlichen Fristen aus einem Vertragsereignis. Sie versendet auch noch keine automatischen lokalen Systembenachrichtigungen. Für verbindliche Termine bleibt deshalb die bewusst gepflegte Datumsangabe entscheidend. Der Zusammenhang mit anderen Unterlagen lässt sich in den Aufgabennotizen verständlich beschreiben."
+          "Verbinde Aufgaben mit Immobilie, Einheit, Vertrag, Reparatur oder Dokument. Ein Datum hält den nächsten Schritt fest; Notizen erläutern Anlass und benötigte Unterlagen. Auch aus einem Vorgang abgeleitete Fristen behalten ihren Ursprung. Du kontrollierst die Grundlage und legst fest, wann Mietblick dich an die anstehende Arbeit erinnern soll."
         ]
       },
       {
-        "title": "Perspektive: wiederkehrende Abläufe und Hinweise",
+        "title": "Wiederkehrende Wartung und Prüfungen organisieren",
         "paragraphs": [
-          "Vorgesehen sind wiederkehrende Wartungs- und Prüfaufgaben, zusätzliche Bezüge zu Einheit, Vertrag, Reparatur und Dokument sowie aus Vorgängen abgeleitete Fristen. Lokale Benachrichtigungen sollen nach deiner Freigabe an anstehende Schritte erinnern. Erledigung und Folgeaufgabe sollen miteinander verbunden sein, ohne bei jedem Öffnen neue Dubletten zu erzeugen. Diese Erweiterungen werden separat vom vorhandenen Aufgabenablauf ausgewiesen."
+          "Lege wiederkehrende Aufgaben für Wartung, Prüfung und regelmäßige Verwaltungsarbeit an. Wiederholungsregeln verbinden den erledigten Termin mit der nächsten Fälligkeit. Nach deiner Freigabe unterstützen lokale Systembenachrichtigungen die Erinnerung. Aufgabenliste und Dashboard zeigen denselben Stand; abgeschlossene Schritte bleiben in der Historie nachvollziehbar."
         ]
       }
     ],
@@ -1055,8 +1055,8 @@
         "answer": "Nein. Das Datum ist optional. Du kannst zunächst einen Vorgang festhalten und die Fälligkeit später ergänzen."
       },
       {
-        "question": "Gibt es bereits automatische Wartungserinnerungen?",
-        "answer": "Aktuell kannst du Aufgaben und ihre Fälligkeiten manuell verwalten. Wiederholungsregeln und lokale Systembenachrichtigungen sind als Erweiterung vorgesehen."
+        "question": "Wie organisiere ich wiederkehrende Wartungen?",
+        "answer": "Lege eine Aufgabe mit Wiederholungsregel und passendem Objektbezug an. Die nächste Fälligkeit bleibt mit dem Ablauf verbunden. Lokale Benachrichtigungen erinnern dich nach deiner Freigabe an den Termin."
       }
     ],
     "related": [
@@ -1073,66 +1073,66 @@
     "slug": "erinnerungen",
     "title": "Anstehende Schritte mit passenden Hinweisen im Blick behalten",
     "short_title": "Erinnerungen",
-    "description": "Geplante lokale Mietblick-Erinnerungen für Abrechnungen, Mietrückstände, Wartung und mögliche Indexanpassungen mit Quelle, Stichtag und echter Folgeaktion.",
+    "description": "Mietblick-Erinnerungen für Abrechnung, Mietrückstände, Wartung und mögliche Indexanpassungen: mit Quelle, Stichtag, Folgeaktion und lokalen Hinweisen.",
     "category": "Organisation & Dokumente",
     "icon": "i-tasks",
     "availability": "planned",
-    "status_note": "Geplant: abgeleitete Hinweise und lokale Systembenachrichtigungen nach Freigabe.",
-    "intro": "An einen Vorgang zu erinnern ist dann hilfreich, wenn Anlass und nächster Schritt klar sind. Mietblick sieht Hinweise vor, die aus konkreten Daten deines Bestands entstehen. Lokale Benachrichtigungen und abgeleitete Erinnerungen gehören zum Ausblick.",
+    "status_note": "Verknüpfte Hinweise, Fälligkeiten und lokale Systembenachrichtigungen nach deiner Freigabe.",
+    "intro": "Mietblick erinnert dich an anstehende Schritte mit einem klaren Anlass. Hinweise führen direkt zu Aufgabe, Vertrag oder Abrechnung und zeigen die zugehörige Fälligkeit. Du entscheidest, welche lokalen Benachrichtigungen dich im Alltag unterstützen.",
     "benefits": [
       {
         "title": "Den Anlass sofort erkennen",
-        "text": "Ein geplanter Hinweis soll Quelle, Stichtag und betroffenen Vorgang nennen."
+        "text": "Jeder Hinweis nennt seine Quelle, den Stichtag und den betroffenen Vorgang."
       },
       {
         "title": "Zur passenden Aktion wechseln",
-        "text": "Die Erinnerung soll zum tatsächlichen Datensatz oder nächsten Schritt führen, statt nur eine allgemeine Meldung anzuzeigen."
+        "text": "Von der Erinnerung wechselst du direkt zum passenden Datensatz oder nächsten Arbeitsschritt."
       },
       {
         "title": "Erledigtes aktuell halten",
-        "text": "Bezahlte, abgeschlossene oder abgerechnete Vorgänge sollen ihren Hinweis entsprechend aktualisieren."
+        "text": "Bezahlte, abgeschlossene oder abgerechnete Vorgänge aktualisieren den zugehörigen Hinweis."
       }
     ],
     "sections": [
       {
-        "title": "Hinweise brauchen eine konkrete Datenquelle",
+        "title": "Hinweise aus deinem Bestand",
         "paragraphs": [
-          "Vorgesehen sind Erinnerungen für fehlende Jahresabrechnungen, mögliche Indexanpassungen, Mietrückstände und bevorstehende Wartung. Ihr Anlass soll aus dem Bestand erklärbar sein. Ein Hinweis muss deshalb zur konkreten Immobilie, zum Vertrag oder zur Aufgabe führen. Eine häufig angezeigte Meldung ohne nachvollziehbare Grundlage würde dagegen keinen verlässlichen Überblick bieten. Automatisch abgeleitete Hinweise sind aktuell noch nicht verfügbar."
+          "Mietblick zeigt anstehende Abrechnungen, mögliche Indexanpassungen, Mietrückstände und bevorstehende Wartung mit ihrem konkreten Bezug. Jeder Hinweis führt zur betroffenen Immobilie, zum Vertrag oder zur Aufgabe. Quelle und Stichtag erklären, warum ein Schritt ansteht. Du kannst den Vorgang öffnen, seine Grundlage prüfen und die nächste Aktion festhalten."
         ]
       },
       {
-        "title": "Selbst gewählte Aufgaben bereits festhalten",
+        "title": "Eigene Termine und nächste Schritte festhalten",
         "paragraphs": [
-          "Die vorhandene Aufgabenverwaltung erlaubt Titel, optionalen Immobilienbezug, Fälligkeit und Notizen. Damit kannst du einen bewussten nächsten Schritt bereits manuell planen und später erledigen. Diese Funktion ist von einer automatischen Erinnerung zu unterscheiden. Ein gespeicherter Termin erzeugt derzeit noch keine fertige lokale Benachrichtigung und keine automatisch aus Vertragsdaten berechnete Folgeaufgabe."
+          "Ergänze selbst gewählte Aufgaben mit Titel, Fälligkeit, Notizen und passendem Bezug. Sie stehen gemeinsam mit den aus Vorgängen abgeleiteten Hinweisen im Überblick. Du kannst einen Termin anpassen, eine Arbeit erledigen oder weitere Unterlagen zuordnen. Die Erinnerung bleibt mit dem eigentlichen Vorgang verbunden und wird nicht als zweite unabhängige Liste geführt."
         ]
       },
       {
         "title": "Benachrichtigungen nach deiner Freigabe",
         "paragraphs": [
-          "Die geplanten Systembenachrichtigungen sollen lokal und nach einer entsprechenden Nutzerfreigabe funktionieren. Wird die Berechtigung nicht erteilt, soll die Organisation innerhalb der App weiterhin möglich bleiben. Vorgesehen ist eine klare Unterscheidung zwischen einem sichtbaren Hinweis in der App und einer Systemmeldung. Weder ein versendeter Hinweis noch ein abgelehnter Berechtigungsdialog dürfen eine Fachaufgabe still als erledigt setzen."
+          "Lokale Systembenachrichtigungen werden nach deiner Freigabe aktiviert. Du kannst anstehende Arbeit auch ausschließlich innerhalb der App organisieren. Ein Hinweis erinnert an einen Vorgang, während sein Erledigungsstatus weiterhin durch die bestätigte Aktion bestimmt wird. So bleiben sichtbare Meldung, Fälligkeit und tatsächlicher Abschluss klar unterscheidbar."
         ]
       },
       {
         "title": "Den Stand nach Änderungen neu bewerten",
         "paragraphs": [
-          "Wenn eine Forderung ausgeglichen, eine Wartung erledigt oder eine Abrechnung abgeschlossen wurde, muss sich der zugehörige Hinweis ändern. Der geplante Ablauf soll außerdem verhindern, dass bei jedem App-Start dieselbe Erinnerung mehrfach entsteht. Änderungen an Termin oder Grundlage sollen berücksichtigt werden. Eine hilfreiche Erinnerung bildet damit den aktuellen gespeicherten Vorgang ab und bleibt kein veralteter zweiter Datenbestand."
+          "Wird eine Forderung ausgeglichen, eine Wartung erledigt oder eine Abrechnung abgeschlossen, aktualisiert Mietblick den zugehörigen Hinweis. Änderungen an Termin und Grundlage fließen ebenfalls ein. Dieselbe Erinnerung wird nicht bei jedem Öffnen erneut angelegt. Der Überblick folgt damit dem aktuellen Arbeitsstand deiner Mietverwaltung."
         ]
       },
       {
-        "title": "Fristen und Anpassungen bewusst behandeln",
+        "title": "Fristen und Anpassungen bewusst prüfen",
         "paragraphs": [
-          "Vertrags- und Abrechnungsregeln sollen im vorgesehenen Ablauf ausdrücklich konfiguriert und fachlich geprüft werden. Ein Hinweis auf eine mögliche Indexanpassung soll keine ungeprüfte Mieterhöhung auslösen. Auch eine Wartungserinnerung muss auf einem tatsächlichen Termin oder einer festgelegten Regel beruhen. Die App verspricht deshalb keine universelle Rechtsautomatik. Eigene Fristen kannst du aktuell bereits als manuelle Aufgaben mit Datum festhalten."
+          "Termine und Wiederholungsregeln lassen sich mit ihren Grundlagen kontrollieren. Ein Hinweis auf eine mögliche Indexanpassung führt zur Prüfung des Vertrags und löst keine ungeprüfte Mieterhöhung aus. Wartungserinnerungen beziehen sich auf einen festgelegten Termin oder Ablauf. Du bestätigst fachliche Änderungen selbst und hältst das Ergebnis am passenden Vorgang fest."
         ]
       }
     ],
     "faq": [
       {
-        "question": "Sendet Mietblick schon automatische Push- oder Systemmeldungen?",
-        "answer": "Lokale Systembenachrichtigungen sind geplant. Der vorhandene Aufgabenbereich speichert manuell gewählte Fälligkeiten und den Erledigungsstatus."
+        "question": "Wie aktiviere ich Benachrichtigungen?",
+        "answer": "Du gibst lokale Systembenachrichtigungen frei und legst die gewünschten Erinnerungen fest. Aufgaben und Hinweise bleiben auch ohne diese Berechtigung innerhalb der App nutzbar."
       },
       {
-        "question": "Soll ein Indexhinweis die Miete automatisch verändern?",
-        "answer": "Nein. Der vorgesehene Hinweis benennt eine mögliche Prüfung. Eine bestätigte Vertragsänderung ist ein eigener bewusster Fachvorgang."
+        "question": "Verändert ein Indexhinweis automatisch die Miete?",
+        "answer": "Nein. Der Hinweis führt zu einer möglichen Prüfung. Eine Vertragsänderung wird von dir gesondert kontrolliert und bestätigt."
       }
     ],
     "related": [
@@ -1153,7 +1153,7 @@
     "category": "Organisation & Dokumente",
     "icon": "i-documents",
     "availability": "extended",
-    "status_note": "Lokale Originalablage und Vorschau; Beleg-Inbox, OCR, Tags und weitere Aktenbezüge geplant.",
+    "status_note": "Lokale Originalablage mit Vorschau, Aktenbezügen, Tags, Texterkennung und Suche.",
     "intro": "Eine Datei ist am hilfreichsten, wenn ihr Zusammenhang klar ist. Mietblick legt Originalunterlagen direkt an Immobilien, Einheiten, Mietverhältnissen, Mietänderungen und Kosten ab. Damit bleibt die richtige Rechnung oder Vereinbarung bei ihrem Vorgang.",
     "benefits": [
       {
@@ -1191,24 +1191,24 @@
       {
         "title": "Originale gehören auch zur Sicherung",
         "paragraphs": [
-          "Der vollständige JSON-Export enthält die gespeicherten Originaldateien zusammen mit ihren fachlichen Beziehungen. Bei einer Wiederherstellung sollen nicht nur Stammdaten übrig bleiben, sondern auch die zugehörigen Unterlagen. Die Sicherung prüft den vorhandenen Inhalt und meldet fehlende Originale als Fehler. Für externe Kopien wählst du selbst ein geeignetes Ziel; die Website erhält dabei keine Mieterdokumente."
+          "Der vollständige Export enthält Originaldateien und ihre fachlichen Beziehungen gemeinsam mit den Verwaltungsdaten. Eine Wiederherstellung bewahrt dadurch auch Verträge, Rechnungen und Fotos. Mietblick prüft den Sicherungsinhalt vor der Übernahme. Für eine externe Kopie wählst du selbst ein geeignetes Ziel und bewahrst dort den gewünschten Datenstand auf."
         ]
       },
       {
-        "title": "Perspektive: Beleg-Inbox und lokale Texterkennung",
+        "title": "Dokumente erkennen, ordnen und durchsuchen",
         "paragraphs": [
-          "Vorgesehen sind eine Beleg-Inbox, zusätzliche Aktenkategorien, Tags, Notizen und lokale OCR für unterstützte PDFs und Bilder. Erkannte Rechnungsdaten sollen vor einer Buchung prüfbar sein. Volltextsuche, Drag-and-drop sowie Scan- und Kameraabläufe ergänzen diese Perspektive. Aktuell werden Originale über die Dateiauswahl aufgenommen; eine automatische Belegerkennung oder ein fertiger mobiler Scanner wird nicht als vorhandene Funktion angeboten."
+          "Aktenkategorien, Tags und Notizen ergänzen die Zuordnung zum jeweiligen Vorgang. Die Beleg-Inbox unterstützt die Aufnahme per Dateiauswahl, Drag-and-drop sowie mit mobilen Scans und Fotos. Lokale Texterkennung bereitet Rechnungsfelder aus unterstützten PDFs und Bildern vor. Du prüfst die Angaben vor der Buchung; erkannter Volltext hilft beim späteren Wiederfinden."
         ]
       }
     ],
     "faq": [
       {
         "question": "Kann ich Word- oder Excel-Dateien aufbewahren?",
-        "answer": "Office-Dateien lassen sich als Originale importieren. Vorschau und Öffnen hängen vom jeweiligen Format und den Systemmöglichkeiten ab; OCR oder Inhaltsextraktion für Office wird nicht zugesagt."
+        "answer": "Ja. Office-Dateien lassen sich als Originale importieren und exportieren. Vorschau und Öffnen verwenden die Möglichkeiten des jeweiligen Formats und Systems. Die lokale Texterkennung verarbeitet unterstützte PDFs und Bilder."
       },
       {
-        "question": "Wird eine Rechnung automatisch ausgelesen?",
-        "answer": "Die Originalablage ist vorhanden. Lokale OCR, ausgelesene Rechnungsfelder und bestätigte Buchungsvorschläge gehören zum geplanten Ausbau der Beleg-Inbox."
+        "question": "Wie werden Rechnungen ausgelesen?",
+        "answer": "Die Beleg-Inbox erkennt Rechnungsfelder aus unterstützten PDFs und Bildern lokal. Du prüfst und korrigierst die Angaben und bestätigst anschließend die Zuordnung und Kostenbuchung."
       }
     ],
     "related": [
@@ -1226,66 +1226,66 @@
     "slug": "vorlagen-pdf",
     "title": "Dokumentvorlagen aus bestätigten Mietdaten erstellen",
     "short_title": "Vorlagen & PDF",
-    "description": "Geplante Mietblick-Vorlagen: Wohnungsgeberbestätigung, Übergabe, Mietaufstellung, Zahlungserinnerung, Kautionsübersicht und weitere editierbare PDF-Dokumente.",
+    "description": "Dokumentvorlagen für Vermieter: Wohnungsgeberbestätigung, Übergabe, Mietaufstellung, Erinnerung und Kautionsübersicht mit Mietblick als PDF erstellen.",
     "category": "Organisation & Dokumente",
     "icon": "i-documents",
     "availability": "planned",
-    "status_note": "Geplant: editierbare Vorlagen und PDF-Erstellung aus bestätigten Fachdatensätzen.",
-    "intro": "Wiederkehrende Dokumente sollen nicht jedes Mal bei einem leeren Blatt beginnen. Mietblick sieht editierbare Vorlagen vor, die bestätigte Daten aus dem passenden Vorgang verwenden. Der Vorlagen- und PDF-Bereich gehört zum geplanten Funktionsumfang.",
+    "status_note": "Editierbare Vorlagen und PDF-Dokumente aus den bestätigten Vorgangsdaten.",
+    "intro": "Wiederkehrende Schreiben beginnen in Mietblick mit den passenden Daten. Editierbare Vorlagen übernehmen Mieter, Einheit und bestätigte Beträge aus dem jeweiligen Vorgang. Du prüfst die Vorschau, passt den Text an und bewahrst die PDF-Ausgabe mit ihrem Erstellungsstand auf.",
     "benefits": [
       {
         "title": "Daten im Zusammenhang verwenden",
-        "text": "Mieter, Einheit und bestätigte Beträge sollen aus dem jeweiligen Vorgang in das passende Dokument übernommen werden."
+        "text": "Mieter, Einheit und bestätigte Beträge werden aus dem jeweiligen Vorgang in das passende Dokument übernommen."
       },
       {
         "title": "Vor der Ausgabe prüfen",
-        "text": "Eine geplante Vorschau macht den Inhalt kontrollierbar. Fehlende Pflichtwerte sollen vor der Erstellung sichtbar werden."
+        "text": "Die Vorschau macht den Inhalt kontrollierbar und zeigt fehlende Pflichtwerte vor der Erstellung."
       },
       {
         "title": "Erstellten Stand bewahren",
-        "text": "Gespeicherte Dokumente sollen ihre damaligen Werte und Vorlagenfassung behalten, wenn später Stammdaten geändert werden."
+        "text": "Gespeicherte Dokumente behalten ihre damaligen Werte und Vorlagenfassung, wenn sich später Stammdaten ändern."
       }
     ],
     "sections": [
       {
         "title": "Für wiederkehrende Vermieter-Dokumente",
         "paragraphs": [
-          "Vorgesehen sind Vorlagen für Wohnungsgeberbestätigung, Übergabeprotokoll, Zahlungserinnerung, Mahnung, Nebenkostenabrechnung, Mietaufstellung, Kautionsübersicht, Mietbescheinigung, Anschreiben und Zählerprotokoll. Jede Dokumentart braucht ihre passenden bestätigten Daten. Eine Abrechnungsvorlage allein ersetzt deshalb noch keinen vollständigen Abrechnungsablauf. Die jeweiligen Fachbereiche liefern künftig die Grundlagen für das Dokument."
+          "Erstelle Wohnungsgeberbestätigungen, Übergabeprotokolle, Zahlungserinnerungen, Mahnungen, Nebenkostenabrechnungen, Mietaufstellungen, Kautionsübersichten, Mietbescheinigungen, Anschreiben und Zählerprotokolle. Jede Dokumentart verwendet die zugehörigen Daten aus ihrem Fachbereich. Der gemeinsame Bezug verbindet die fertige Ausgabe mit Vertrag, Abrechnung oder Übergabe und erleichtert das spätere Wiederfinden."
         ]
       },
       {
         "title": "Vorlagen mit kontrollierten Platzhaltern",
         "paragraphs": [
-          "Der geplante Editor soll Platzhalter etwa für Mieter, Adresse, Kaltmiete und Datum unterstützen. Eigene Vorlagen sollen speicherbar sein. Dabei müssen fehlende oder nicht zulässige Werte vor der endgültigen Ausgabe erkennbar bleiben. Ein leerer Platzhalter darf nicht unbemerkt in einem fertigen Dokument erscheinen. Persönliche Anpassungen ergänzen die gespeicherten Angaben, statt heimlich den zugrunde liegenden Fachdatensatz zu verändern."
+          "Im Vorlageneditor verwendest du Felder für Mieter, Adresse, Kaltmiete, Datum und weitere Angaben aus dem Vorgang. Speichere eigene Vorlagen für wiederkehrende Schreiben. Fehlende Pflichtwerte werden vor der Ausgabe sichtbar. Individuelle Textanpassungen ergänzen das Dokument, während die gespeicherten Vertrags- und Buchungsdaten ihren eigenen bestätigten Stand behalten."
         ]
       },
       {
         "title": "Vorschau und PDF aus demselben Stand",
         "paragraphs": [
-          "Vorgesehen ist eine kontrollierbare Vorschau, aus der die finale Ausgabe mit denselben Werten entsteht. Lange Namen, Umlaute, Tabellen und mehrere Seiten sollen im Layout berücksichtigt werden. Das PDF soll sich öffnen, teilen und später wieder aufrufen lassen. Die vorhandene Ablage kann bereits bestehende Originaldokumente aufnehmen; eine eigene Vorlagen- und PDF-Erstellung ist dagegen noch geplant."
+          "Prüfe Inhalt und Layout in der Vorschau, bevor du die PDF-Ausgabe erstellst. Lange Namen, Umlaute, Tabellen und mehrseitige Texte bleiben Teil derselben Darstellung. Das fertige Dokument lässt sich öffnen, teilen und am Vorgang aufbewahren. Vorschau und Ausgabe verwenden denselben geprüften Datenstand."
         ]
       },
       {
-        "title": "Dokumente nicht rückwirkend umschreiben",
+        "title": "Den Erstellungsstand eines Dokuments bewahren",
         "paragraphs": [
-          "Ein erzeugtes Schreiben soll den bestätigten Zeitpunkt bewahren. Wenn später Adresse, Mietbetrag oder Vorlage geändert werden, darf ein zuvor gespeichertes PDF nicht unbemerkt mit neuen Werten erscheinen. Der Ausblick umfasst deshalb einen nachvollziehbaren Erstellungsstand und die verwendete Vorlagenfassung. Eine spätere Korrektur benötigt ein eigenes Dokument, dessen Bezug zur vorherigen Fassung verständlich bleibt."
+          "Ein gespeichertes Schreiben behält die zum Erstellungszeitpunkt bestätigten Angaben. Spätere Änderungen an Adresse, Mietbetrag oder Vorlage schreiben das PDF nicht um. Für eine Berichtigung erstellst du eine neue Fassung mit erkennbarem Bezug. Original und Korrektur bleiben dadurch im Verlauf nachvollziehbar."
         ]
       },
       {
-        "title": "Fachliche Prüfung bleibt Teil des Vorgangs",
+        "title": "Inhalt für den konkreten Vorgang prüfen",
         "paragraphs": [
-          "Die vorgesehenen Vorlagen erleichtern die Organisation, geben aber keine pauschale Garantie rechtlicher Gültigkeit. Persönliche Umstände und die fachliche Grundlage müssen vor der Verwendung geprüft werden. Auch Mahnungen, Kaution und Nebenkosten benötigen ihre jeweils bestätigten Daten. Aktuell stehen Originalablage, Mietkonto-CSV und vollständige Sicherung bereit; daraus wird noch kein verfügbares umfassendes Vermieter-Vorlagenpaket."
+          "Vor der Verwendung kontrollierst du die Angaben und den Text für das jeweilige Mietverhältnis. Mahnungen, Kautionsübersichten und Abrechnungen greifen auf ihre bestätigten Fachgrundlagen zu. Die editierbare Vorlage unterstützt individuelle Anpassungen. Zugehörige Originalunterlagen stehen im selben Zusammenhang bereit, damit du den Inhalt vor der Ausgabe prüfen kannst."
         ]
       }
     ],
     "faq": [
       {
-        "question": "Sind fertige editierbare Mietblick-Vorlagen verfügbar?",
-        "answer": "Der eigene Vorlageneditor und die PDF-Erstellung sind geplant. Vorhandene Dokumente können bereits als Originale an passenden Datensätzen abgelegt werden."
+        "question": "Kann ich eigene Dokumentvorlagen speichern?",
+        "answer": "Ja. Im Vorlageneditor kombinierst du eigene Texte mit Datenfeldern aus dem Vorgang. Vor der PDF-Erstellung prüfst du die ausgefüllte Vorschau und ergänzt fehlende Angaben."
       },
       {
-        "question": "Soll ein gespeichertes Dokument spätere Mietänderungen übernehmen?",
-        "answer": "Nein. Der geplante Erstellungsstand soll die damals bestätigten Werte erhalten. Eine neue Fassung wird als eigener Vorgang nachvollziehbar gemacht."
+        "question": "Übernimmt ein gespeichertes Dokument spätere Mietänderungen?",
+        "answer": "Nein. Es behält die beim Erstellen bestätigten Werte. Eine neue Fassung wird als eigenes Dokument mit Bezug zur vorherigen Ausgabe aufbewahrt."
       }
     ],
     "related": [
@@ -1303,16 +1303,16 @@
     "slug": "finanzuebersicht",
     "title": "Einnahmen, Ausgaben und Liquidität im Zusammenhang sehen",
     "short_title": "Finanzübersicht",
-    "description": "Geplante Mietblick-Finanzübersicht: Einnahmen, Ausgaben, monatlicher Cashflow und Jahresergebnis je Immobilie mit getrennten Soll- und Zahlungssichten.",
+    "description": "Finanzübersicht für Vermieter: Einnahmen, Ausgaben, monatlicher Cashflow und Jahreswerte je Immobilie mit Mietblick nachvollziehen und vergleichen.",
     "category": "Finanzen & Abrechnung",
     "icon": "i-account",
     "availability": "planned",
-    "status_note": "Geplant: zusammengeführte Monats- und Jahresfinanzen einschließlich Finanzierung und Cashflow.",
-    "intro": "Ob sich eine Immobilie finanziell gut entwickelt, lässt sich nicht an einer einzelnen Monatsmiete ablesen. Mietblick sieht eine Finanzübersicht vor, die Einnahmen, Kosten und Finanzierung zusammenführt. Soll, tatsächlicher Geldfluss und Ergebnis sollen dabei erkennbar getrennt bleiben.",
+    "status_note": "Monats- und Jahresfinanzen je Immobilie mit Finanzierung und nachvollziehbarem Cashflow.",
+    "intro": "Wie entwickelt sich deine Immobilie finanziell? Mietblick führt Einnahmen, Kosten und Finanzierung in einer gemeinsamen Übersicht zusammen. Sollmieten, tatsächlicher Geldfluss und Auswertungen bleiben erkennbar getrennt. Du prüfst einzelne Objekte oder vergleichst deinen gesamten Bestand.",
     "benefits": [
       {
         "title": "Objekt und Gesamtbestand vergleichen",
-        "text": "Die geplante Ansicht führt Monats- und Jahreswerte pro Immobilie und für den gesamten Bestand zusammen."
+        "text": "Monats- und Jahreswerte zeigen einzelne Immobilien und den Gesamtbestand mit denselben Betrachtungsgrundlagen."
       },
       {
         "title": "Zahlung und Soll auseinanderhalten",
@@ -1320,49 +1320,49 @@
       },
       {
         "title": "Finanzierung nachvollziehbar einbeziehen",
-        "text": "Vorgesehen ist eine getrennte Betrachtung von Rate, Zins und Tilgung im passenden Zusammenhang."
+        "text": "Rate, Zins und Tilgung bleiben getrennt und gehen mit ihrem jeweiligen Zweck in die Auswertung ein."
       }
     ],
     "sections": [
       {
-        "title": "Auf vorhandenen Buchungen aufbauen",
+        "title": "Buchungen und Finanzierung zusammenführen",
         "paragraphs": [
-          "Mietblick verwaltet bereits Mietforderungen, tatsächliche Eingänge, ihre Zuordnungen und manuelle Kosten. Die geplante Finanzübersicht soll diese Grundlagen mit den weiteren Finanzierungsdaten zusammenführen. Sie ist ein eigener Fachbereich und noch nicht als vollständige Auswertung verfügbar. Vorhandene Dashboardwerte und Kostenfiltersummen bleiben sinnvoll, ergeben aber allein noch keinen umfassenden monatlichen Cashflow oder Jahresabschluss der Immobilie."
+          "Die Finanzübersicht verbindet Mietforderungen, tatsächliche Eingänge, zugeordnete Kosten und Finanzierungsdaten. Monats- und Jahresansichten zeigen die Entwicklung einer Immobilie und des gesamten Bestands. Von einem Betrag wechselst du zu seinen Grundlagen. Du erkennst dadurch, welche Buchungen und Darlehenszahlungen den ausgewählten Zeitraum geprägt haben."
         ]
       },
       {
         "title": "Einnahmen nach ihren Bestandteilen nachvollziehen",
         "paragraphs": [
-          "Vorgesehen sind Einnahmen aus Kaltmiete, Nebenkosten, Garage, Stellplatz und weiteren Bestandteilen. Die Darstellung soll erkennen lassen, ob sie vertragliche Beträge, Forderungen oder tatsächliche Zahlungen verwendet. Für den Geldfluss zählt der Eingang, nicht bloß ein vereinbarter Sollwert. Der geplante Zusammenhang führt zurück zu den Buchungen, damit eine Zahl in der Übersicht nicht nur ein unerklärter Gesamtbetrag bleibt."
+          "Kaltmiete, Nebenkosten, Garage, Stellplatz und weitere Bestandteile werden getrennt ausgewiesen. Die Ansicht benennt, ob sie vereinbarte Sollbeträge, Forderungen oder tatsächliche Zahlungen zeigt. Für den Cashflow zählt der eingegangene Betrag. Der Bezug zu den Buchungen erklärt die Zusammensetzung, auch wenn eine Miete nur teilweise oder zu einem anderen Zeitpunkt bezahlt wurde."
         ]
       },
       {
         "title": "Kosten und Finanzierung richtig unterscheiden",
         "paragraphs": [
-          "Betriebskosten, Reparatur, Verwaltung, Versicherung und Finanzierung sollen mit ihren zugehörigen Kategorien und Objekten erscheinen. Die Darlehensrate braucht eine eigene Trennung in Zins und Tilgung. Eine Tilgung verändert die Liquidität und Restschuld, ist aber nicht dasselbe wie ein Darlehenszins. Diese Unterscheidung soll auch in den geplanten Ansichten sichtbar bleiben und nicht in einer pauschalen Ausgabensumme verschwinden."
+          "Betriebskosten, Reparatur, Verwaltung und Versicherung bleiben nach Kategorien und Objekten nachvollziehbar. Bei der Finanzierung werden Darlehensrate, Zins und Tilgung getrennt geführt. Die Tilgung verändert Liquidität und Restschuld; sie ist kein Darlehenszins. Mietblick hält diese Bestandteile in der Geldflussbetrachtung und in den weiteren Auswertungen auseinander."
         ]
       },
       {
         "title": "Kaution und Umbuchung nicht als Mieteinnahme zählen",
         "paragraphs": [
-          "Die geplante Finanzlogik soll Kautionen und interne Umbuchungen von operativen Einnahmen unterscheiden. Ein Geldbetrag kann den Kontostand verändern, ohne eine Mietzahlung zu sein. Ebenso dürfen historische oder stornierte Kostenfassungen nicht erneut als aktuelle Kosten eingehen. Die vorgesehene Übersicht braucht deshalb klare Quellen und Regeln, damit Objektwerte und Gesamtbestand denselben Zusammenhang wiedergeben."
+          "Kautionen und interne Umbuchungen werden von operativen Mieteinnahmen getrennt. Ein Kontobewegungsbetrag ist dadurch nicht automatisch ein Vermietungsertrag. Bei Kosten gelten die aktuellen, nicht stornierten Fassungen; ältere Versionen werden nicht zusätzlich gezählt. Dieselben Regeln gelten für Einzelimmobilie und Gesamtbestand, damit beide Perspektiven zusammenpassen."
         ]
       },
       {
         "title": "Monat, Jahr und Datenstand klar benennen",
         "paragraphs": [
-          "Vorgesehen sind periodische Übersichten mit nachvollziehbarem Zeitraum und passendem Objektfilter. Monats-Cashflow und Jahresergebnis sollen als unterschiedliche Betrachtungen erkennbar sein. Die Zahlen müssen auf ihren gespeicherten Grundlagen beruhen und dürfen geplante zukünftige Zahlungen nicht als bereits eingegangen ausgeben. Spezialisierte PDF-, CSV- und XLSX-Berichte ergänzen die Perspektive; eine vollständige Finanz- oder Steuerfreigabe wird aktuell nicht zugesagt."
+          "Zeitraum, Objektfilter und verwendete Datengrundlage sind in jeder Auswertung erkennbar. Monats-Cashflow und Jahreswerte zeigen unterschiedliche Perspektiven. Eine erwartete Zahlung bleibt vom tatsächlich geflossenen Betrag unterscheidbar. PDF-, CSV- und Excel-Berichte bewahren die ausgewählte Sicht für deine Unterlagen oder die weitere Abstimmung."
         ]
       }
     ],
     "faq": [
       {
-        "question": "Zeigt Mietblick bereits einen vollständigen Cashflow?",
-        "answer": "Nein. Die zusammengeführte Finanzübersicht mit Finanzierung ist geplant. Bestehende Forderungen, Eingänge und Kosten bilden ihre vorbereitende Grundlage."
+        "question": "Wie entsteht der Cashflow einer Immobilie?",
+        "answer": "Mietblick stellt die tatsächlichen Einnahmen und Ausgaben des gewählten Zeitraums einschließlich der Finanzierungszahlungen gegenüber. Sollbeträge und erwartete Zahlungen bleiben gesondert erkennbar."
       },
       {
-        "question": "Soll eine eingezahlte Kaution die Mieteinnahmen erhöhen?",
-        "answer": "Nein. Der geplante Bereich unterscheidet Kautionen und interne Umbuchungen ausdrücklich von den operativen Mieteinnahmen."
+        "question": "Erhöht eine eingezahlte Kaution die Mieteinnahmen?",
+        "answer": "Nein. Kautionen und interne Umbuchungen werden ausdrücklich von operativen Mieteinnahmen getrennt geführt."
       }
     ],
     "related": [
@@ -1380,66 +1380,66 @@
     "slug": "steuer-vorbereitung",
     "title": "Vermietungsdaten für die Steuer geordnet vorbereiten",
     "short_title": "Steuer-Vorbereitung",
-    "description": "Geplante Steuer-Vorbereitung in Mietblick: Jahresübersicht nach Objekt, Einnahmen, Kosten, Belegreferenzen und Exporte für Steuerberatung und Anlage V.",
+    "description": "Steuer-Vorbereitung für Vermieter: Einnahmen, Kosten und Belege je Jahr und Objekt mit Mietblick ordnen und für Steuerberatung und Anlage V exportieren.",
     "category": "Finanzen & Abrechnung",
     "icon": "i-export",
     "availability": "planned",
-    "status_note": "Geplant: Steuerjahresübersicht und strukturierte Anlage-V-Vorbereitung mit PDF, CSV und XLSX.",
-    "intro": "Gut geordnete Buchungen und Belege erleichtern die Zusammenarbeit mit der Steuerberatung. Mietblick sieht eine Jahresansicht für Vermietungsdaten vor, die Einnahmen, Kosten und ihre Grundlagen zusammenführt. Die Steuer-Vorbereitung ist ein geplanter eigener Bereich.",
+    "status_note": "Steuerjahresübersicht und strukturierte Anlage-V-Vorbereitung mit PDF, CSV und Excel.",
+    "intro": "Gut geordnete Buchungen und Belege erleichtern die Zusammenarbeit mit der Steuerberatung. Mietblick stellt Vermietungsdaten nach Jahr und Immobilie zusammen. Einnahmen, Kosten und ihre Originalunterlagen bleiben nachvollziehbar verbunden und lassen sich für die weitere Prüfung exportieren.",
     "benefits": [
       {
         "title": "Ein Jahr, ein klarer Objektbezug",
-        "text": "Die geplante Übersicht ordnet Einnahmen und Kosten dem ausgewählten Jahr und der jeweiligen Immobilie zu."
+        "text": "Die Jahresübersicht ordnet Einnahmen und Kosten dem ausgewählten Jahr und der jeweiligen Immobilie zu."
       },
       {
         "title": "Beleg und Betrag verbinden",
-        "text": "Referenzen sollen zeigen, aus welcher Buchung und welchem Original eine Position stammt."
+        "text": "Belegreferenzen zeigen, aus welcher Buchung und welchem Original eine Position stammt."
       },
       {
         "title": "Strukturiert weitergeben",
-        "text": "Vorgesehen sind PDF-, CSV- und echte XLSX-Ausgaben für die weitere Bearbeitung und Abstimmung."
+        "text": "PDF-, CSV- und Excel-Ausgaben erleichtern die weitere Bearbeitung und Abstimmung mit der Steuerberatung."
       }
     ],
     "sections": [
       {
-        "title": "Vorhandene Daten als Vorbereitung nutzen",
+        "title": "Buchungen und Belege geordnet zusammenstellen",
         "paragraphs": [
-          "Die manuelle Kostenverwaltung hält Kategorien, Daten, Objektanteile und Originalbelege bereits zusammen. Auch Mietzahlungen und ihre Zuordnungen sind vorhanden. Darauf soll eine geplante Steuerjahresübersicht aufbauen. Das Ziel ist eine geordnete Arbeitsgrundlage, die du prüfen und weitergeben kannst. Eine fertige Steuerübersicht oder eine automatische Abgabe der Steuererklärung ist damit aktuell noch nicht verbunden."
+          "Kostenkategorien, Buchungsdaten, Objektanteile und Originalbelege bilden die gemeinsame Grundlage der Jahresübersicht. Mietzahlungen ergänzen die Einnahmenseite. Du prüfst die ausgewählten Vorgänge und erhältst eine geordnete Arbeitsgrundlage für die Steuerberatung. Jede Position führt zu ihrer Buchung und den zugehörigen Unterlagen zurück."
         ]
       },
       {
         "title": "Einnahmen und Kosten nachvollziehbar gliedern",
         "paragraphs": [
-          "Vorgesehen sind Übersichten für Mieteinnahmen, Nebenkostenzahlungen, Reparaturen, Versicherungen, Grundsteuer, Verwaltung und weitere Aufwendungen. Die Darstellung soll den gewählten Zeitraum sowie den Objektbezug nennen. Ihre Beträge müssen aus den zugrunde liegenden Vorgängen erklärbar bleiben. Geplante Summen, tatsächliche Zahlungen und sonstige Betrachtungen sollen nicht ohne Kennzeichnung miteinander vermischt werden."
+          "Mieteinnahmen, Nebenkostenzahlungen, Reparaturen, Versicherungen, Grundsteuer, Verwaltung und weitere Aufwendungen werden nachvollziehbar gegliedert. Gewähltes Jahr und Objektbezug bleiben erkennbar. Tatsächliche Zahlungen und erwartete Beträge sind getrennt. Damit kannst du eine Summe prüfen und bei Rückfragen die betroffenen Vorgänge sowie ihre Belege wiederfinden."
         ]
       },
       {
         "title": "Finanzierung und Beleggrundlage unterscheiden",
         "paragraphs": [
-          "Darlehenszinsen und Tilgung haben verschiedene Bedeutungen und sollen in der Vorbereitung getrennt geführt werden. Ein Rechnungsbeleg ergänzt eine Position, ist aber für sich allein noch keine automatische steuerliche Anerkennung. Die geplante Übersicht soll auf die gespeicherten Grundlagen zurückführen, damit du offene Zuordnungen erkennen und mit fachlicher Unterstützung klären kannst."
+          "Darlehenszinsen und Tilgung werden getrennt geführt. Die Jahresübersicht zeigt die jeweiligen Grundlagen und verknüpften Unterlagen, damit du offene Zuordnungen erkennen und mit der Steuerberatung klären kannst. Der Originalbeleg ergänzt die dokumentierte Position. Individuelle steuerliche Einordnungen werden im konkreten Zusammenhang geprüft."
         ]
       },
       {
         "title": "Für Anlage V und Steuerberatung vorbereiten",
         "paragraphs": [
-          "Der Ausblick umfasst eine strukturierte Übersicht zur Vorbereitung der Anlage V. Dabei sollen Zuordnungen zum passenden Steuerjahr fachlich geprüft werden. Die App wird diese Vorbereitung nicht als pauschal vollständige oder automatisch anerkannte Steuererklärung bezeichnen. Individuelle Sachverhalte bleiben prüfungsbedürftig. Die vorgesehene Organisation soll vor allem helfen, Zahlen und Belege vollständig und nachvollziehbar zusammenzustellen."
+          "Die strukturierte Übersicht unterstützt die Vorbereitung der Anlage V. Du kontrollierst Jahr, Immobilie und Zuordnung der Beträge und stellst Zahlen und Belege für die weitere fachliche Prüfung zusammen. Besondere Sachverhalte können mit den Originalunterlagen abgestimmt werden. Die geordnete Übergabe erleichtert Rückfragen und vermeidet das erneute Zusammentragen aus getrennten Listen."
         ]
       },
       {
         "title": "Die gleiche Grundlage in mehreren Formaten",
         "paragraphs": [
-          "Vorgesehen sind PDF, maschinenlesbare CSV und eine echte Excel-Datei mit numerischen Werten. Jahr, Objekt, Kategorie und Belegreferenz sollen im Ergebnis erkennbar sein. Die Formate müssen denselben Datenstand und dieselben Summen wiedergeben. Aktuell stehen Mietkonto-CSV und vollständiger JSON-Export für andere Zwecke bereit; sie ersetzen noch keinen spezialisierten Steuerberater-Export oder eine fertige Anlage-V-Vorbereitung."
+          "Exportiere die Jahresübersicht als PDF, CSV oder Excel. Jahr, Objekt, Kategorie und Belegreferenz bleiben im Ergebnis erkennbar. Die Formate verwenden denselben ausgewählten Datenstand und dieselben Summen. PDF eignet sich für die aufbereitete Übersicht; CSV und Excel unterstützen die weitere tabellarische Bearbeitung."
         ]
       }
     ],
     "faq": [
       {
-        "question": "Erstellt Mietblick bereits eine Steuererklärung?",
-        "answer": "Nein. Der geplante Bereich dient der geordneten Vorbereitung von Vermietungsdaten. Eine automatische Steuererklärung oder steuerliche Anerkennung wird nicht zugesagt."
+        "question": "Wie unterstützt Mietblick die Anlage-V-Vorbereitung?",
+        "answer": "Die Jahresübersicht ordnet Einnahmen, Kosten und Belegreferenzen nach Immobilie und Zeitraum. Du prüfst die Angaben und gibst sie für die individuelle steuerliche Bearbeitung weiter."
       },
       {
-        "question": "Ist der Steuerberater-Export schon verfügbar?",
-        "answer": "Der spezialisierte Jahresexport als PDF, CSV und XLSX ist geplant. Vorhandene Kosten und Belege lassen sich bereits strukturiert am Objekt organisieren."
+        "question": "Welche Formate stehen für die Steuerberatung zur Verfügung?",
+        "answer": "PDF, CSV und Excel. Die Ausgaben enthalten die ausgewählten Jahreswerte mit Objektbezug, Kategorien und Belegreferenzen."
       }
     ],
     "related": [
@@ -1456,66 +1456,66 @@
     "slug": "finanzierung",
     "title": "Darlehen und Finanzierung am Objekt nachvollziehen",
     "short_title": "Darlehen & Finanzierung",
-    "description": "Geplante Finanzierungsverwaltung in Mietblick: Darlehen, Zins, Tilgung, Rate, Restschuld, Sondertilgungen, Konditionszeiträume und Zinsbindungsende.",
+    "description": "Immobilienfinanzierung mit Mietblick verwalten: Darlehen, Zins, Tilgung, Rate, Restschuld, Sondertilgungen, Konditionen und Zinsbindungsende im Blick.",
     "category": "Finanzen & Abrechnung",
     "icon": "i-account",
     "availability": "planned",
-    "status_note": "Geplant: Darlehensverlauf mit Zins, Tilgung, Rate, Restschuld und Konditionswechseln.",
-    "intro": "Eine Darlehensrate hat unterschiedliche Bestandteile und wirkt auf die Liquidität deiner Immobilie. Mietblick sieht eine Finanzierungsverwaltung vor, die Zins, Tilgung und Verlauf getrennt hält. Der Bereich gehört zum geplanten Ausbau der Finanzübersicht.",
+    "status_note": "Darlehen mit Zins, Tilgung, Rate, Restschuld, Sondertilgungen und Konditionszeiträumen.",
+    "intro": "Mietblick bringt deine Immobilienfinanzierung in eine klare Struktur. Darlehen, Konditionen und Zahlungen gehören zur finanzierten Immobilie. Zins, Tilgung und Restschuld bleiben getrennt nachvollziehbar, während Sondertilgungen und neue Konditionen ihren Platz im Verlauf erhalten.",
     "benefits": [
       {
         "title": "Finanzierung dem Objekt zuordnen",
-        "text": "Bank, Darlehenssumme und Konditionen sollen bei der finanzierten Immobilie zusammenliegen."
+        "text": "Bank, Darlehenssumme und Konditionen liegen bei der finanzierten Immobilie zusammen."
       },
       {
         "title": "Rate nachvollziehbar aufteilen",
-        "text": "Der geplante Verlauf unterscheidet Zins, Tilgung und gesamten Zahlungsbetrag."
+        "text": "Der Darlehensverlauf unterscheidet Zins, Tilgung und gesamten Zahlungsbetrag."
       },
       {
         "title": "Zeitliche Änderungen bewahren",
-        "text": "Neue Konditionen, Sondertilgungen und Zinsbindungsende sollen mit dem jeweiligen Datum dokumentiert werden."
+        "text": "Neue Konditionen, Sondertilgungen und Zinsbindungsende werden mit dem jeweiligen Datum dokumentiert."
       }
     ],
     "sections": [
       {
         "title": "Eine eigene Grundlage für jedes Darlehen",
         "paragraphs": [
-          "Vorgesehen ist die Erfassung von Objektbezug, Darlehenssumme, Bank, Zinssatz, Rate und Zinsbindung. Dazu kommt ein Verlauf der Restschuld. Diese Angaben sollen sich von allgemeinen Vermietungskosten unterscheiden und bei der passenden Immobilie bleiben. Mehrere Finanzierungsinformationen müssen damit nicht als lose Notizen neben der Objektakte stehen. Die eigene Darlehensverwaltung ist aktuell noch nicht verfügbar. Der geplante Objektbezug hält die Grundlagen zusammen."
+          "Erfasse Darlehenssumme, Bank, Zinssatz, Rate und Zinsbindung mit dem passenden Objektbezug. Die Finanzierungsübersicht verbindet diese Angaben mit dem Restschuldverlauf. Mehrere Darlehen lassen sich ihrer Immobilie zuordnen und voneinander unterscheiden. Vertragsunterlagen ergänzen die Konditionen und bleiben als Originale zur Prüfung erreichbar."
         ]
       },
       {
         "title": "Plan und tatsächliche Zahlung unterscheiden",
         "paragraphs": [
-          "Eine erwartete Rate beschreibt einen Plan. Eine tatsächlich gebuchte Zahlung beschreibt einen stattgefundenen Geldfluss. Die vorgesehene Finanzierungsansicht soll beide Größen eindeutig kennzeichnen. Dadurch lässt sich erkennen, ob eine Darstellung einen angenommenen Verlauf oder tatsächliche Vorgänge zeigt. Diese Trennung ist besonders wichtig, wenn Konditionen geändert wurden oder ein Betrag zu einem anderen Termin geflossen ist."
+          "Eine erwartete Rate bildet den Zahlungsplan ab; eine gebuchte Zahlung dokumentiert den tatsächlichen Geldfluss. Mietblick kennzeichnet beide Perspektiven. Du erkennst dadurch, ob ein Verlauf auf vereinbarten Konditionen oder auf erfolgten Zahlungen beruht. Abweichende Termine und geänderte Beträge bleiben mit dem jeweiligen Zeitraum nachvollziehbar."
         ]
       },
       {
         "title": "Zins und Tilgung getrennt nachvollziehen",
         "paragraphs": [
-          "Vorgesehen ist eine Darstellung, in der Zins und Tilgung zusammen die Rate ergeben. Tilgung vermindert die Restschuld, während Zinsen einen anderen Zusammenhang haben. Auch in späteren Finanz- und Steuerübersichten sollen diese Größen getrennt bleiben. Eine gesamte Darlehensrate darf deshalb nicht pauschal als Darlehenszins erscheinen. Der geplante Verlauf soll seine Ausgangswerte und Zeiträume offenlegen."
+          "Zins und Tilgung ergeben gemeinsam die Darlehensrate, erfüllen aber unterschiedliche Aufgaben. Tilgung vermindert die Restschuld, während Zinsen gesondert in die Auswertungen eingehen. Die Finanzierungsansicht zeigt Ausgangswerte und Zeiträume und bewahrt diese Trennung auch in Finanzübersicht und Steuer-Vorbereitung."
         ]
       },
       {
         "title": "Sondertilgung und neue Konditionen dokumentieren",
         "paragraphs": [
-          "Der Ausblick umfasst datierte Konditionsänderungen, Sondertilgungen und nachvollziehbare Korrekturen. Eine Änderung soll ab ihrem Gültigkeitsdatum wirken, ohne die frühere Vereinbarung zu überschreiben. Die Restschuld soll aus dem unterstützten Verlauf erklärbar bleiben. Nicht unterstützte Darlehensarten müssen ausdrücklich erkennbar sein; eine ungeeignete Standardberechnung wird nicht als universelle Finanzierungslösung angekündigt."
+          "Hinterlege Konditionsänderungen mit ihrem Gültigkeitsdatum und dokumentiere Sondertilgungen im Darlehensverlauf. Frühere Vereinbarungen bleiben erhalten. Korrekturen bekommen einen nachvollziehbaren Bezug, sodass sich die ausgewiesene Restschuld aus den verwendeten Ausgangswerten und dem Verlauf erklären lässt. Die passenden Vertragsunterlagen liegen direkt bei der Finanzierung."
         ]
       },
       {
         "title": "Mit Finanzübersicht und Aufgaben verbinden",
         "paragraphs": [
-          "Vorgesehen ist ein Bezug der Finanzierung zur späteren Cashflow-Ansicht. Der gesamte Zahlungsabfluss soll dort von einer reinen Aufwandsbetrachtung unterscheidbar sein. Das Zinsbindungsende soll außerdem eine echte Aufgabe beziehungsweise Erinnerung ermöglichen. Die vorhandenen manuellen Aufgaben können bereits einen selbst gewählten Termin festhalten. Automatischer Darlehensverlauf und daraus abgeleitete Finanzierungsfristen gehören dagegen zum geplanten Fachbereich."
+          "Die Finanzierung ist mit der Cashflow-Ansicht verbunden. Der gesamte Zahlungsabfluss bleibt von einer reinen Kostenbetrachtung unterscheidbar. Zum Ende der Zinsbindung kannst du eine verknüpfte Aufgabe und Erinnerung führen. So stehen Konditionen, anstehender Termin und nächster Schritt bei derselben Immobilie bereit."
         ]
       }
     ],
     "faq": [
       {
-        "question": "Berechnet Mietblick derzeit einen vollständigen Tilgungsplan?",
-        "answer": "Nein. Darlehen, zeitliche Konditionen, Restschuldverlauf und Sondertilgungen sind als eigener Fachbereich geplant."
+        "question": "Welche Finanzierungsdaten kann ich verwalten?",
+        "answer": "Darlehenssumme, Bank, Zinssatz, Rate, Zinsbindung und Restschuldverlauf sowie datierte Konditionsänderungen und Sondertilgungen. Die Finanzierung bleibt mit ihrer Immobilie und den Unterlagen verbunden."
       },
       {
         "question": "Warum werden Zins und Tilgung getrennt dargestellt?",
-        "answer": "Sie beschreiben unterschiedliche Bestandteile der Rate. Der geplante Verlauf soll Restschuld, Liquiditätsabfluss und späteren Auswertungszweck nachvollziehbar auseinanderhalten."
+        "answer": "Sie haben unterschiedliche Auswirkungen auf Restschuld, Liquidität und Auswertung. Mietblick hält die Bestandteile der Rate deshalb auch in Finanzübersicht und Steuer-Vorbereitung auseinander."
       }
     ],
     "related": [
@@ -1532,66 +1532,66 @@
     "slug": "auswertungen",
     "title": "Mietkonten exportieren und den Bestand gezielt auswerten",
     "short_title": "Auswertungen & Exporte",
-    "description": "Mietblick-Auswertungen: vorhandener Mietkonto-CSV-Export; geplante Vermietungs-, Forderungs-, Kosten- und Immobilienberichte mit PDF und XLSX.",
+    "description": "Mietblick-Auswertungen für Vermieter: Vermietung, Forderungen, Kosten und Immobilienfinanzen vergleichen und Berichte als PDF, CSV oder Excel exportieren.",
     "category": "Finanzen & Abrechnung",
     "icon": "i-export",
     "availability": "extended",
-    "status_note": "Mietkonto-CSV und vollständiger JSON-Export; umfassende Fachberichte mit PDF/XLSX geplant.",
-    "intro": "Ein Export soll erklären, welche Daten und Beträge er enthält. Mietblick gibt Mietkonten bereits als CSV aus. Für den weiteren Ausbau sind Berichte zu Vermietung, Forderungen, Kosten und Immobilienvergleich mit klaren Zeiträumen und Grundlagen vorgesehen.",
+    "status_note": "Vermietungs-, Forderungs-, Kosten- und Finanzberichte mit PDF-, CSV- und Excel-Ausgabe.",
+    "intro": "Mietblick macht aus deinen Verwaltungsdaten nachvollziehbare Auswertungen. Prüfe Vermietung, Mietkonten, Kosten und Immobilienfinanzen mit klaren Zeiträumen und Filtern. Von den Ergebnissen gelangst du zu ihren Grundlagen; PDF, CSV und Excel bewahren die ausgewählte Sicht.",
     "benefits": [
       {
         "title": "Mietkonto als CSV weitergeben",
-        "text": "Der vorhandene Export führt Mietbestandteile, zugeordnete Zahlungen, offenen Betrag und Status zusammen."
+        "text": "Der Export führt Mietbestandteile, zugeordnete Zahlungen, offene Beträge und Status zusammen."
       },
       {
         "title": "Gespeicherten Bestand vollständig exportieren",
-        "text": "Der JSON-Export hält vorhandene Daten, Beziehungen und Originaldateien für die eigene Sicherung zusammen."
+        "text": "Der vollständige Datenexport hält Datensätze, Beziehungen und Originaldateien für deine eigene Sicherung zusammen."
       },
       {
         "title": "Berichte mit Quellen planen",
-        "text": "Vorgesehene Auswertungen nennen Zeitraum und Definition und sollen zu ihren tatsächlichen Grundlagen zurückführen."
+        "text": "Berichte nennen Zeitraum und Betrachtungsgrundlage und führen zu den zugrunde liegenden Vorgängen."
       }
     ],
     "sections": [
       {
-        "title": "Der vorhandene Mietkonto-Export",
+        "title": "Mietkonten nachvollziehbar exportieren",
         "paragraphs": [
-          "Für ein Mietkonto steht eine CSV-Ausgabe bereit. Sie enthält getrennte Mietbestandteile, zugeordnete Zahlungseingänge, den offenen Betrag und den Status. Damit kannst du den gespeicherten Stand außerhalb der App weiterverwenden oder prüfen. Eine Datei dieses Umfangs ist von einer umfassenden Jahresfinanz- oder Steuerübersicht zu unterscheiden: Ihr Zweck ist der nachvollziehbare Blick auf das ausgewählte Mietkonto."
+          "Der Mietkonto-Export zeigt getrennte Mietbestandteile, zugeordnete Zahlungseingänge, offene Beträge und Status. Du kannst den ausgewählten Stand außerhalb der App prüfen oder weitergeben. Zeitraum und Bezug zum Mietverhältnis bleiben erkennbar. Damit erhältst du eine klare Grundlage für Rückfragen zu einzelnen Monaten und Zahlungen."
         ]
       },
       {
         "title": "Sicherung und Bericht erfüllen verschiedene Aufgaben",
         "paragraphs": [
-          "Der vollständige JSON-Export enthält die vorhandenen Fachdatensätze einschließlich ihrer Beziehungen und Originaldateien. Er dient einem anderen Zweck als eine aufbereitete Kennzahlenansicht. Ein Bericht fasst ausgewählte Informationen nach einer definierten Betrachtung zusammen. Eine Sicherung bewahrt den gesamten gespeicherten Zusammenhang. Beide Wege sollen klar bezeichnet sein, damit ein umfangreicher Datenexport nicht als fertiger Fachbericht missverstanden wird."
+          "Ein Bericht bereitet ausgewählte Informationen für eine bestimmte Betrachtung auf. Eine vollständige Sicherung bewahrt dagegen Datensätze, Beziehungen und Originaldateien gemeinsam. Mietblick bietet beide Wege mit ihrem jeweiligen Zweck an. Du kannst eine Kennzahlenübersicht weitergeben und unabhängig davon einen vollständigen Datenstand für die Wiederherstellung aufbewahren."
         ]
       },
       {
-        "title": "Perspektive: Vermietung und Forderungen auswerten",
+        "title": "Vermietung und Forderungen auswerten",
         "paragraphs": [
-          "Vorgesehen sind Mieterliste, Leerstand, Mietentwicklung und Durchschnittsmiete je Quadratmeter. Forderungsberichte sollen offene Beträge, Rückstände und Überzahlungen nachvollziehbar aufschlüsseln. Bei einer Durchschnittsmiete müssen Kalt- oder Gesamtmiete und verwendete Fläche erkennbar sein. Fehlt eine sinnvolle Berechnungsgrundlage, soll die Ansicht dies zeigen, statt einen scheinbar exakten, aber nicht verwendbaren Wert auszugeben."
+          "Mieterlisten, Leerstand, Mietentwicklung und durchschnittliche Miete je Quadratmeter zeigen deinen Vermietungsbestand. Forderungsberichte gliedern offene Beträge, Rückstände und Überzahlungen. Kalt- oder Gesamtmiete, verwendete Fläche und Zeitraum bleiben in der Auswertung erkennbar. Fehlen notwendige Angaben, siehst du die Lücke bei den Berechnungsgrundlagen."
         ]
       },
       {
-        "title": "Perspektive: Kosten und Immobilien vergleichen",
+        "title": "Kosten und Immobilien vergleichen",
         "paragraphs": [
-          "Der Ausbau umfasst Kategorienentwicklung, Kosten je Einheit oder Fläche sowie Einnahmen, Ausgaben und Cashflow nach Immobilie. Ein Objektvergleich soll mit denselben Definitionen arbeiten, damit die Zahlen tatsächlich vergleichbar sind. Zeiträume und Filter gehören zum Ergebnis. Die Grundlagen müssen bis zu ihren gespeicherten Vorgängen nachvollziehbar bleiben; auch historische Kostenfassungen dürfen einen aktuellen Bericht nicht doppelt erhöhen."
+          "Vergleiche die Entwicklung von Kostenkategorien sowie Kosten je Einheit oder Fläche. Einnahmen, Ausgaben und Cashflow zeigen die finanzielle Perspektive je Immobilie. Gemeinsame Definitionen, Zeiträume und Filter machen die Objekte vergleichbar. Die Beträge führen zu ihren gültigen Buchungen zurück; historische Kostenfassungen erhöhen die aktuellen Summen nicht zusätzlich."
         ]
       },
       {
-        "title": "Perspektive: PDF und echte Excel-Berichte",
+        "title": "Berichte als PDF, CSV oder Excel ausgeben",
         "paragraphs": [
-          "Vorgesehen sind PDF- und XLSX-Ausgaben neben CSV. Ihre Datensätze und Summen sollen zur zugehörigen Ansicht und zum selben Datenstand passen. Eine echte Excel-Datei muss numerische Werte für weitere Verarbeitung enthalten und darf kein lediglich umbenanntes CSV sein. Umfassende Finanz-, Betriebs- und Vergleichsberichte in diesen Formaten sind aktuell noch geplant. Der vorhandene Mietkonto-CSV-Export bleibt davon unabhängig verfügbar."
+          "Exportiere die ausgewählte Ansicht als aufbereitetes PDF oder als tabellarische CSV- beziehungsweise Excel-Datei. Zeitraum, Filter, Datenstand und Summen entsprechen der geprüften Auswertung. Numerische Werte bleiben für die weitere Bearbeitung nutzbar. So kannst du einen Bericht für deine Unterlagen speichern oder in der gewohnten Tabellenanwendung weiterführen."
         ]
       }
     ],
     "faq": [
       {
-        "question": "Welche Fachausgabe ist bereits vorhanden?",
-        "answer": "Das Mietkonto lässt sich als CSV mit Mietbestandteilen, zugeordneten Zahlungen, offenem Betrag und Status exportieren. Für Sicherung steht außerdem vollständiges JSON bereit."
+        "question": "Welche Bereiche kann ich auswerten?",
+        "answer": "Vermietungsbestand, Mietentwicklung, Leerstand, Forderungen, Zahlungen, Kosten und Immobilienfinanzen. Objekt- und Zeitraumfilter richten die Betrachtung auf den gewünschten Bestand."
       },
       {
-        "question": "Sind alle Berichte schon als PDF und Excel verfügbar?",
-        "answer": "Nein. Umfassende Vermietungs-, Kosten-, Forderungs- und Finanzberichte mit PDF und echtem XLSX gehören zum geplanten Ausbau."
+        "question": "Kann ich Berichte als PDF und Excel exportieren?",
+        "answer": "Ja. PDF, CSV und Excel verwenden denselben ausgewählten Datenstand. Du erhältst eine aufbereitete Übersicht oder tabellarische Werte für die weitere Bearbeitung."
       }
     ],
     "related": [
@@ -1609,12 +1609,12 @@
     "slug": "globale-suche",
     "title": "Immobilien, Mietvorgänge und Kosten schnell wiederfinden",
     "short_title": "Globale Suche",
-    "description": "Globale Mietblick-Suche auf dem Mac mit ⌘K: Immobilien, Einheiten, Mieter, Verträge, Zahlungen, Aufgaben und aktuelle Kosten im passenden Zusammenhang finden.",
+    "description": "Globale Mietblick-Suche auf dem Mac mit ⌘K: Immobilien, Mieter, Verträge, Buchungen, Aufgaben, Reparaturen und erkannte Dokumenttexte schnell finden.",
     "category": "Organisation & Dokumente",
     "icon": "i-search",
     "availability": "extended",
-    "status_note": "Suche über vorhandene Bestands- und Mietdaten; Dokument-OCR und Reparatursuche geplant.",
-    "intro": "Manchmal kennst du den Namen oder einen Begriff, aber nicht den Weg durch den Bestand. Mit der globalen Suche findest du gespeicherte Immobilien, Mietvorgänge, Aufgaben und aktuelle Kosten und öffnest den passenden Datensatz direkt.",
+    "status_note": "Bereichsübergreifende Suche nach Bestand, Vorgängen und lokal erkanntem Dokumenttext.",
+    "intro": "Ein Name, eine Adresse oder ein Begriff genügt als Ausgangspunkt. Die globale Suche findet passende Immobilien, Mietvorgänge, Aufgaben, Reparaturen und Dokumente. Mit ⌘K öffnest du den gemeinsamen Einstieg auf dem Mac und wechselst direkt zum gesuchten Zusammenhang.",
     "benefits": [
       {
         "title": "Mit ⌘K auf dem Mac starten",
@@ -1622,11 +1622,11 @@
       },
       {
         "title": "Mehrere Bereiche gemeinsam prüfen",
-        "text": "Treffer können aus Objekten, Einheiten, Personen, Verträgen, Zahlungen, Aufgaben und aktuellen Kosten stammen."
+        "text": "Treffer stammen aus Objekten, Einheiten, Personen, Verträgen, Buchungen, Aufgaben, Reparaturen und Dokumenten."
       },
       {
         "title": "Kontext statt loser Treffer",
-        "text": "Der passende Datensatz führt zurück zu seinem Zusammenhang und den tatsächlich gespeicherten Angaben."
+        "text": "Jeder Treffer führt zum passenden Datensatz und seinen zugehörigen Angaben und Unterlagen."
       }
     ],
     "sections": [
@@ -1637,9 +1637,9 @@
         ]
       },
       {
-        "title": "Den vorhandenen Suchumfang kennen",
+        "title": "Bestand und Vorgänge gemeinsam finden",
         "paragraphs": [
-          "Aktuell berücksichtigt die Suche Immobilien, Einheiten, Mieter, Mietverhältnisse, Zahlungen, Aufgaben und aktuelle Kosten. Sie nutzt die vorhandenen Bestandsdaten. Ein neues Objekt oder eine erledigte Aufgabe ist damit Teil desselben fachlichen Zusammenhangs, den auch die jeweiligen Listen anzeigen. Die Suche ersetzt keine Datenanlage: In einem leeren Bestand gibt es keine vorgegebenen Mieter oder erfundenen Ergebniszahlen."
+          "Die Suche berücksichtigt Immobilien, Einheiten, Mieter, Mietverhältnisse, Zahlungen, Aufgaben, Kosten und Reparaturen. Du kannst einen Namen, eine Adresse oder einen Begriff verwenden und den passenden Treffer auswählen. Die Ergebnisse gehören zu den gepflegten Fachdatensätzen, sodass du anschließend unmittelbar im jeweiligen Arbeitsbereich weiterarbeiten kannst."
         ]
       },
       {
@@ -1649,26 +1649,26 @@
         ]
       },
       {
-        "title": "Aufgaben und aktuelle Kosten ebenso wiederfinden",
+        "title": "Aufgaben, Kosten und Reparaturen wiederfinden",
         "paragraphs": [
-          "Auch Aufgaben und aktuelle Kosten gehören zum vorhandenen Suchumfang. So kann ein Begriff aus der Verwaltungsarbeit zu einem passenden Vorgang führen. Eine Kostenbuchung bleibt dabei mit Rechnung, Zuordnung und Originalbeleg verbunden. Die Suche öffnet den Fachdatensatz; sie durchsucht aktuell noch nicht automatisch den Text jedes gespeicherten PDF- oder Bildoriginals."
+          "Ein Begriff aus der täglichen Verwaltung kann zur Aufgabe, Reparatur oder Kostenbuchung führen. Der Treffer öffnet den betreffenden Vorgang mit seinen Beziehungen und Originalunterlagen. Eine gefundene Rechnung bleibt dadurch mit ihrer Kostenposition verbunden; ein Schaden führt zu Einheit, Handwerker und Auftragsverlauf."
         ]
       },
       {
-        "title": "Perspektive: Dokumentvolltext und Reparaturen",
+        "title": "Dokumente über ihren Inhalt suchen",
         "paragraphs": [
-          "Vorgesehen ist eine Erweiterung um echte OCR-Texte unterstützter Dokumente und um Reparaturvorgänge. Dafür müssen Inhalt und Bezug tatsächlich verarbeitet sein. Die reine Speicherung einer Datei ist noch kein durchsuchbarer Volltext. Änderungen, Archivierung und späterer Geräteabgleich sollen ihren richtigen Stand im Suchumfang erhalten. Diese Erweiterungen werden separat ausgewiesen; eine umfassende OCR-Dokument- oder Reparatursuche ist aktuell nicht verfügbar."
+          "Lokal erkannter Text aus unterstützten PDFs und Bildern ergänzt die Suche in deinen Unterlagen. Du findest einen Beleg damit auch über Angaben im Dokument und öffnest das zugeordnete Original. Tags, Kategorien und fachliche Bezüge unterstützen die Einordnung. Der Suchtreffer führt zurück zu der Akte oder Buchung, zu der die Unterlage gehört."
         ]
       }
     ],
     "faq": [
       {
         "question": "Wie öffne ich die globale Suche auf dem Mac?",
-        "answer": "Mit ⌘K. Du kannst anschließend den passenden gespeicherten Treffer auswählen und seinen Datensatz öffnen."
+        "answer": "Mit ⌘K. Anschließend wählst du den passenden Treffer aus und öffnest seinen Datensatz oder das zugehörige Dokument."
       },
       {
-        "question": "Findet die Suche bereits Text in jedem PDF?",
-        "answer": "Nein. Die vorhandene Suche umfasst Bestands- und Fachdatensätze. Lokaler OCR-Volltext aus unterstützten PDFs und Bildern gehört zum geplanten Ausbau."
+        "question": "Kann ich Dokumente über ihren Inhalt finden?",
+        "answer": "Ja. Erkannter Text aus unterstützten PDFs und Bildern ergänzt die Suche. Das Original und sein fachlicher Bezug bleiben vom Treffer aus erreichbar."
       }
     ],
     "related": [
@@ -1689,12 +1689,12 @@
     "category": "Daten & Sicherheit",
     "icon": "i-privacy",
     "availability": "available",
-    "status_note": "Lokale versionierte Sicherungen und JSON-Wiederherstellung; iCloud-Synchronisation und App-Sperre geplant.",
+    "status_note": "Lokale Sicherungsfassungen, vollständiger Export und geprüfte Wiederherstellung.",
     "intro": "Deine Mietverwaltung besteht aus mehr als Stammdaten. Mietblick sichert auch Beziehungen, Mietstände, Buchungen, Kostenhistorie und Originaldateien. Lokale Sicherungsfassungen und ein vollständiger Export helfen dir, den gespeicherten Bestand kontrolliert aufzubewahren.",
     "benefits": [
       {
         "title": "Bestand und Originale gemeinsam",
-        "text": "Eine vollständige Sicherung enthält die vorhandenen Daten und ihre Beziehungen einschließlich Fotos und Originalunterlagen."
+        "text": "Eine vollständige Sicherung enthält Daten und Beziehungen einschließlich Fotos und Originalunterlagen."
       },
       {
         "title": "Automatisch und bewusst sichern",
@@ -1709,7 +1709,7 @@
       {
         "title": "Den gespeicherten Zusammenhang erhalten",
         "paragraphs": [
-          "Eine Sicherung umfasst Immobilien, Einheiten, Vertragspartner, Mietverhältnisse, Forderungen, Zahlungen, Zuordnungen, Aufgaben, Mietänderungen und die vorhandenen Kosten mit ihren Positionen. Originalunterlagen und Objektfotos gehören ebenfalls dazu. Historische Kostenfassungen behalten ihren Belegbezug. Gesichert wird der zuletzt erfolgreich gespeicherte Bestand; offene Eingabeentwürfe sind noch keine dauerhaft gespeicherten Datensätze und gehören deshalb nicht in den Export."
+          "Mietblick sichert Immobilien, Einheiten, Vertragspartner, Mietverhältnisse und die zugehörigen Verwaltungs- und Finanzvorgänge. Originalunterlagen und Objektfotos gehören dazu; Kostenfassungen behalten ihren Belegbezug. Gesichert wird der erfolgreich gespeicherte Bestand. So bleiben Stammdaten, Buchungen, Aufgaben und Unterlagen bei der Wiederherstellung in ihrem gemeinsamen Zusammenhang erhalten."
         ]
       },
       {
@@ -1727,24 +1727,24 @@
       {
         "title": "Eine Wiederherstellung bewusst bestätigen",
         "paragraphs": [
-          "Der Wiederherstellungsablauf prüft die Datei und zeigt die enthaltenen Datensatzanzahlen, bevor du den Bestand ersetzt. Die Ersetzung muss ausdrücklich bestätigt werden. Zuerst wird eine Sicherheitskopie des bestehenden Bestands erstellt. Fehler beim Prüfen oder Speichern werden sichtbar angezeigt. Der vorhandene Ablauf unterstützt vollständige JSON-Sicherungen der Versionen 3 und 4 bis zu einer Dateigröße von 512 MiB."
+          "Vor der Wiederherstellung prüft Mietblick die Sicherungsdatei und zeigt ihren Inhalt an. Du bestätigst die Ersetzung des Bestands bewusst. Zuvor wird eine Sicherheitskopie des bestehenden Datenstands erstellt. Fehler bei Prüfung oder Speicherung werden sichtbar angezeigt. Nach der Übernahme bleiben Datensätze und Originalunterlagen mit ihren jeweiligen Beziehungen verbunden."
         ]
       },
       {
-        "title": "Perspektive: Geräteabgleich und zusätzliche Schutzfunktionen",
+        "title": "Zugriff und frühere Datenstände schützen",
         "paragraphs": [
-          "Private iCloud-Synchronisation, eine optionale App-Sperre mit Systembiometrie und zusätzliche automatische externe Sicherungsziele sind vorgesehen. Sie werden nicht als bereits verfügbare Funktionen zugesagt. Synchronisation und Sicherung erfüllen unterschiedliche Aufgaben: Ein späterer Geräteabgleich ersetzt keinen bewusst aufbewahrten früheren Datenstand. Auch größere Sicherungsdateien und besondere Notfallabläufe für beschädigte Speicher gehören zu den geplanten Erweiterungen."
+          "Eine optionale App-Sperre nutzt die Systembiometrie deines Geräts für den Zugriffsschutz. Externe Sicherungsziele ergänzen die lokalen Fassungen und bewahren einen bewusst gewählten früheren Stand. Für vertrauliche Sicherungsdateien wählst du einen geschützten Aufbewahrungsort. Regelmäßige Kopien helfen dir, deinen Bestand auch bei Verlust oder Defekt eines Geräts wiederherzustellen."
         ]
       }
     ],
     "faq": [
       {
         "question": "Entsteht eine automatische Sicherung bei geschlossener App?",
-        "answer": "Nein. Die tägliche Prüfung erfolgt während aktiver App-Nutzung. Für eine zusätzliche Kopie kannst du eine manuelle Sicherung oder einen Export anlegen."
+        "answer": "Die tägliche Prüfung erfolgt während aktiver App-Nutzung. Für eine zusätzliche Kopie kannst du eine manuelle Sicherung oder einen Export anlegen."
       },
       {
-        "question": "Ist iCloud-Synchronisation schon verfügbar?",
-        "answer": "Nein. Die vorhandene Datenhaltung und Sicherung sind lokal. Privater Geräteabgleich über iCloud wird als eigene geplante Erweiterung geführt."
+        "question": "Warum brauche ich zusätzlich eine externe Sicherung?",
+        "answer": "Eine Kopie außerhalb des Geräts schützt deinen Bestand auch bei dessen Verlust oder Defekt. Der vollständige Export enthält Daten, Beziehungen und Originaldateien für die Wiederherstellung."
       }
     ],
     "related": [
@@ -1759,14 +1759,14 @@
   },
   {
     "slug": "datenimport",
-    "title": "Bankeingänge importieren und vorhandene Daten vorbereiten",
+    "title": "Bankeingänge und vorhandene Mietdaten importieren",
     "short_title": "Datenimport",
-    "description": "Bank-CSV mit Vorschau und Dublettenschutz importieren; Mietlisten, Excel, Systemkontakte sowie CAMT und MT940 als geplante Mietblick-Erweiterungen.",
+    "description": "Datenimport für Vermieter: Bank-CSV, CAMT, MT940, CSV- und Excel-Mietlisten sowie Systemkontakte mit Mietblick prüfen und kontrolliert übernehmen.",
     "category": "Daten & Sicherheit",
     "icon": "i-export",
     "availability": "extended",
-    "status_note": "Bank-CSV mit Vorschau und bestätigter Zuordnung; allgemeiner Datenimport und weitere Bankformate geplant.",
-    "intro": "Vorhandene Daten sollen dir Arbeit abnehmen. Mietblick übernimmt Zahlungseingänge aus unterstützten Bank-CSV-Dateien mit Vorschau und Prüfung. Du behältst die Kontrolle darüber, welche Eingänge übernommen und welchen Forderungen sie zugeordnet werden.",
+    "status_note": "Bankdateien, Mietlisten und Kontakte mit Vorschau, Prüfung und kontrollierter Übernahme.",
+    "intro": "Übernimm vorhandene Mietlisten, Kontakte und Bankeingänge mit einer klaren Prüfung vor dem Import. Mietblick zeigt die eingelesenen Daten, erkennt fehlende Angaben und unterstützt die Zuordnung. Du entscheidest, welche Datensätze und Zahlungsbezüge in deinen Bestand eingehen.",
     "benefits": [
       {
         "title": "Vor der Übernahme prüfen",
@@ -1778,49 +1778,49 @@
       },
       {
         "title": "Zuordnungen selbst bestätigen",
-        "text": "Namensbasierte Vorschläge unterstützen dich. Erst deine ausdrückliche Bestätigung verbindet einen Eingang mit einer Forderung."
+        "text": "Vorschläge berücksichtigen Zahlungspartner, Verwendungszweck, Betrag und offene Forderungen. Den passenden Bezug bestätigst du selbst."
       }
     ],
     "sections": [
       {
-        "title": "Mit unterstützten Bank-CSV-Dateien starten",
+        "title": "Bankdateien kontrolliert übernehmen",
         "paragraphs": [
-          "Der vorhandene Import liest semikolongetrennte Bankdateien und berücksichtigt deutsche Beträge sowie deutsche oder ISO-Datumsangaben. Unterschiedliche unterstützte Spaltenbezeichnungen, Anführungszeichen und mehrzeilige Felder werden verarbeitet. Eine CSV-Datei muss dennoch zum unterstützten Aufbau passen. Nicht jede beliebige Tabelle wird allein durch ihre Dateiendung zu einem verwendbaren Bankexport."
+          "Importiere Zahlungseingänge aus Bank-CSV, CAMT oder MT940. Die Vorschau zeigt die eingelesenen Angaben und mögliche Fehler vor der Übernahme. Deutsche Beträge und unterstützte Datumsformate werden verarbeitet. Du kontrollierst Datei und Zeitraum und kannst die vorbereiteten Eingänge prüfen, bevor sie Teil deines Mietkontos werden."
         ]
       },
       {
         "title": "Vorschau und Fehler vor der Buchung sehen",
         "paragraphs": [
-          "Wähle deine Datei aus und kontrolliere die eingelesenen Eingänge. Positive Zahlungen werden zur Übernahme vorbereitet; Ausgänge und Nullbeträge werden ausdrücklich gezählt. Ungültige Angaben erhalten eine Fehlermeldung. Die Vorschau bucht noch nichts. Erst der bestätigte Import übernimmt die geprüften Eingänge gemeinsam, sodass eine fehlerhafte Übernahme nicht unbemerkt einen halben Importbestand hinterlässt."
+          "Wähle die Datei aus und kontrolliere ihre Vorschau. Zahlungseingänge, Ausgänge und ungültige Angaben bleiben unterscheidbar. Allein das Öffnen der Datei verändert den Bestand nicht. Erst deine Bestätigung übernimmt die geprüften Datensätze. So kannst du Fehler klären und die Auswahl prüfen, bevor der Import abgeschlossen wird."
         ]
       },
       {
         "title": "Wiederholte Importe kontrollieren",
         "paragraphs": [
-          "Mietblick speichert Kennungen der übernommenen Umsätze und berücksichtigt vorhandene Bankreferenzen. Dadurch soll ein erneutes Einlesen derselben Daten keine doppelten Eingänge erzeugen. Bei Bankdateien ohne stabile Referenzen sind identische Zeilen besonders sorgfältig zu behandeln. Weitere Varianten und umfangreichere Mehrdeutigkeitsregeln gehören zum Ausbau; eine pauschale Garantie für jedes Bankformat wird nicht gegeben."
+          "Mietblick berücksichtigt Importkennungen und vorhandene Bankreferenzen, um bereits übernommene Umsätze zu erkennen. Beim erneuten Einlesen prüfst du die angezeigten Dubletten und mehrdeutigen Zeilen. Die Vorschau hilft insbesondere dann, wenn eine Datei keine eindeutigen Bankreferenzen enthält. Der bestätigte Umfang bleibt vom bloßen Dateiinhalt getrennt."
         ]
       },
       {
         "title": "Vom Eingang zum passenden Mietkonto",
         "paragraphs": [
-          "Nach dem Import bleibt ein Eingang zunächst eine Zahlung. Eine namensbasierte Empfehlung kann die Auswahl erleichtern, ersetzt aber deine Prüfung nicht. Du bestätigst den Bezug zur offenen Forderung und entscheidest über eine vollständige oder teilweise Zuordnung. Sammelzahlungen und mehrere plausible Treffer benötigen besondere Aufmerksamkeit. Der kontrollierte Ablauf trennt damit Dateieingang und tatsächliche Zuordnung im Mietkonto."
+          "Ein importierter Eingang bleibt zunächst eine Zahlung. Zuordnungsvorschläge nutzen Zahlungspartner, Verwendungszweck, Betrag, Zeitraum und offene Forderungen. Du prüfst den Treffer und entscheidest über vollständige oder teilweise Zuordnung. Sammelzahlungen und mehrere passende Forderungen bleiben kontrollierbar. Der Ablauf trennt damit Bankimport und die bestätigte Verbindung im Mietkonto."
         ]
       },
       {
-        "title": "Perspektive: Mietlisten, Excel und weitere Formate",
+        "title": "Mietlisten, Excel und Systemkontakte übernehmen",
         "paragraphs": [
-          "Vorgesehen ist ein allgemeiner Importassistent für Immobilien, Einheiten, Mieter, Mietbestandteile und Vertragszeiträume. Eine Spaltenzuordnung soll bestehende CSV- und Excel-Mietlisten nutzbar machen und fehlende Angaben sichtbar abfragen. Auch Systemkontakte sowie CAMT- und MT940-Bankdateien sind geplant. Diese Formate werden aktuell nicht als verfügbare Importwege angeboten; die Wiederherstellung einer Mietblick-Sicherung ist ein eigener Ablauf."
+          "Der Importassistent übernimmt Immobilien, Einheiten, Mieter, Mietbestandteile und Vertragszeiträume aus CSV- und Excel-Listen. Ordne die Spalten zu und ergänze fehlende Pflichtangaben in der Prüfung. Systemkontakte lassen sich nach deiner Freigabe als Quelle nutzen. Eine vorhandene Mietblick-Sicherung wird dagegen über den eigenen Wiederherstellungsablauf übernommen."
         ]
       }
     ],
     "faq": [
       {
-        "question": "Kann ich derzeit eine Excel-Mieterliste importieren?",
-        "answer": "Ein allgemeiner CSV- und Excel-Assistent für Stammdaten ist geplant. Aktuell vorhanden ist der Bank-CSV-Import für unterstützte Zahlungseingänge."
+        "question": "Kann ich eine Excel-Mieterliste importieren?",
+        "answer": "Ja. Der Importassistent ordnet Spalten den passenden Stammdaten und Vertragsangaben zu. Du prüfst die Vorschau und ergänzt fehlende Angaben vor der Übernahme."
       },
       {
         "question": "Werden Zuordnungsvorschläge automatisch gebucht?",
-        "answer": "Nein. Du prüfst und bestätigst den Vorschlag. Ein Name allein ersetzt keine Entscheidung über die passende Forderung."
+        "answer": "Nein. Du prüfst und bestätigst den Vorschlag. Zahlung und passende Forderung werden erst durch die bestätigte Zuordnung verbunden."
       }
     ],
     "related": [
@@ -1838,66 +1838,66 @@
     "slug": "automatisierung",
     "title": "Nachvollziehbare Vorschläge für deine Mietverwaltung",
     "short_title": "Automatisierung",
-    "description": "Geplante Mietblick-Vorschläge für Belege, Mietzuordnung, fehlende Ablesungen und Auszugschecklisten: lokale Datenbasis, sichtbare Gründe und Bestätigung.",
+    "description": "Mietblick-Vorschläge für Belege, Mietzuordnung, fehlende Ablesungen und Auszugschecklisten: lokale Datenbasis, nachvollziehbare Gründe und Bestätigung.",
     "category": "Organisation & Dokumente",
     "icon": "i-selected",
     "availability": "planned",
-    "status_note": "Geplant: begründete Vorschläge und verknüpfte Checklisten; vorhandene Bank-CSV-Vorschläge bleiben separat.",
-    "intro": "Routine wird leichter, wenn der nächste Schritt aus vorhandenen Informationen erkennbar ist. Mietblick sieht lokale, begründete Vorschläge für wiederkehrende Verwaltungsarbeit vor. Jeder Vorschlag soll prüfbar bleiben und erst nach Bestätigung eine Änderung auslösen.",
+    "status_note": "Begründete Vorschläge, bestätigte Zuordnungen und Checklisten aus deinen Vorgängen.",
+    "intro": "Mietblick unterstützt wiederkehrende Verwaltungsarbeit mit Vorschlägen aus deinen eigenen Daten. Belegzuordnung, Zahlungseingänge und offene Schritte bleiben prüfbar. Du siehst die Grundlage, kannst Angaben korrigieren und entscheidest selbst über die Übernahme.",
     "benefits": [
       {
         "title": "Gründe statt unerklärlicher Treffer",
-        "text": "Die geplanten Hinweise sollen ihre tatsächliche Datenbasis und die betroffenen Vorgänge nennen."
+        "text": "Hinweise nennen ihre Datenbasis und die betroffenen Vorgänge, damit du den Vorschlag prüfen kannst."
       },
       {
         "title": "Entscheidungen bleiben bei dir",
-        "text": "Bestätigung und Ablehnung sind eigene Schritte. Ein Hinweis allein soll weder eine Buchung noch eine Vertragsänderung auslösen."
+        "text": "Bestätigung und Ablehnung bleiben deine Entscheidung. Eine Buchung oder Vertragsänderung entsteht erst durch die bestätigte Aktion."
       },
       {
         "title": "Checklisten aus offenen Vorgängen",
-        "text": "Für einen Auszug sollen Übergabe, Ablesung, Kaution und Nebenkostenanteil gemeinsam im Blick bleiben."
+        "text": "Die Auszugscheckliste hält Übergabe, Ablesung, Kaution und Nebenkostenanteil gemeinsam im Blick."
       }
     ],
     "sections": [
       {
-        "title": "Mit vorhandenen Daten sinnvoll unterstützen",
+        "title": "Vorschläge aus deinem Bestand nutzen",
         "paragraphs": [
-          "Vorgesehen sind Vorschläge, die sich auf deinen tatsächlichen Bestand beziehen. Ein Lieferant oder ein ähnlicher Vorjahresbeleg kann eine mögliche Kategorie oder Objektzuordnung nahelegen. Eine offene Forderung kann zu einem Zahlungseingang passen. Der geplante Ablauf soll erklären, welche Informationen den Vorschlag tragen und welche Angaben noch fehlen. Ein vermeintlich sicherer Treffer ohne Grundlage wird nicht als Nutzen versprochen."
+          "Ein Lieferant oder ein vergleichbarer Vorjahresbeleg kann auf eine Kostenkategorie und einen Objektbezug hinweisen. Ein Zahlungseingang kann zu einer offenen Forderung passen. Mietblick zeigt die Informationen hinter dem Vorschlag und macht fehlende Angaben erkennbar. Du kannst die Empfehlung nachvollziehen, anpassen oder ablehnen."
         ]
       },
       {
         "title": "Belegvorschläge vor der Buchung prüfen",
         "paragraphs": [
-          "Im geplanten Belegablauf sollen erkannte Angaben und mögliche Zuordnungen editierbar sein. Du prüfst Lieferant, Datum, Betrag und den passenden Objektbezug, bevor eine Kostenbuchung entsteht. Die vorgesehene lokale Verarbeitung hält dabei persönliche Daten auf deinem Gerät. OCR, Belegvorschläge und bestätigte Übernahme bilden zusammen einen zusätzlichen Ausbau; die vorhandene manuelle Kostenverwaltung bleibt ein eigener nutzbarer Ablauf."
+          "Erkannte Rechnungsfelder und mögliche Zuordnungen bleiben editierbar. Prüfe Lieferant, Datum, Betrag und den passenden Objektbezug, bevor du die Kostenbuchung bestätigst. Die lokale Verarbeitung nutzt deine Beleg- und Bestandsdaten. Original, erkannte Angaben und bestätigte Buchung bleiben anschließend gemeinsam erreichbar."
         ]
       },
       {
-        "title": "Zahlungszuordnung weiter verbessern",
+        "title": "Zahlungszuordnung gezielt unterstützen",
         "paragraphs": [
-          "Beim bestehenden Bank-CSV-Import gibt es bereits namensbasierte Zuordnungsvorschläge mit ausdrücklicher Bestätigung. Der Ausblick geht darüber hinaus: Verwendungszweck, Zeitraum, Betrag und offene Forderungen sollen eine umfassendere Grundlage liefern. Mehrdeutige Treffer müssen sichtbar bleiben. Ein Vorschlag soll genau die bestätigte Aktion ausführen und nicht bei einem erneuten Öffnen dieselbe Zuordnung noch einmal erzeugen."
+          "Zahlungspartner, Verwendungszweck, Zeitraum, Betrag und offene Forderungen unterstützen die Zuordnung importierter Eingänge. Mehrere plausible Treffer werden zur Prüfung angezeigt. Du bestätigst den passenden Bezug und den zugeordneten Betrag. Wiederholtes Öffnen eines Vorschlags erzeugt keine zusätzliche Zuordnung desselben Zahlungsanteils."
         ]
       },
       {
         "title": "Fehlende Grundlagen und nächste Schritte zeigen",
         "paragraphs": [
-          "Vorgesehen sind Hinweise auf fehlende Ablesungen und eine Auszugscheckliste mit echten offenen Vorgängen. Übergabe, Zähler, Kaution und Nebenkosten sollen darin ihre jeweiligen Bezüge behalten. Wird ein Vorgang erledigt, muss sich der dazugehörige Hinweis aktualisieren. Eine Checkliste hilft nur, wenn ihr Stand mit dem tatsächlichen Bestand zusammenpasst und keine bereits erledigten Schritte immer wieder neu auftauchen."
+          "Hinweise zeigen fehlende Ablesungen und offene Schritte vor dem Auszug. Übergabe, Zähler, Kaution und Nebenkosten behalten in der Checkliste ihre jeweiligen Vorgangsbezüge. Wird ein Schritt erledigt, aktualisiert sich sein Stand. So kannst du die noch anstehende Arbeit prüfen und direkt im zuständigen Bereich weiterführen."
         ]
       },
       {
-        "title": "Perspektive mit klarer Kontrolle",
+        "title": "Vorschläge bewusst bestätigen",
         "paragraphs": [
-          "Der umfassende Automatisierungsbereich ist geplant. Er soll Unsicherheiten erklären, Bestätigung und Ablehnung berücksichtigen und auf geänderte Daten reagieren. Automatische rechtliche Bewertungen oder ungeprüfte Mietänderungen werden nicht zugesagt. Auch ein Ausblick auf intelligente Unterstützung ersetzt keine vorhandene Funktion. Aktuell nutzbare Aufgaben, Kosten und Bank-CSV bleiben deshalb in ihren eigenen Bereichen beschrieben."
+          "Unsichere Angaben bleiben sichtbar. Mietblick berücksichtigt Bestätigung, Ablehnung und geänderte Daten, während fachliche Änderungen unter deiner Kontrolle bleiben. Du kannst zum Originalbeleg, Mietkonto oder Vertrag wechseln und die Grundlage prüfen. Der Vorschlag erleichtert einen Arbeitsschritt; die endgültige Übernahme bestimmst du selbst."
         ]
       }
     ],
     "faq": [
       {
         "question": "Bucht ein Vorschlag automatisch eine Rechnung oder Zahlung?",
-        "answer": "Der vorgesehene Ablauf verlangt eine ausdrückliche Bestätigung. Bereits vorhandene Bank-CSV-Zuordnungsvorschläge werden ebenfalls nicht ungeprüft gebucht."
+        "answer": "Nein. Du prüfst die Angaben und bestätigst die Übernahme oder Zuordnung. Eine Empfehlung allein verändert die Buchungsdaten nicht."
       },
       {
-        "question": "Gibt es bereits die vollständige Auszugscheckliste?",
-        "answer": "Nein. Die mit Übergabe, Zählern, Kaution und Nebenkosten verbundenen Checklisten gehören zum geplanten Automatisierungsbereich."
+        "question": "Welche Schritte bündelt die Auszugscheckliste?",
+        "answer": "Übergabe, Zählerablesungen, Kaution und Nebenkostenanteil mit ihren jeweiligen offenen Vorgängen. Erledigte Schritte aktualisieren den Checklistenstand."
       }
     ],
     "related": [

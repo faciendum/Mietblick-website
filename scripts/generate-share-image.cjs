@@ -7,7 +7,7 @@ const assets = path.resolve(__dirname, '../assets');
 const fontfile = path.join(assets, 'fonts/InterVariable.ttf');
 const text = async (value, size, color, weight = 'normal') => sharp({text:{text:`<span foreground="${color}" weight="${weight}">${value}</span>`,font:`Inter ${size}`,fontfile,rgba:true,dpi:72}}).png().toBuffer();
 (async () => {
-  const illustration = await sharp(path.join(assets,'illustrations/mac-rental.svg')).resize({width:580}).png().toBuffer();
+  const illustration = await sharp(path.join(assets,'illustrations/homes.svg')).resize({width:560}).png().toBuffer();
   const symbol = await sharp(path.join(assets,'brand-board.png')).extract({left:64,top:328,width:132,height:132}).png().toBuffer();
   await sharp(symbol).resize(132,132).png().toFile(path.join(assets,'favicon.png'));
   const layers = [
