@@ -10,6 +10,7 @@ Statische Website für Mietblick unter https://mietblick-app.de. Alle HTML-Seite
 - Mac-Startseite mit der Häuserillustration, Arbeitsweise Immobilien → Mietvertrag → Mietkonto und konkreten Vermieter-Anwendungsfällen.
 - Fünf Navigationsziele: Funktionen, Arbeitsweise, Wobei hilft Mietblick?, iPhone & iPad und Ratgeber. Separat bedienbares Funktionsmenü, App-Store-CTA, lokale Suche und Kategorienfilter.
 - 42 HTML-Seiten insgesamt; 39 indexierbare URLs in der Sitemap.
+- Die Häuserillustration passt ihre Flächen, Konturen und Schatten direkt an das gewählte Farbschema an.
 - Farbschema-Steuerung für System, Hell und Dunkel im Header und mobilen Menü. Die Auswahl wird lokal gespeichert; der Systemmodus folgt der Geräteeinstellung.
 - Transparentes SVG-Hauszeichen aus der Mietblick-CI für Header, Footer und SVG-Favicon; PNG-Favicon und Social-Vorschau werden aus demselben Asset erzeugt.
 - Lokale Inter-Schrift mit OFL-Lizenz und Illustrationen in Mietblick-Farben.

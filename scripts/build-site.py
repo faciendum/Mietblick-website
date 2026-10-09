@@ -183,6 +183,7 @@ def device_page(item):
 
 def home():
     body=(ROOT/'templates/home.html').read_text().replace('https://apps.apple.com/de/', APP_STORE_URL)
+    body=body.replace('<!-- HOME_ILLUSTRATION -->', (DIST/'assets/illustrations/homes.svg').read_text())
     write_page('index.html','Die Vermieter-App für Mac: Mietverwaltung lokal organisieren | Mietblick','Mietblick ist die native Vermieter-App für Mac. Immobilien, Mietverträge, Mietkonten, Kosten und Belege strukturiert verwalten. Lokal und ohne Mietblick-Konto.',body)
 
 

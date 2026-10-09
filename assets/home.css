@@ -54,7 +54,7 @@
 .mac-hero-facts>span{display:flex;align-items:center;gap:8px}
 .mac-hero-facts .icon{width:15px;height:15px;color:var(--actionFill)}
 .mac-product-figure{min-width:0;position:relative;margin-right:-10px}
-.mac-product-figure img{width:100%;height:auto}.mac-product-figure{max-width:570px;justify-self:center}
+.mac-product-figure img,.mac-product-figure>.home-illustration{display:block;width:100%;height:auto}.mac-product-figure{max-width:570px;justify-self:center}
 .mac-product-figure figcaption{font-size:9px;letter-spacing:.025em;text-align:center;color:var(--secondary);line-height:1.7;margin-top:8px}
 .mac-hero-bottom{border-top:1px solid var(--border);padding-block:20px;display:flex;justify-content:space-between;gap:25px;font-size:11px;color:var(--secondary)}
 .mac-hero-bottom>a{color:var(--actionFill);display:flex;gap:12px}

@@ -1,5 +1,5 @@
 /* Semantic website colors derive from Brand.swift's navy, teal, sage and sand.
-   Original CI tokens and artwork stay unchanged; white/black mix tints and shades. */
+   Original CI tokens stay unchanged; illustration geometry is preserved. White/black mix tints and shades. */
 :root {
   color-scheme: light;
   --heading: var(--navy);
@@ -27,6 +27,28 @@
   --header-shadow: 0 3px 14px rgb(0 0 0 / .2);
   --scrolled-shadow: 0 4px 18px rgb(0 0 0 / .28);
   --menu-shadow: 0 22px 60px rgb(0 0 0 / .35), 0 5px 16px rgb(0 0 0 / .18);
+  --homes-paper: color-mix(in srgb, var(--navy) 68%, white);
+  --homes-mist: color-mix(in srgb, var(--navy) 84%, var(--sand));
+  --homes-edge: color-mix(in srgb, var(--navy) 65%, var(--sage));
+  --homes-stone: color-mix(in srgb, var(--navy) 78%, var(--sand));
+  --homes-ink: color-mix(in srgb, var(--navy) 85%, black);
+  --homes-line: color-mix(in srgb, var(--sage) 68%, white);
+  --homes-accent: color-mix(in srgb, var(--sage) 45%, var(--teal));
+  --homes-accent-deep: var(--teal);
+  --homes-card: color-mix(in srgb, var(--navy) 90%, var(--sage));
+  --homes-card-rule: var(--sage);
+  --homes-ground-start: color-mix(in srgb, var(--navy) 80%, var(--sage));
+  --homes-ground-end: color-mix(in srgb, var(--navy) 92%, var(--sage));
+  --homes-platform-edge: color-mix(in srgb, var(--navy) 80%, black);
+  --homes-window-edge: var(--sage);
+  --homes-window-opacity: .6;
+  --homes-halo: var(--sage);
+  --homes-halo-opacity: .08;
+  --homes-paving: var(--sage);
+  --homes-paving-opacity: .14;
+  --homes-shadow: black;
+  --homes-shadow-opacity: .28;
+  --homes-soft-shadow-opacity: .22;
 }
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) {
@@ -44,6 +66,28 @@
     --header-shadow: 0 3px 14px rgb(0 0 0 / .2);
     --scrolled-shadow: 0 4px 18px rgb(0 0 0 / .28);
     --menu-shadow: 0 22px 60px rgb(0 0 0 / .35), 0 5px 16px rgb(0 0 0 / .18);
+    --homes-paper: color-mix(in srgb, var(--navy) 68%, white);
+    --homes-mist: color-mix(in srgb, var(--navy) 84%, var(--sand));
+    --homes-edge: color-mix(in srgb, var(--navy) 65%, var(--sage));
+    --homes-stone: color-mix(in srgb, var(--navy) 78%, var(--sand));
+    --homes-ink: color-mix(in srgb, var(--navy) 85%, black);
+    --homes-line: color-mix(in srgb, var(--sage) 68%, white);
+    --homes-accent: color-mix(in srgb, var(--sage) 45%, var(--teal));
+    --homes-accent-deep: var(--teal);
+    --homes-card: color-mix(in srgb, var(--navy) 90%, var(--sage));
+    --homes-card-rule: var(--sage);
+    --homes-ground-start: color-mix(in srgb, var(--navy) 80%, var(--sage));
+    --homes-ground-end: color-mix(in srgb, var(--navy) 92%, var(--sage));
+    --homes-platform-edge: color-mix(in srgb, var(--navy) 80%, black);
+    --homes-window-edge: var(--sage);
+    --homes-window-opacity: .6;
+    --homes-halo: var(--sage);
+    --homes-halo-opacity: .08;
+    --homes-paving: var(--sage);
+    --homes-paving-opacity: .14;
+    --homes-shadow: black;
+    --homes-shadow-opacity: .28;
+    --homes-soft-shadow-opacity: .22;
   }
 }
 body { background: var(--page-background); }

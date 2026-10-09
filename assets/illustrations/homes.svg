@@ -1,115 +1,115 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="720" height="620" viewBox="0 0 720 620" role="img" aria-labelledby="title desc">
-  <title id="title">Ein Zuhause für den Überblick</title>
-  <desc id="desc">Drei helle, räumlich gezeichnete Wohnhäuser auf einer begrünten Fläche, begleitet von einem Schlüssel und einem geordneten Dokument. Eine Illustration, keine Ansicht der App.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="620" viewBox="0 0 720 620" class="home-illustration" role="img" aria-labelledby="homes-title homes-desc">
+  <title id="homes-title">Ein Zuhause für den Überblick</title>
+  <desc id="homes-desc">Drei Wohnhäuser mit Garten, begleitet von einem Schlüssel und geordneten Vermietungsunterlagen.</desc>
   <defs>
-    <linearGradient id="ground" x1="0" y1="0" x2="0.7" y2="1"><stop stop-color="#F5F6F7"/><stop offset="1" stop-color="#E5EAED"/></linearGradient>
-    <linearGradient id="wall" x1="0" y1="0" x2="1" y2="1"><stop stop-color="white"/><stop offset="1" stop-color="#F5F6F7"/></linearGradient>
-    <linearGradient id="glass" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#8FB3A5" stop-opacity=".45"/><stop offset="1" stop-color="#2E8B8B" stop-opacity=".2"/></linearGradient>
-    <filter id="shadow" x="-40%" y="-40%" width="180%" height="200%"><feDropShadow dx="0" dy="12" stdDeviation="12" flood-color="#18324A" flood-opacity=".1"/></filter>
-    <filter id="soft-shadow" x="-40%" y="-40%" width="180%" height="200%"><feDropShadow dx="0" dy="7" stdDeviation="8" flood-color="#18324A" flood-opacity=".08"/></filter>
-    <pattern id="paving" width="28" height="28" patternUnits="userSpaceOnUse" patternTransform="matrix(1 .48 -1 .48 0 0)"><path d="M0 0h28v28" fill="none" stroke="#18324A" stroke-opacity=".035" stroke-width="1"/></pattern>
-    <g id="front-window"><path d="m0 0 27 14v33L0 33Z" fill="url(#glass)" stroke="#18324A" stroke-opacity=".25" stroke-width="1.2"/><path d="m13.5 7 0 33M0 16.5l27 14" fill="none" stroke="white" stroke-width="2"/><path d="m-2 34 31 16 4-2-31-16Z" fill="#E5EAED"/></g>
-    <g id="side-window"><path d="m0 0 28-14v34L0 34Z" fill="url(#glass)" stroke="#18324A" stroke-opacity=".23" stroke-width="1.2"/><path d="M14-7v34M0 17l28-14" stroke="white" stroke-width="2"/><path d="m-2 35 31-16 4 2-31 16Z" fill="#E5EAED"/></g>
+    <linearGradient id="homes-ground" x1="0" y1="0" x2="0.7" y2="1"><stop stop-color="var(--homes-ground-start,#F5F6F7)"/><stop offset="1" stop-color="var(--homes-ground-end,#E5EAED)"/></linearGradient>
+    <linearGradient id="homes-wall" x1="0" y1="0" x2="1" y2="1"><stop stop-color="var(--homes-paper,white)"/><stop offset="1" stop-color="var(--homes-mist,#F5F6F7)"/></linearGradient>
+    <linearGradient id="homes-glass" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#8FB3A5" stop-opacity=".45"/><stop offset="1" stop-color="var(--homes-accent,#2E8B8B)" stop-opacity=".2"/></linearGradient>
+    <filter id="homes-shadow" x="-40%" y="-40%" width="180%" height="200%"><feDropShadow dx="0" dy="12" stdDeviation="12" flood-color="var(--homes-shadow,#18324A)" flood-opacity="var(--homes-shadow-opacity,.1)"/></filter>
+    <filter id="homes-soft-shadow" x="-40%" y="-40%" width="180%" height="200%"><feDropShadow dx="0" dy="7" stdDeviation="8" flood-color="var(--homes-shadow,#18324A)" flood-opacity="var(--homes-soft-shadow-opacity,.08)"/></filter>
+    <pattern id="homes-paving" width="28" height="28" patternUnits="userSpaceOnUse" patternTransform="matrix(1 .48 -1 .48 0 0)"><path d="M0 0h28v28" fill="none" stroke="var(--homes-paving,#18324A)" stroke-opacity="var(--homes-paving-opacity,.035)" stroke-width="1"/></pattern>
+    <g id="homes-front-window"><path d="m0 0 27 14v33L0 33Z" fill="url(#homes-glass)" stroke="var(--homes-window-edge,#18324A)" stroke-opacity="var(--homes-window-opacity,.25)" stroke-width="1.2"/><path d="m13.5 7 0 33M0 16.5l27 14" fill="none" stroke="var(--homes-line,white)" stroke-width="2"/><path d="m-2 34 31 16 4-2-31-16Z" fill="var(--homes-edge,#E5EAED)"/></g>
+    <g id="homes-side-window"><path d="m0 0 28-14v34L0 34Z" fill="url(#homes-glass)" stroke="var(--homes-window-edge,#18324A)" stroke-opacity="var(--homes-window-opacity,.23)" stroke-width="1.2"/><path d="M14-7v34M0 17l28-14" stroke="var(--homes-line,white)" stroke-width="2"/><path d="m-2 35 31-16 4 2-31 16Z" fill="var(--homes-edge,#E5EAED)"/></g>
   </defs>
-  <circle cx="383" cy="287" r="245" fill="#E9E0D3" opacity=".33"/>
+  <circle cx="383" cy="287" r="245" fill="var(--homes-halo,#E9E0D3)" opacity="var(--homes-halo-opacity,.33)"/>
   <circle cx="583" cy="149" r="44" fill="#8FB3A5" opacity=".11"/>
-  <circle cx="107" cy="331" r="31" fill="#2E8B8B" opacity=".08"/>
+  <circle cx="107" cy="331" r="31" fill="var(--homes-accent,#2E8B8B)" opacity=".08"/>
   <path d="M120 162c46-44 90-64 138-54" fill="none" stroke="#8FB3A5" stroke-opacity=".6" stroke-width="1.2" stroke-dasharray="3 7"/>
-  <path d="M563 466c37-7 58-21 78-46" fill="none" stroke="#2E8B8B" stroke-opacity=".3" stroke-width="1.2" stroke-dasharray="3 7"/>
-  <ellipse cx="365" cy="480" rx="291" ry="102" fill="#18324A" opacity=".025"/>
-  <path d="M79 452c0-64 126-111 281-111s281 47 281 111v12c0 61-126 108-281 108S79 525 79 464Z" fill="#E5EAED"/>
-  <ellipse cx="360" cy="451" rx="281" ry="108" fill="url(#ground)"/>
-  <ellipse cx="360" cy="451" rx="281" ry="108" fill="url(#paving)"/>
-  <path d="M102 462c47 44 147 70 258 70 88 0 165-17 217-42" fill="none" stroke="white" stroke-width="2" stroke-opacity=".8"/>
-  <ellipse cx="202" cy="439" rx="83" ry="22" fill="#18324A" opacity=".05"/>
-  <g id="rear-building">
-    <path d="m117 251 90 47v151l-90-47Z" fill="#F5F6F7" stroke="#E5EAED" stroke-width="1.2"/>
-    <path d="m207 298 86-44v151l-86 44Z" fill="#E9E0D3" stroke="#E5EAED" stroke-width="1.2"/>
-    <path d="m117 251 86-44 90 47-86 44Z" fill="white" stroke="#E5EAED" stroke-width="1.2"/>
-    <path d="m127 249 76-39 80 42-76 39Z" fill="#E5EAED"/>
+  <path d="M563 466c37-7 58-21 78-46" fill="none" stroke="var(--homes-accent,#2E8B8B)" stroke-opacity=".3" stroke-width="1.2" stroke-dasharray="3 7"/>
+  <ellipse cx="365" cy="480" rx="291" ry="102" fill="var(--homes-ink,#18324A)" opacity=".025"/>
+  <path d="M79 452c0-64 126-111 281-111s281 47 281 111v12c0 61-126 108-281 108S79 525 79 464Z" fill="var(--homes-platform-edge,#E5EAED)"/>
+  <ellipse cx="360" cy="451" rx="281" ry="108" fill="url(#homes-ground)"/>
+  <ellipse cx="360" cy="451" rx="281" ry="108" fill="url(#homes-paving)"/>
+  <path d="M102 462c47 44 147 70 258 70 88 0 165-17 217-42" fill="none" stroke="var(--homes-line,white)" stroke-width="2" stroke-opacity=".8"/>
+  <ellipse cx="202" cy="439" rx="83" ry="22" fill="var(--homes-ink,#18324A)" opacity=".05"/>
+  <g id="homes-rear-building">
+    <path d="m117 251 90 47v151l-90-47Z" fill="var(--homes-mist,#F5F6F7)" stroke="var(--homes-edge,#E5EAED)" stroke-width="1.2"/>
+    <path d="m207 298 86-44v151l-86 44Z" fill="var(--homes-stone,#E9E0D3)" stroke="var(--homes-edge,#E5EAED)" stroke-width="1.2"/>
+    <path d="m117 251 86-44 90 47-86 44Z" fill="var(--homes-paper,white)" stroke="var(--homes-edge,#E5EAED)" stroke-width="1.2"/>
+    <path d="m127 249 76-39 80 42-76 39Z" fill="var(--homes-edge,#E5EAED)"/>
     <path d="m143 250 59-31 64 33-59 31Z" fill="#8FB3A5" opacity=".32"/>
-    <path d="m117 251 90 47 86-44M207 298v151" fill="none" stroke="white" stroke-width="2"/>
-    <g transform="translate(135 279) scale(.76)"><use href="#front-window"/><use href="#front-window" x="53" y="28"/></g>
-    <g transform="translate(135 328) scale(.76)"><use href="#front-window"/><use href="#front-window" x="53" y="28"/></g>
-    <g transform="translate(135 377) scale(.76)"><use href="#front-window"/><use href="#front-window" x="53" y="28"/></g>
-    <path d="m220 316 19-10v26l-19 10Zm0 49 19-10v26l-19 10Z" fill="url(#glass)"/>
+    <path d="m117 251 90 47 86-44M207 298v151" fill="none" stroke="var(--homes-line,white)" stroke-width="2"/>
+    <g transform="translate(135 279) scale(.76)"><use href="#homes-front-window"/><use href="#homes-front-window" x="53" y="28"/></g>
+    <g transform="translate(135 328) scale(.76)"><use href="#homes-front-window"/><use href="#homes-front-window" x="53" y="28"/></g>
+    <g transform="translate(135 377) scale(.76)"><use href="#homes-front-window"/><use href="#homes-front-window" x="53" y="28"/></g>
+    <path d="m220 316 19-10v26l-19 10Zm0 49 19-10v26l-19 10Z" fill="url(#homes-glass)"/>
   </g>
-  <ellipse cx="408" cy="443" rx="129" ry="38" fill="#18324A" opacity=".055"/>
-  <g id="main-building">
-    <path d="m258 192 129 67v220l-129-67Z" fill="url(#wall)" stroke="#E5EAED" stroke-width="1.2"/>
-    <path d="m387 259 140-72v220l-140 72Z" fill="#E9E0D3" stroke="#E5EAED" stroke-width="1.2"/>
-    <path d="m258 192 140-72 129 67-140 72Z" fill="white" stroke="#E5EAED" stroke-width="1.2"/>
-    <path d="m269 190 129-66 116 60-129 66Z" fill="#E5EAED"/>
-    <path d="m277 191 119-61 108 56-119 61Z" fill="#F5F6F7"/>
+  <ellipse cx="408" cy="443" rx="129" ry="38" fill="var(--homes-ink,#18324A)" opacity=".055"/>
+  <g id="homes-main-building">
+    <path d="m258 192 129 67v220l-129-67Z" fill="url(#homes-wall)" stroke="var(--homes-edge,#E5EAED)" stroke-width="1.2"/>
+    <path d="m387 259 140-72v220l-140 72Z" fill="var(--homes-stone,#E9E0D3)" stroke="var(--homes-edge,#E5EAED)" stroke-width="1.2"/>
+    <path d="m258 192 140-72 129 67-140 72Z" fill="var(--homes-paper,white)" stroke="var(--homes-edge,#E5EAED)" stroke-width="1.2"/>
+    <path d="m269 190 129-66 116 60-129 66Z" fill="var(--homes-edge,#E5EAED)"/>
+    <path d="m277 191 119-61 108 56-119 61Z" fill="var(--homes-mist,#F5F6F7)"/>
     <path d="m285 191 111-57 100 52-111 57Z" fill="#8FB3A5" opacity=".32"/>
-    <path d="m285 191 111-57v7l-111 57Z" fill="#18324A" opacity=".06"/>
-    <path d="m334 163 29-15 28 14-29 15Z" fill="#E5EAED"/>
-    <path d="m334 163 29 15v10l-29-15Z" fill="white"/>
-    <path d="m363 178 28-15v10l-28 15Z" fill="#E9E0D3"/>
-    <path d="m258 192 129 67 140-72M387 259v220" fill="none" stroke="white" stroke-width="2"/>
-    <path d="m258 255 129 67 140-72m-269 70 129 67 140-72m-269 70 129 67 140-72" fill="none" stroke="#18324A" stroke-opacity=".06" stroke-width="1"/>
-    <g transform="translate(279 228)"><use href="#front-window"/><use href="#front-window" x="58" y="30"/></g>
-    <g transform="translate(279 292)"><use href="#front-window"/><use href="#front-window" x="58" y="30"/></g>
-    <g transform="translate(279 356)"><use href="#front-window"/></g>
-    <g transform="translate(410 272)"><use href="#side-window"/><use href="#side-window" x="58" y="-30"/></g>
-    <g transform="translate(410 336)"><use href="#side-window"/><use href="#side-window" x="58" y="-30"/></g>
-    <g transform="translate(410 400)"><use href="#side-window"/><use href="#side-window" x="58" y="-30"/></g>
-    <path d="m336 383 29 15v68l-29-15Z" fill="#18324A" opacity=".92"/>
-    <path d="m341 389 19 10v54l-19-10Z" fill="#2E8B8B" opacity=".7"/>
+    <path d="m285 191 111-57v7l-111 57Z" fill="var(--homes-ink,#18324A)" opacity=".06"/>
+    <path d="m334 163 29-15 28 14-29 15Z" fill="var(--homes-edge,#E5EAED)"/>
+    <path d="m334 163 29 15v10l-29-15Z" fill="var(--homes-paper,white)"/>
+    <path d="m363 178 28-15v10l-28 15Z" fill="var(--homes-stone,#E9E0D3)"/>
+    <path d="m258 192 129 67 140-72M387 259v220" fill="none" stroke="var(--homes-line,white)" stroke-width="2"/>
+    <path d="m258 255 129 67 140-72m-269 70 129 67 140-72m-269 70 129 67 140-72" fill="none" stroke="var(--homes-ink,#18324A)" stroke-opacity=".06" stroke-width="1"/>
+    <g transform="translate(279 228)"><use href="#homes-front-window"/><use href="#homes-front-window" x="58" y="30"/></g>
+    <g transform="translate(279 292)"><use href="#homes-front-window"/><use href="#homes-front-window" x="58" y="30"/></g>
+    <g transform="translate(279 356)"><use href="#homes-front-window"/></g>
+    <g transform="translate(410 272)"><use href="#homes-side-window"/><use href="#homes-side-window" x="58" y="-30"/></g>
+    <g transform="translate(410 336)"><use href="#homes-side-window"/><use href="#homes-side-window" x="58" y="-30"/></g>
+    <g transform="translate(410 400)"><use href="#homes-side-window"/><use href="#homes-side-window" x="58" y="-30"/></g>
+    <path d="m336 383 29 15v68l-29-15Z" fill="var(--homes-ink,#18324A)" opacity=".92"/>
+    <path d="m341 389 19 10v54l-19-10Z" fill="var(--homes-accent,#2E8B8B)" opacity=".7"/>
     <path d="M351 397v51" stroke="#8FB3A5" stroke-opacity=".6" stroke-width="1"/>
-    <path d="m357 424 2 1v6l-2-1Z" fill="white"/>
-    <path d="m327 450 49 25 9-5-49-25Z" fill="#E5EAED"/>
-    <path d="m327 450 49 25v6l-49-25Z" fill="white"/>
-    <path d="m283 396 23 12 6-3-23-12Z" fill="#18324A" opacity=".12"/>
+    <path d="m357 424 2 1v6l-2-1Z" fill="var(--homes-paper,white)"/>
+    <path d="m327 450 49 25 9-5-49-25Z" fill="var(--homes-edge,#E5EAED)"/>
+    <path d="m327 450 49 25v6l-49-25Z" fill="var(--homes-paper,white)"/>
+    <path d="m283 396 23 12 6-3-23-12Z" fill="var(--homes-ink,#18324A)" opacity=".12"/>
     <path d="m282 390 23 12v10l-23-12Z" fill="#8FB3A5"/>
-    <path d="m305 402 6-3v10l-6 3Z" fill="#247777"/>
-    <path d="m282 390 6-3 23 12-6 3Z" fill="#247777"/>
-    <path d="M287 389v-7m6 10v-8m6 11v-8" stroke="#247777" stroke-width="5" stroke-linecap="round"/>
+    <path d="m305 402 6-3v10l-6 3Z" fill="var(--homes-accent-deep,#247777)"/>
+    <path d="m282 390 6-3 23 12-6 3Z" fill="var(--homes-accent-deep,#247777)"/>
+    <path d="M287 389v-7m6 10v-8m6 11v-8" stroke="var(--homes-accent-deep,#247777)" stroke-width="5" stroke-linecap="round"/>
   </g>
-  <ellipse cx="533" cy="473" rx="88" ry="25" fill="#18324A" opacity=".04"/>
-  <g id="right-building">
-    <path d="m453 352 74 39v110l-74-39Z" fill="white" stroke="#E5EAED" stroke-width="1.2"/>
-    <path d="m527 391 84-44v110l-84 44Z" fill="#F5F6F7" stroke="#E5EAED" stroke-width="1.2"/>
-    <path d="m453 352 84-44 74 39-84 44Z" fill="#E9E0D3" stroke="#E5EAED" stroke-width="1.2"/>
-    <path d="m463 351 74-38 63 33-74 38Z" fill="#18324A" opacity=".07"/>
+  <ellipse cx="533" cy="473" rx="88" ry="25" fill="var(--homes-ink,#18324A)" opacity=".04"/>
+  <g id="homes-right-building">
+    <path d="m453 352 74 39v110l-74-39Z" fill="var(--homes-paper,white)" stroke="var(--homes-edge,#E5EAED)" stroke-width="1.2"/>
+    <path d="m527 391 84-44v110l-84 44Z" fill="var(--homes-mist,#F5F6F7)" stroke="var(--homes-edge,#E5EAED)" stroke-width="1.2"/>
+    <path d="m453 352 84-44 74 39-84 44Z" fill="var(--homes-stone,#E9E0D3)" stroke="var(--homes-edge,#E5EAED)" stroke-width="1.2"/>
+    <path d="m463 351 74-38 63 33-74 38Z" fill="var(--homes-ink,#18324A)" opacity=".07"/>
     <path d="m475 351 62-32 51 27-62 32Z" fill="#8FB3A5" opacity=".4"/>
-    <path d="m453 352 74 39 84-44M527 391v110" fill="none" stroke="white" stroke-width="2"/>
-    <g transform="translate(468 376) scale(.68)"><use href="#front-window"/><use href="#front-window" x="44" y="23"/><use href="#front-window" y="57"/><use href="#front-window" x="44" y="80"/></g>
-    <g transform="translate(545 405) scale(.73)"><use href="#side-window"/><use href="#side-window" x="47" y="-25"/><use href="#side-window" y="56"/><use href="#side-window" x="47" y="31"/></g>
+    <path d="m453 352 74 39 84-44M527 391v110" fill="none" stroke="var(--homes-line,white)" stroke-width="2"/>
+    <g transform="translate(468 376) scale(.68)"><use href="#homes-front-window"/><use href="#homes-front-window" x="44" y="23"/><use href="#homes-front-window" y="57"/><use href="#homes-front-window" x="44" y="80"/></g>
+    <g transform="translate(545 405) scale(.73)"><use href="#homes-side-window"/><use href="#homes-side-window" x="47" y="-25"/><use href="#homes-side-window" y="56"/><use href="#homes-side-window" x="47" y="31"/></g>
   </g>
-  <g id="landscaping">
+  <g id="homes-landscaping">
     <path d="M96 446c-13-8-12-16 1-22 19-9 51-5 64 1 14 7 12 19-1 26-16 9-45 5-64-5Z" fill="#8FB3A5" opacity=".45"/>
-    <ellipse cx="135" cy="441" rx="20" ry="6" fill="#18324A" opacity=".09"/>
+    <ellipse cx="135" cy="441" rx="20" ry="6" fill="var(--homes-ink,#18324A)" opacity=".09"/>
     <path d="M136 397v42m0-22-15-13m15 7 14-15" fill="none" stroke="#586774" stroke-width="5" stroke-linecap="round"/>
     <path d="M110 401c-16-14-12-37 0-49 1-22 20-30 36-23 21 3 26 19 25 34 12 11 12 31-2 40-18 16-43 14-59-2Z" fill="#8FB3A5"/>
-    <path d="M146 335c19 7 20 22 19 33 11 10 8 24-2 33-8 8-17 11-27 11 18-18 21-48 10-77Z" fill="#2E8B8B" opacity=".4"/>
-    <path d="M123 350c-11 10-16 23-13 34" fill="none" stroke="white" stroke-opacity=".3" stroke-width="3" stroke-linecap="round"/>
+    <path d="M146 335c19 7 20 22 19 33 11 10 8 24-2 33-8 8-17 11-27 11 18-18 21-48 10-77Z" fill="var(--homes-accent,#2E8B8B)" opacity=".4"/>
+    <path d="M123 350c-11 10-16 23-13 34" fill="none" stroke="var(--homes-line,white)" stroke-opacity=".3" stroke-width="3" stroke-linecap="round"/>
     <ellipse cx="227" cy="499" rx="45" ry="14" fill="#8FB3A5" opacity=".34"/>
     <path d="M201 494c-9-3-8-18 1-23 3-14 23-13 27-1 11-5 26 6 22 19-4 15-36 16-50 5Z" fill="#8FB3A5"/>
-    <path d="M226 481c8-13 27-5 26 6-1 8-12 12-22 13" fill="#2E8B8B" opacity=".35"/>
+    <path d="M226 481c8-13 27-5 26 6-1 8-12 12-22 13" fill="var(--homes-accent,#2E8B8B)" opacity=".35"/>
     <path d="M582 486c8-10 20-10 26-4 14 0 25 6 18 15-14 13-53 8-44-11Z" fill="#8FB3A5" opacity=".6"/>
-    <path d="M603 487v-20m0 8c-12-2-16-10-13-18 10 1 16 7 13 18Zm0 1c10-2 17-10 14-18-9 0-15 7-14 18Z" fill="#247777" stroke="#247777" stroke-width="2"/>
-    <path d="m175 457 37 19 30-15-37-19Z" fill="white"/>
-    <path d="m184 461 27 14 22-11-27-14Z" fill="#E9E0D3"/>
-    <path d="m250 493 28 14 32-16-28-14Z" fill="white" opacity=".8"/>
-    <path d="m294 515 27 14 31-16-27-14Z" fill="white" opacity=".8"/>
+    <path d="M603 487v-20m0 8c-12-2-16-10-13-18 10 1 16 7 13 18Zm0 1c10-2 17-10 14-18-9 0-15 7-14 18Z" fill="var(--homes-accent-deep,#247777)" stroke="var(--homes-accent-deep,#247777)" stroke-width="2"/>
+    <path d="m175 457 37 19 30-15-37-19Z" fill="var(--homes-paper,white)"/>
+    <path d="m184 461 27 14 22-11-27-14Z" fill="var(--homes-stone,#E9E0D3)"/>
+    <path d="m250 493 28 14 32-16-28-14Z" fill="var(--homes-paper,white)" opacity=".8"/>
+    <path d="m294 515 27 14 31-16-27-14Z" fill="var(--homes-paper,white)" opacity=".8"/>
   </g>
-  <g id="key-card" transform="translate(548 94) rotate(9)" filter="url(#shadow)">
-    <rect width="113" height="115" rx="23" fill="white"/>
-    <rect x="12" y="12" width="89" height="70" rx="15" fill="#2E8B8B" fill-opacity=".07"/>
-    <g transform="translate(34 26)" fill="none" stroke="#2E8B8B" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"><circle cx="16" cy="16" r="12"/><path d="m24 25 20 20m-8-8 7-7m-1 13 7-7"/></g>
-    <rect x="28" y="94" width="57" height="4" rx="2" fill="#18324A" opacity=".13"/>
+  <g id="homes-key-card" transform="translate(548 94) rotate(9)" filter="url(#homes-shadow)">
+    <rect width="113" height="115" rx="23" fill="var(--homes-card,white)"/>
+    <rect x="12" y="12" width="89" height="70" rx="15" fill="var(--homes-accent,#2E8B8B)" fill-opacity=".07"/>
+    <g transform="translate(34 26)" fill="none" stroke="var(--homes-accent,#2E8B8B)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"><circle cx="16" cy="16" r="12"/><path d="m24 25 20 20m-8-8 7-7m-1 13 7-7"/></g>
+    <rect x="28" y="94" width="57" height="4" rx="2" fill="var(--homes-card-rule,#18324A)" opacity=".13"/>
   </g>
-  <g id="document-card" transform="translate(66 163) rotate(-8)" filter="url(#soft-shadow)">
-    <rect width="98" height="113" rx="18" fill="white"/>
-    <path d="M32 23h24l13 13v39H32Z" fill="#F5F6F7" stroke="#8FB3A5" stroke-width="1.5" stroke-linejoin="round"/>
+  <g id="homes-document-card" transform="translate(66 163) rotate(-8)" filter="url(#homes-soft-shadow)">
+    <rect width="98" height="113" rx="18" fill="var(--homes-card,white)"/>
+    <path d="M32 23h24l13 13v39H32Z" fill="var(--homes-mist,#F5F6F7)" stroke="#8FB3A5" stroke-width="1.5" stroke-linejoin="round"/>
     <path d="M56 23v13h13" fill="none" stroke="#8FB3A5" stroke-width="1.5"/>
-    <path d="M41 48h19M41 57h19M41 66h10" stroke="#2E8B8B" stroke-width="2.5" stroke-linecap="round"/>
-    <circle cx="70" cy="77" r="12" fill="#2E8B8B"/>
+    <path d="M41 48h19M41 57h19M41 66h10" stroke="var(--homes-accent,#2E8B8B)" stroke-width="2.5" stroke-linecap="round"/>
+    <circle cx="70" cy="77" r="12" fill="var(--homes-accent,#2E8B8B)"/>
     <path d="m65 77 3 3 6-6" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-    <rect x="23" y="95" width="51" height="4" rx="2" fill="#18324A" opacity=".12"/>
+    <rect x="23" y="95" width="51" height="4" rx="2" fill="var(--homes-card-rule,#18324A)" opacity=".12"/>
   </g>
-  <circle cx="613" cy="250" r="4" fill="#2E8B8B" opacity=".55"/>
+  <circle cx="613" cy="250" r="4" fill="var(--homes-accent,#2E8B8B)" opacity=".55"/>
   <circle cx="224" cy="135" r="3" fill="#8FB3A5"/>
-  <path d="M468 88v12m-6-6h12M103 495v10m-5-5h10" stroke="#2E8B8B" stroke-opacity=".4" stroke-width="1.5" stroke-linecap="round"/>
+  <path d="M468 88v12m-6-6h12M103 495v10m-5-5h10" stroke="var(--homes-accent,#2E8B8B)" stroke-opacity=".4" stroke-width="1.5" stroke-linecap="round"/>
 </svg>
