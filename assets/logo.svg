@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="132" height="132" viewBox="0 0 132 132">
+  <title>Mietblick</title>
+  <desc>Das Hauszeichen aus der Mietblick-CI mit vier Fenstern und einer Welle.</desc>
+  <defs>
+    <linearGradient id="roof" x1="5" y1="42" x2="78" y2="32" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#18324A"/>
+      <stop offset="1" stop-color="#247777"/>
+    </linearGradient>
+    <linearGradient id="right" x1="66" y1="30" x2="126" y2="94" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#247777"/>
+      <stop offset="1" stop-color="#2E8B8B"/>
+    </linearGradient>
+    <linearGradient id="wave" x1="7" y1="101" x2="118" y2="116" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#247777"/>
+      <stop offset="1" stop-color="#2E8B8B"/>
+    </linearGradient>
+  </defs>
+  <path fill="#fff" d="M26 58 66 29l39 29v43c-14-1-25-8-37-11-14-4-27-4-42-1Z"/>
+  <path fill="url(#roof)" d="M5 95V50c0-3 1-5 4-7L62 5c2-2 5-2 7 0l56 40-20 13-39-29-40 29v28c-8 1-15 4-21 9Z"/>
+  <path fill="url(#right)" d="M66 13c1 0 2 1 3 2l56 30c2 1 3 3 3 6v50c-8 2-16 1-23-1V58L66 29Z"/>
+  <path fill="#18324A" d="M52 55h12v12H52Zm0 16h12v12H52Z"/>
+  <path fill="#2E8B8B" d="M68 55h12v12H68Zm0 16h12v12H68Z"/>
+  <path fill="url(#wave)" d="M5 107c20-16 37-18 55-12 21 7 38 23 63 14-17 18-33 19-52 12-22-9-35-20-66-14Z"/>
+</svg>

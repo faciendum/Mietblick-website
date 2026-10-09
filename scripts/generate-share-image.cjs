@@ -8,7 +8,7 @@ const fontfile = path.join(assets, 'fonts/InterVariable.ttf');
 const text = async (value, size, color, weight = 'normal') => sharp({text:{text:`<span foreground="${color}" weight="${weight}">${value}</span>`,font:`Inter ${size}`,fontfile,rgba:true,dpi:72}}).png().toBuffer();
 (async () => {
   const illustration = await sharp(path.join(assets,'illustrations/homes.svg')).resize({width:560}).png().toBuffer();
-  const symbol = await sharp(path.join(assets,'brand-board.png')).extract({left:64,top:328,width:132,height:132}).png().toBuffer();
+  const symbol = await sharp(path.join(assets,'logo.svg')).resize(132,132).png().toBuffer();
   await sharp(symbol).resize(132,132).png().toFile(path.join(assets,'favicon.png'));
   const layers = [
     {input:await sharp(symbol).resize(45,45).png().toBuffer(),left:62,top:55},
@@ -22,5 +22,5 @@ const text = async (value, size, color, weight = 'normal') => sharp({text:{text:
     {input:illustration,left:620,top:105}
   ];
   await sharp({create:{width:1200,height:630,channels:4,background:'#F5F6F7'}}).composite(layers).png({compressionLevel:9}).toFile(path.join(assets,'social-preview.png'));
-  console.log('Share image 1200×630, original-board favicon rendered.');
+  console.log('Share image 1200×630 and transparent SVG-based favicon rendered.');
 })().catch(error => {console.error(error.message);process.exitCode=1;});
